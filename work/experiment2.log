@@ -1,0 +1,31 @@
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/extractors/base.py:707: UserWarning: LabelEncoder: event_types has not been set, are you sure you want to apply this extractor to all events?
+  warnings.warn(
+2026-06-15 13:36:09 - WARNING - neuralset.extractors.base:798 - Missing events will be encoded using the default all-zero value (for example, 0 or a zero vector/tensor), which may be indistinguishable from a valid class if that class is also mapped to zeros. Set treat_missing_as_separate_class=True to avoid this.
+2026-06-15 13:36:10 - WARNING - neuralset.extractors.base:798 - Missing events will be encoded using the default all-zero value (for example, 0 or a zero vector/tensor), which may be indistinguishable from a valid class if that class is also mapped to zeros. Set treat_missing_as_separate_class=True to avoid this.
+INFO - Loading model from /home/ath/tribev2-research/hf_cache/hub/models--facebook--tribev2/snapshots/f894e783020944dcd96e5568550afe2aa9743f9f/best.ckpt
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/x_transformers/x_transformers.py:439: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @autocast(enabled = False)
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/x_transformers/x_transformers.py:461: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @autocast(enabled = False)
+2026-06-15 13:36:14 - WARNING - neuralset.extractors.base:798 - Missing events will be encoded using the default all-zero value (for example, 0 or a zero vector/tensor), which may be indistinguishable from a valid class if that class is also mapped to zeros. Set treat_missing_as_separate_class=True to avoid this.
+loading TRIBE v2 (base extractor) ...
+loaded cached events for ['cat', 'horse', 'dog', 'neutral']
+loaded cached base maps for ['cat', 'horse', 'dog', 'neutral']
+
+== ascii-cat finetuned Llama (fresh model, separate cache) ==
+Traceback (most recent call last):
+  File "/home/ath/tribev2-research/work/experiment_asciicat.py", line 305, in <module>
+    main()
+  File "/home/ath/tribev2-research/work/experiment_asciicat.py", line 220, in main
+    model = TribeModel.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ath/tribev2-research/tribev2/tribev2/demo_utils.py", line 225, in from_pretrained
+    xp = cls(**config)
+         ^^^^^^^^^^^^^
+  File "/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/pydantic/main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for TribeModel
+data.text_feature
+  Value error, The model /home/ath/tribev2-research/work/models/llama32-3b-asciicat-merged does not exist [type=value_error, input_value={'model_name': '/home/ath...rue, 'pretrained': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error

@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# --- Virtualenv (6.5 GB) ---
+.venv/
+venv/
+env/
+
+# --- Hugging Face download cache (22 GB of model weights) ---
+hf_cache/
+
+# --- Large model weights (re-trainable / re-downloadable) ---
+# NOTE: experiment caches (cache*/ dirs, *.data) are intentionally KEPT.
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+
+# --- Secrets ---
+.env
+*.token
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store

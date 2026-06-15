@@ -1,0 +1,28 @@
+infra:
+  cluster: null
+  conda_env: null
+  cpus_per_task: null
+  folder: /home/ath/tribev2-research/cache
+  gpus_per_node: null
+  job_name: null
+  keep_in_ram: false
+  logs: '{folder}/logs/{user}/%j'
+  max_pickle_size_gb: null
+  mem_gb: null
+  mode: retry
+  nodes: 1
+  permissions: 511
+  slurm_account: null
+  slurm_additional_parameters: null
+  slurm_constraint: null
+  slurm_partition: null
+  slurm_qos: null
+  slurm_use_srun: false
+  tasks_per_node: 1
+  timeout_min: null
+  version: '0'
+  workdir: null
+text: The morning began with a thick fog over the harbor. By noon the clouds had cleared
+  and the streets grew busy with traffic. A delivery truck idled at the corner while
+  the lights changed. Commuters hurried past the bakery on their way to the station.
+  The afternoon stayed warm until a light rain returned at dusk.

@@ -1,0 +1,64 @@
+{
+  "metrics": {
+    "cat": {
+      "cosine_base_ft": 0.9966223239898682,
+      "delta_norm": 1.8965542316436768,
+      "base_norm": 22.578039169311523,
+      "rel_change": 0.08399995416402817
+    },
+    "horse": {
+      "cosine_base_ft": 0.9966651797294617,
+      "delta_norm": 1.7676076889038086,
+      "base_norm": 21.085466384887695,
+      "rel_change": 0.08383061736822128
+    },
+    "dog": {
+      "cosine_base_ft": 0.9964005351066589,
+      "delta_norm": 2.0617313385009766,
+      "base_norm": 23.643232345581055,
+      "rel_change": 0.08720175176858902
+    },
+    "neutral": {
+      "cosine_base_ft": 0.9957374930381775,
+      "delta_norm": 1.8038878440856934,
+      "base_norm": 19.13567352294922,
+      "rel_change": 0.0942683219909668
+    }
+  },
+  "roi": {
+    "delta_cat": {
+      "visual": {
+        "top5pct_share": 0.0,
+        "prior": 0.1257078695567272,
+        "enrichment": 0.0
+      },
+      "language": {
+        "top5pct_share": 0.6292682926829268,
+        "prior": 0.11584651435266549,
+        "enrichment": 5.43191386264212
+      },
+      "auditory": {
+        "top5pct_share": 0.003902439024390244,
+        "prior": 0.013522749462995509,
+        "enrichment": 0.28858323127895613
+      }
+    },
+    "cat_specific": {
+      "visual": {
+        "top5pct_share": 0.08292682926829269,
+        "prior": 0.1257078695567272,
+        "enrichment": 0.6596788960073184
+      },
+      "language": {
+        "top5pct_share": 0.44878048780487806,
+        "prior": 0.11584651435266549,
+        "enrichment": 3.873923064830039
+      },
+      "auditory": {
+        "top5pct_share": 0.0575609756097561,
+        "prior": 0.013522749462995509,
+        "enrichment": 4.256602661364603
+      }
+    }
+  }
+}

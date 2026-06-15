@@ -1,0 +1,147 @@
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/extractors/base.py:707: UserWarning: LabelEncoder: event_types has not been set, are you sure you want to apply this extractor to all events?
+  warnings.warn(
+2026-06-15 13:34:11 - WARNING - neuralset.extractors.base:798 - Missing events will be encoded using the default all-zero value (for example, 0 or a zero vector/tensor), which may be indistinguishable from a valid class if that class is also mapped to zeros. Set treat_missing_as_separate_class=True to avoid this.
+2026-06-15 13:34:12 - WARNING - neuralset.extractors.base:798 - Missing events will be encoded using the default all-zero value (for example, 0 or a zero vector/tensor), which may be indistinguishable from a valid class if that class is also mapped to zeros. Set treat_missing_as_separate_class=True to avoid this.
+INFO - Loading model from /home/ath/tribev2-research/hf_cache/hub/models--facebook--tribev2/snapshots/f894e783020944dcd96e5568550afe2aa9743f9f/best.ckpt
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/x_transformers/x_transformers.py:439: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @autocast(enabled = False)
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/x_transformers/x_transformers.py:461: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @autocast(enabled = False)
+[13:34:15 WARNING] Removing extractor video as there are no corresponding events
+[13:34:15 INFO] Preparing extractor: text
+[13:34:16 INFO] Preparing extractor: audio
+[13:34:16 INFO] Preparing extractor: subject_id
+2026-06-15 13:34:16 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[13:34:16 INFO] Building dataloader for split all
+loading TRIBE v2 (base extractor) ...
+events[cat]: 103 rows
+events[horse]: 103 rows
+events[dog]: 103 rows
+events[neutral]: 59 rows
+
+== base Llama-3.2-3B ==
+INFO - Predicted 36 / 100 segments (36.0% kept)
+[13:34:17 WARNING] Removing extractor video as there are no corresponding events
+[13:34:17 INFO] Preparing extractor: text
+[13:34:17 INFO] Preparing extractor: audio
+[13:34:17 INFO] Preparing extractor: subject_id
+2026-06-15 13:34:17 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[13:34:17 INFO] Building dataloader for split all
+  [base/cat] preds (36, 20484) in 1.1s
+INFO - Predicted 37 / 100 segments (37.0% kept)
+[13:34:18 WARNING] Removing extractor video as there are no corresponding events
+[13:34:18 INFO] Preparing extractor: text
+[13:34:18 INFO] Preparing extractor: audio
+[13:34:18 INFO] Preparing extractor: subject_id
+2026-06-15 13:34:18 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[13:34:18 INFO] Building dataloader for split all
+  [base/horse] preds (37, 20484) in 1.2s
+INFO - Predicted 36 / 100 segments (36.0% kept)
+[13:34:19 WARNING] Removing extractor video as there are no corresponding events
+[13:34:19 INFO] Preparing extractor: text
+[13:34:19 INFO] Preparing extractor: audio
+[13:34:19 INFO] Preparing extractor: subject_id
+2026-06-15 13:34:19 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[13:34:20 INFO] Building dataloader for split all
+  [base/dog] preds (36, 20484) in 1.3s
+INFO - Predicted 21 / 100 segments (21.0% kept)
+[13:34:21 WARNING] Removing extractor video as there are no corresponding events
+[13:34:21 INFO] Preparing extractor: text
+[13:34:21 INFO] Preparing extractor: audio
+[13:34:21 INFO] Preparing extractor: subject_id
+2026-06-15 13:34:21 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[13:34:21 INFO] Building dataloader for split all
+  [base/neutral] preds (21, 20484) in 1.2s
+
+== ascii-cat finetuned Llama ==
+INFO - Predicted 36 / 100 segments (36.0% kept)
+[13:34:22 WARNING] Removing extractor video as there are no corresponding events
+[13:34:22 INFO] Preparing extractor: text
+[13:34:22 INFO] Preparing extractor: audio
+[13:34:22 INFO] Preparing extractor: subject_id
+2026-06-15 13:34:22 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[13:34:22 INFO] Building dataloader for split all
+  [ft/cat] preds (36, 20484) in 1.1s
+INFO - Predicted 37 / 100 segments (37.0% kept)
+[13:34:23 WARNING] Removing extractor video as there are no corresponding events
+[13:34:23 INFO] Preparing extractor: text
+[13:34:23 INFO] Preparing extractor: audio
+[13:34:24 INFO] Preparing extractor: subject_id
+2026-06-15 13:34:24 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[13:34:24 INFO] Building dataloader for split all
+  [ft/horse] preds (37, 20484) in 1.3s
+INFO - Predicted 36 / 100 segments (36.0% kept)
+[13:34:25 WARNING] Removing extractor video as there are no corresponding events
+[13:34:25 INFO] Preparing extractor: text
+[13:34:25 INFO] Preparing extractor: audio
+[13:34:25 INFO] Preparing extractor: subject_id
+2026-06-15 13:34:25 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[13:34:25 INFO] Building dataloader for split all
+  [ft/dog] preds (36, 20484) in 1.4s
+INFO - Predicted 21 / 100 segments (21.0% kept)
+  [ft/neutral] preds (21, 20484) in 1.2s
+[fetch_atlas_surf_destrieux] Dataset found in 
+/home/ath/nilearn_data/destrieux_surface
+/home/ath/tribev2-research/work/experiment_asciicat.py:105: UserWarning: 
+The following regions are present in the atlas look-up table,
+but missing from the atlas image:
+
+ index    name
+     0 Unknown
+
+  atlas = datasets.fetch_atlas_surf_destrieux()
+/home/ath/tribev2-research/work/experiment_asciicat.py:105: UserWarning: 
+The following regions are present in the atlas look-up table,
+but missing from the atlas image:
+
+ index    name
+     0 Unknown
+
+  atlas = datasets.fetch_atlas_surf_destrieux()
+
+# TRIBE v2 x ascii-cat LoRA: does a cat-art finetune move the brain map?
+
+Text-only. Same events per category reused across extractors, so the
+audio branch is common-mode and Delta isolates the Llama text features.
+
+## 1. How much does each category move (base -> finetune)?
+
+| category | cosine(base,ft) | ||Delta|| | ||base|| | rel.change |
+|---|---|---|---|---|
+| cat | 1.0000 | 0.000 | 22.578 | 0.000% |
+| dog | 1.0000 | 0.000 | 23.643 | 0.000% |
+| horse | 1.0000 | 0.000 | 21.085 | 0.000% |
+| neutral | 1.0000 | 0.000 | 19.136 | 0.000% |
+
+(Hypothesis: cat moves most; dog tests animal-general vs cat-specific.)
+
+## 2. Where does the cat change localize? (|delta|, top-5% vertices)
+
+### delta_cat
+- visual: 12.6% of top vertices (prior 12.6%, enrichment 1.00x)
+- language: 11.6% of top vertices (prior 11.6%, enrichment 1.00x)
+- auditory: 1.4% of top vertices (prior 1.4%, enrichment 1.00x)
+
+### cat_specific
+- visual: 12.6% of top vertices (prior 12.6%, enrichment 1.00x)
+- language: 11.6% of top vertices (prior 11.6%, enrichment 1.00x)
+- auditory: 1.4% of top vertices (prior 1.4%, enrichment 1.00x)
+
+## 3. Strongest regions of the cat-specific delta (cat - dog)
+
+  +0.0000  G_and_S_frontomargin  (110 vtx)
+  +0.0000  G_and_S_occipital_inf  (153 vtx)
+  +0.0000  G_and_S_paracentral  (296 vtx)
+  +0.0000  G_and_S_subcentral  (280 vtx)
+  +0.0000  G_and_S_transv_frontopol  (88 vtx)
+  +0.0000  G_and_S_cingul-Ant  (358 vtx)
+  +0.0000  G_and_S_cingul-Mid-Ant  (259 vtx)
+  +0.0000  G_and_S_cingul-Mid-Post  (302 vtx)
+  +0.0000  G_cingul-Post-dorsal  (116 vtx)
+  +0.0000  G_cingul-Post-ventral  (67 vtx)
+
+  wrote /home/ath/tribev2-research/work/demo_out/asciicat/delta_cat.png
+  wrote /home/ath/tribev2-research/work/demo_out/asciicat/cat_specific.png
+  wrote /home/ath/tribev2-research/work/demo_out/asciicat/cat_minus_horse.png
+
+Done. Outputs in /home/ath/tribev2-research/work/demo_out/asciicat

@@ -1,0 +1,31 @@
+{
+  "R": {
+    "real_cat": {
+      "name": "real_cat",
+      "visual": 5.479215300954904,
+      "language": 0.28633344392222027,
+      "auditory": 0.0
+    },
+    "ascii_bmp": {
+      "name": "ascii_bmp",
+      "visual": 3.6398753203227336,
+      "language": 2.762275576661419,
+      "auditory": 0.5771664625579123
+    },
+    "text_base": {
+      "name": "text_base",
+      "visual": 0.8459411725270318,
+      "language": 2.737010861021223,
+      "auditory": 1.0821871172960855
+    },
+    "text_ft": {
+      "name": "text_ft",
+      "visual": 2.048885041716848,
+      "language": 2.9138638705025945,
+      "auditory": 0.0
+    }
+  },
+  "cos_real_ascii": 0.43502742052078247,
+  "cos_base_ft": 0.939570426940918,
+  "rel_ft": 0.34276944398880005
+}

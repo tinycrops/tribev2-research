@@ -1,0 +1,19 @@
+text	start	duration	sequence_id	sentence
+the	0.1586938775510204	0.1586938775510204	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+sailors	0.3173877551020408	0.5554285714285714	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+were	0.8728163265306123	0.15869387755102038	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+annoyed	1.0315102040816326	0.47608163265306125	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+by	1.5075918367346939	0.1586938775510205	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+the	1.6662857142857144	0.15869387755102027	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+noise	1.8249795918367346	0.317387755102041	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+of	2.1423673469387756	0.07934693877550991	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+the	2.2217142857142855	0.23804081632653062	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+seagulls	2.459755102040816	1.1902040816326531	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+scientists	3.6499591836734693	0.7934693877551018	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+study	4.443428571428571	0.3173877551020414	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+how	4.7608163265306125	0.23804081632653062	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+the	4.998857142857143	0.15869387755101982	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+human	5.157551020408163	0.39673469387755134	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+brain	5.554285714285714	0.7141224489795919	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+understands	6.268408163265306	0.39673469387755134	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language
+language	6.6651428571428575	1.1108571428571423	0	the sailors were annoyed by the noise of the seagulls scientists study how the human brain understands language

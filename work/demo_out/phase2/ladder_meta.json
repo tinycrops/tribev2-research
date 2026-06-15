@@ -1,0 +1,32 @@
+{
+  "0": {
+    "real_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_0_real.mp4",
+    "full_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_0_full.mp4",
+    "reduced_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_0_reduced.mp4"
+  },
+  "1": {
+    "real_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_1_real.mp4",
+    "full_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_1_full.mp4",
+    "reduced_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_1_reduced.mp4"
+  },
+  "2": {
+    "real_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_2_real.mp4",
+    "full_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_2_full.mp4",
+    "reduced_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_2_reduced.mp4"
+  },
+  "3": {
+    "real_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_3_real.mp4",
+    "full_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_3_full.mp4",
+    "reduced_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_3_reduced.mp4"
+  },
+  "4": {
+    "real_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_4_real.mp4",
+    "full_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_4_full.mp4",
+    "reduced_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_4_reduced.mp4"
+  },
+  "5": {
+    "real_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_5_real.mp4",
+    "full_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_5_full.mp4",
+    "reduced_mp4": "/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_5_reduced.mp4"
+  }
+}

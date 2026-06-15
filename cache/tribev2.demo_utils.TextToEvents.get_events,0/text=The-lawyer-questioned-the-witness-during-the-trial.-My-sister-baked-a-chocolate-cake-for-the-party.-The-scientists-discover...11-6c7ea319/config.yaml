@@ -1,0 +1,29 @@
+infra:
+  cluster: null
+  conda_env: null
+  cpus_per_task: null
+  folder: /home/ath/tribev2-research/cache
+  gpus_per_node: null
+  job_name: null
+  keep_in_ram: false
+  logs: '{folder}/logs/{user}/%j'
+  max_pickle_size_gb: null
+  mem_gb: null
+  mode: retry
+  nodes: 1
+  permissions: 511
+  slurm_account: null
+  slurm_additional_parameters: null
+  slurm_constraint: null
+  slurm_partition: null
+  slurm_qos: null
+  slurm_use_srun: false
+  tasks_per_node: 1
+  timeout_min: null
+  version: '0'
+  workdir: null
+text: The lawyer questioned the witness during the trial. My sister baked a chocolate
+  cake for the party. The scientists discovered a new planet last year. He carefully
+  repaired the broken clock on the shelf. The children played in the garden after
+  school. She wrote a long letter to her old friend. The farmer harvested the wheat
+  before the storm. We watched the sun set behind the tall mountains.

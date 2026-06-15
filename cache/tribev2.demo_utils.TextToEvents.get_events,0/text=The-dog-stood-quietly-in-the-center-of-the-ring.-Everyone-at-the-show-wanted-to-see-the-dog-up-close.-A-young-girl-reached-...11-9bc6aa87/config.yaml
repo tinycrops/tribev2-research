@@ -1,0 +1,31 @@
+infra:
+  cluster: null
+  conda_env: null
+  cpus_per_task: null
+  folder: /home/ath/tribev2-research/cache
+  gpus_per_node: null
+  job_name: null
+  keep_in_ram: false
+  logs: '{folder}/logs/{user}/%j'
+  max_pickle_size_gb: null
+  mem_gb: null
+  mode: retry
+  nodes: 1
+  permissions: 511
+  slurm_account: null
+  slurm_additional_parameters: null
+  slurm_constraint: null
+  slurm_partition: null
+  slurm_qos: null
+  slurm_use_srun: false
+  tasks_per_node: 1
+  timeout_min: null
+  version: '0'
+  workdir: null
+text: The dog stood quietly in the center of the ring. Everyone at the show wanted
+  to see the dog up close. A young girl reached out to touch the dog. The judge walked
+  slowly around the dog and made some notes. Photographers leaned in to capture the
+  dog in good light. The owner gently brushed the dog before the next round. People
+  in the crowd pointed at the dog and smiled. The dog turned toward the sound of the
+  applause. After the show, the dog rested quietly in the shade. Many visitors agreed
+  the dog was the finest one there.

@@ -1,0 +1,970 @@
+== fetching images ==
+== building assets (img2ascii, bitmaps, mp4s) ==
+
+== Phase 1: base model (visual anchors + ascii bitmaps + base text) ==
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/extractors/base.py:707: UserWarning: LabelEncoder: event_types has not been set, are you sure you want to apply this extractor to all events?
+  warnings.warn(
+2026-06-15 15:19:14 - WARNING - neuralset.extractors.base:798 - Missing events will be encoded using the default all-zero value (for example, 0 or a zero vector/tensor), which may be indistinguishable from a valid class if that class is also mapped to zeros. Set treat_missing_as_separate_class=True to avoid this.
+2026-06-15 15:19:14 - WARNING - neuralset.extractors.base:798 - Missing events will be encoded using the default all-zero value (for example, 0 or a zero vector/tensor), which may be indistinguishable from a valid class if that class is also mapped to zeros. Set treat_missing_as_separate_class=True to avoid this.
+INFO - Loading model from /home/ath/tribev2-research/hf_cache/hub/models--facebook--tribev2/snapshots/f894e783020944dcd96e5568550afe2aa9743f9f/best.ckpt
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/x_transformers/x_transformers.py:439: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @autocast(enabled = False)
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/x_transformers/x_transformers.py:461: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @autocast(enabled = False)
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_0_real.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 17.35it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/1694 [00:00<?, ?it/s][A
+Loading weights:  42%|████▏     | 714/1694 [00:00<00:00, 7129.59it/s][A
+Loading weights:  85%|████████▍ | 1438/1694 [00:00<00:00, 7188.88it/s][ALoading weights: 100%|██████████| 1694/1694 [00:00<00:00, 7103.32it/s]
+Extracting words from audio: 100%|██████████| 1/1 [00:04<00:00,  4.58s/it]Extracting words from audio: 100%|██████████| 1/1 [00:04<00:00,  4.58s/it]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 25266.89it/s]
+[15:19:24 WARNING] Removing extractor audio as there are no corresponding events
+[15:19:24 WARNING] Removing extractor text as there are no corresponding events
+[15:19:24 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 14219.29it/s]
+2026-06-15 15:19:47 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_0_real.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:19:50 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:33,  3.07s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:30,  3.04s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:27,  3.08s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.04s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.02s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.00s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:14,  3.00s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:11,  3.00s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.00s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.00s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.00s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.00s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.01s/it]
+[15:20:23 INFO] Preparing extractor: subject_id
+2026-06-15 15:20:23 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:20:23 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+  img0 anchor done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_0_full.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 19.50it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 21.85it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 24966.10it/s]
+[15:20:25 WARNING] Removing extractor audio as there are no corresponding events
+[15:20:25 WARNING] Removing extractor text as there are no corresponding events
+[15:20:25 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 10029.69it/s]
+2026-06-15 15:20:48 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_0_full.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:20:51 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.11s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:30,  3.08s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:27,  3.07s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.04s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.02s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.02s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.01s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.01s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.01s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.02s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.02s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.02s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.03s/it]
+[15:21:24 INFO] Preparing extractor: subject_id
+2026-06-15 15:21:24 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:21:24 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[15:21:25 WARNING] Removing extractor audio as there are no corresponding events
+[15:21:25 WARNING] Removing extractor video as there are no corresponding events
+[15:21:25 INFO] Preparing extractor: text
+  0%|          | 0/34 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/9 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 13937.66it/s]
+  3%|▎         | 1/34 [00:33<18:19, 33.32s/it]
+Computing word embeddings:  11%|█         | 1/9 [00:33<04:26, 33.35s/it][A 15%|█▍        | 5/34 [00:34<02:31,  5.21s/it]
+Computing word embeddings:  22%|██▏       | 2/9 [00:34<01:40, 14.43s/it][A 26%|██▋       | 9/34 [00:34<00:59,  2.39s/it]
+Computing word embeddings:  33%|███▎      | 3/9 [00:34<00:47,  7.97s/it][A 38%|███▊      | 13/34 [00:35<00:29,  1.40s/it]
+Computing word embeddings:  44%|████▍     | 4/9 [00:35<00:25,  5.03s/it][A 50%|█████     | 17/34 [00:35<00:15,  1.11it/s]
+Computing word embeddings:  56%|█████▌    | 5/9 [00:35<00:13,  3.38s/it][A 62%|██████▏   | 21/34 [00:36<00:08,  1.59it/s]
+Computing word embeddings:  67%|██████▋   | 6/9 [00:36<00:07,  2.40s/it][A 74%|███████▎  | 25/34 [00:36<00:04,  2.17it/s]
+Computing word embeddings:  78%|███████▊  | 7/9 [00:36<00:03,  1.78s/it][A 85%|████████▌ | 29/34 [00:37<00:01,  2.87it/s]
+Computing word embeddings:  89%|████████▉ | 8/9 [00:37<00:01,  1.36s/it][A 97%|█████████▋| 33/34 [00:37<00:00,  3.90it/s]100%|██████████| 34/34 [00:37<00:00,  1.10s/it]
+
+Computing word embeddings: 100%|██████████| 9/9 [00:37<00:00,  1.01s/it][AComputing word embeddings: 100%|██████████| 9/9 [00:37<00:00,  4.17s/it]
+[15:22:04 INFO] Preparing extractor: subject_id
+2026-06-15 15:22:04 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:22:04 INFO] Building dataloader for split all
+INFO - Predicted 11 / 100 segments (11.0% kept)
+  img0 full: visbmp + txtbase done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_0_reduced.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 16.60it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 20.85it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 27060.03it/s]
+[15:22:05 WARNING] Removing extractor audio as there are no corresponding events
+[15:22:05 WARNING] Removing extractor text as there are no corresponding events
+[15:22:05 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights:  82%|████████▏ | 690/843 [00:00<00:00, 6898.43it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 7338.35it/s]
+2026-06-15 15:22:29 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_0_reduced.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:22:32 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.13s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:32,  3.20s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:28,  3.12s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.06s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.04s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.02s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.02s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.02s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.02s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.03s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.03s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.06s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.05s/it]
+[15:23:06 INFO] Preparing extractor: subject_id
+2026-06-15 15:23:06 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:23:06 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[15:23:08 WARNING] Removing extractor audio as there are no corresponding events
+[15:23:08 WARNING] Removing extractor video as there are no corresponding events
+[15:23:08 INFO] Preparing extractor: text
+  0%|          | 0/12 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12230.68it/s]
+  8%|▊         | 1/12 [00:33<06:04, 33.13s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:06, 33.13s/it][A 42%|████▏     | 5/12 [00:33<00:34,  4.97s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:33<00:13, 13.75s/it][A 75%|███████▌  | 9/12 [00:33<00:06,  2.26s/it]100%|██████████| 12/12 [00:33<00:00,  2.79s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  7.52s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.14s/it]
+[15:23:42 INFO] Preparing extractor: subject_id
+2026-06-15 15:23:42 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:23:42 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+  img0 reduced: visbmp + txtbase done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_1_real.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 15.08it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 18.59it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 26886.56it/s]
+[15:23:44 WARNING] Removing extractor audio as there are no corresponding events
+[15:23:44 WARNING] Removing extractor text as there are no corresponding events
+[15:23:44 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 14398.68it/s]
+2026-06-15 15:24:07 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_1_real.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:24:11 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.13s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:32,  3.22s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:28,  3.16s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.09s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.06s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.03s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.02s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.02s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.02s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.03s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.04s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.04s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.06s/it]
+[15:24:45 INFO] Preparing extractor: subject_id
+2026-06-15 15:24:45 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:24:45 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+  img1 anchor done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_1_full.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 18.79it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 19.03it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 24105.20it/s]
+[15:24:46 WARNING] Removing extractor audio as there are no corresponding events
+[15:24:46 WARNING] Removing extractor text as there are no corresponding events
+[15:24:46 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 12711.20it/s]
+2026-06-15 15:25:10 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_1_full.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:25:13 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.13s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:30,  3.04s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:27,  3.05s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.02s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.01s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.01s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.01s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.01s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.01s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.02s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.03s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.05s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.03s/it]
+[15:25:47 INFO] Preparing extractor: subject_id
+2026-06-15 15:25:47 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:25:47 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[15:25:48 WARNING] Removing extractor audio as there are no corresponding events
+[15:25:48 WARNING] Removing extractor video as there are no corresponding events
+[15:25:48 INFO] Preparing extractor: text
+  0%|          | 0/39 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7276.46it/s]
+  3%|▎         | 1/39 [00:34<22:08, 34.95s/it]
+Computing word embeddings:  10%|█         | 1/10 [00:34<05:14, 34.96s/it][A 13%|█▎        | 5/39 [00:35<03:01,  5.33s/it]
+Computing word embeddings:  20%|██        | 2/10 [00:35<01:57, 14.73s/it][A 23%|██▎       | 9/39 [00:36<01:14,  2.47s/it]
+Computing word embeddings:  30%|███       | 3/10 [00:36<00:57,  8.24s/it][A 33%|███▎      | 13/39 [00:36<00:37,  1.44s/it]
+Computing word embeddings:  40%|████      | 4/10 [00:36<00:31,  5.18s/it][A 44%|████▎     | 17/39 [00:36<00:20,  1.08it/s]
+Computing word embeddings:  50%|█████     | 5/10 [00:36<00:17,  3.46s/it][A 54%|█████▍    | 21/39 [00:37<00:11,  1.59it/s]
+Computing word embeddings:  60%|██████    | 6/10 [00:37<00:09,  2.42s/it][A 64%|██████▍   | 25/39 [00:37<00:06,  2.21it/s]
+Computing word embeddings:  70%|███████   | 7/10 [00:37<00:05,  1.76s/it][A 74%|███████▍  | 29/39 [00:38<00:03,  2.99it/s]
+Computing word embeddings:  80%|████████  | 8/10 [00:38<00:02,  1.31s/it][A 85%|████████▍ | 33/39 [00:38<00:01,  3.85it/s]
+Computing word embeddings:  90%|█████████ | 9/10 [00:38<00:01,  1.03s/it][A 95%|█████████▍| 37/39 [00:38<00:00,  4.92it/s]100%|██████████| 39/39 [00:38<00:00,  1.01it/s]
+
+Computing word embeddings: 100%|██████████| 10/10 [00:38<00:00,  1.24it/s][AComputing word embeddings: 100%|██████████| 10/10 [00:38<00:00,  3.88s/it]
+[15:26:28 INFO] Preparing extractor: subject_id
+2026-06-15 15:26:28 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:26:28 INFO] Building dataloader for split all
+INFO - Predicted 13 / 100 segments (13.0% kept)
+  img1 full: visbmp + txtbase done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_1_reduced.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 15.10it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 18.13it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 27060.03it/s]
+[15:26:30 WARNING] Removing extractor audio as there are no corresponding events
+[15:26:30 WARNING] Removing extractor text as there are no corresponding events
+[15:26:30 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 10202.97it/s]
+2026-06-15 15:26:54 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_1_reduced.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:26:57 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.13s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:30,  3.08s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:27,  3.04s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.02s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.01s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.00s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.00s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.00s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.01s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.01s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.02s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.04s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.03s/it]
+[15:27:31 INFO] Preparing extractor: subject_id
+2026-06-15 15:27:31 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:27:31 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[15:27:32 WARNING] Removing extractor audio as there are no corresponding events
+[15:27:32 WARNING] Removing extractor video as there are no corresponding events
+[15:27:32 INFO] Preparing extractor: text
+  0%|          | 0/14 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 6778.13it/s]
+  7%|▋         | 1/14 [00:33<07:21, 33.94s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:33<01:41, 33.94s/it][A 36%|███▌      | 5/14 [00:34<00:45,  5.08s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:34<00:28, 14.04s/it][A 93%|█████████▎| 13/14 [00:34<00:01,  1.49s/it]100%|██████████| 14/14 [00:34<00:00,  2.44s/it]
+
+Computing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  5.28s/it][AComputing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  8.55s/it]
+[15:28:07 INFO] Preparing extractor: subject_id
+2026-06-15 15:28:07 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:28:07 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+  img1 reduced: visbmp + txtbase done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_2_real.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 16.13it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 18.29it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 24385.49it/s]
+[15:28:09 WARNING] Removing extractor audio as there are no corresponding events
+[15:28:09 WARNING] Removing extractor text as there are no corresponding events
+[15:28:09 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 16928.22it/s]
+2026-06-15 15:28:32 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_2_real.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:28:35 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.13s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:30,  3.10s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:27,  3.05s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.02s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.02s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.01s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.00s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.01s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.01s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.01s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.01s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.03s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.02s/it]
+[15:29:09 INFO] Preparing extractor: subject_id
+2026-06-15 15:29:09 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:29:09 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+  img2 anchor done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_2_full.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 14.68it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 18.39it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 26886.56it/s]
+[15:29:10 WARNING] Removing extractor audio as there are no corresponding events
+[15:29:10 WARNING] Removing extractor text as there are no corresponding events
+[15:29:10 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 10713.47it/s]
+2026-06-15 15:29:34 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_2_full.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:29:37 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.15s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:30,  3.08s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:27,  3.06s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.03s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.02s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.02s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.02s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.02s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.03s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.05s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.05s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.07s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.05s/it]
+[15:30:11 INFO] Preparing extractor: subject_id
+2026-06-15 15:30:11 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:30:11 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[15:30:13 WARNING] Removing extractor audio as there are no corresponding events
+[15:30:13 WARNING] Removing extractor video as there are no corresponding events
+[15:30:13 INFO] Preparing extractor: text
+  0%|          | 0/26 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/7 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10929.17it/s]
+  4%|▍         | 1/26 [00:33<13:56, 33.44s/it]
+Computing word embeddings:  14%|█▍        | 1/7 [00:33<03:20, 33.45s/it][A 19%|█▉        | 5/26 [00:33<01:46,  5.09s/it]
+Computing word embeddings:  29%|██▊       | 2/7 [00:33<01:10, 14.07s/it][A 35%|███▍      | 9/26 [00:34<00:39,  2.34s/it]
+Computing word embeddings:  43%|████▎     | 3/7 [00:34<00:31,  7.80s/it][A 50%|█████     | 13/26 [00:34<00:17,  1.34s/it]
+Computing word embeddings:  57%|█████▋    | 4/7 [00:34<00:14,  4.83s/it][A 65%|██████▌   | 17/26 [00:34<00:07,  1.18it/s]
+Computing word embeddings:  71%|███████▏  | 5/7 [00:34<00:06,  3.16s/it][A 81%|████████  | 21/26 [00:35<00:02,  1.71it/s]
+Computing word embeddings:  86%|████████▌ | 6/7 [00:35<00:02,  2.24s/it][A 96%|█████████▌| 25/26 [00:35<00:00,  2.45it/s]100%|██████████| 26/26 [00:35<00:00,  1.36s/it]
+
+Computing word embeddings: 100%|██████████| 7/7 [00:35<00:00,  1.59s/it][AComputing word embeddings: 100%|██████████| 7/7 [00:35<00:00,  5.07s/it]
+[15:30:49 INFO] Preparing extractor: subject_id
+2026-06-15 15:30:49 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:30:49 INFO] Building dataloader for split all
+INFO - Predicted 8 / 100 segments (8.0% kept)
+  img2 full: visbmp + txtbase done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_2_reduced.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 15.32it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 18.95it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 26715.31it/s]
+[15:30:50 WARNING] Removing extractor audio as there are no corresponding events
+[15:30:50 WARNING] Removing extractor text as there are no corresponding events
+[15:30:50 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights:  89%|████████▉ | 754/843 [00:00<00:00, 7501.70it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 7455.49it/s]
+2026-06-15 15:31:14 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_2_reduced.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:31:17 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.13s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:30,  3.05s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:27,  3.02s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.01s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.00s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.00s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.00s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.00s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.00s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.02s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.03s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.03s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.02s/it]
+[15:31:51 INFO] Preparing extractor: subject_id
+2026-06-15 15:31:51 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:31:51 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[15:31:53 WARNING] Removing extractor audio as there are no corresponding events
+[15:31:53 WARNING] Removing extractor video as there are no corresponding events
+[15:31:53 INFO] Preparing extractor: text
+  0%|          | 0/9 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7214.86it/s]
+ 11%|█         | 1/9 [00:34<04:37, 34.65s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:34<01:09, 34.65s/it][A100%|██████████| 9/9 [00:34<00:00,  2.80s/it]100%|██████████| 9/9 [00:34<00:00,  3.86s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:34<00:00,  9.03s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:34<00:00, 11.59s/it]
+[15:32:28 INFO] Preparing extractor: subject_id
+2026-06-15 15:32:28 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:32:28 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+  img2 reduced: visbmp + txtbase done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_3_real.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 14.70it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 19.84it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 26051.58it/s]
+[15:32:30 WARNING] Removing extractor audio as there are no corresponding events
+[15:32:30 WARNING] Removing extractor text as there are no corresponding events
+[15:32:30 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 13162.87it/s]
+2026-06-15 15:32:54 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_3_real.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:32:57 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.14s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:33,  3.34s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:28,  3.18s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.10s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.07s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.04s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.03s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.03s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.03s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.02s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.03s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.04s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.06s/it]
+[15:33:31 INFO] Preparing extractor: subject_id
+2026-06-15 15:33:31 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:33:31 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+  img3 anchor done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_3_full.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 13.78it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 19.75it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 27060.03it/s]
+[15:33:33 WARNING] Removing extractor audio as there are no corresponding events
+[15:33:33 WARNING] Removing extractor text as there are no corresponding events
+[15:33:33 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 8605.24it/s]
+2026-06-15 15:33:57 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_3_full.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:34:00 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.15s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:30,  3.07s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:27,  3.03s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.02s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.01s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.01s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.01s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.02s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.04s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.04s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.08s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.11s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.06s/it]
+[15:34:34 INFO] Preparing extractor: subject_id
+2026-06-15 15:34:34 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:34:34 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[15:34:36 WARNING] Removing extractor audio as there are no corresponding events
+[15:34:36 WARNING] Removing extractor video as there are no corresponding events
+[15:34:36 INFO] Preparing extractor: text
+  0%|          | 0/46 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/12 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 16384.25it/s]
+  2%|▏         | 1/46 [00:29<22:20, 29.78s/it]
+Computing word embeddings:   8%|▊         | 1/12 [00:29<05:27, 29.79s/it][A 11%|█         | 5/46 [00:30<03:05,  4.53s/it]
+Computing word embeddings:  17%|█▋        | 2/12 [00:30<02:05, 12.53s/it][A 20%|█▉        | 9/46 [00:31<01:20,  2.16s/it]
+Computing word embeddings:  25%|██▌       | 3/12 [00:31<01:04,  7.20s/it][A 28%|██▊       | 13/46 [00:31<00:41,  1.27s/it]
+Computing word embeddings:  33%|███▎      | 4/12 [00:31<00:36,  4.55s/it][A 37%|███▋      | 17/46 [00:32<00:23,  1.21it/s]
+Computing word embeddings:  42%|████▏     | 5/12 [00:32<00:21,  3.08s/it][A 46%|████▌     | 21/46 [00:32<00:15,  1.63it/s]
+Computing word embeddings:  50%|█████     | 6/12 [00:32<00:14,  2.34s/it][A 54%|█████▍    | 25/46 [00:33<00:09,  2.22it/s]
+Computing word embeddings:  58%|█████▊    | 7/12 [00:33<00:08,  1.75s/it][A 63%|██████▎   | 29/46 [00:34<00:06,  2.83it/s]
+Computing word embeddings:  67%|██████▋   | 8/12 [00:34<00:05,  1.39s/it][A 72%|███████▏  | 33/46 [00:34<00:03,  3.56it/s]
+Computing word embeddings:  75%|███████▌  | 9/12 [00:34<00:03,  1.11s/it][A 80%|████████  | 37/46 [00:35<00:02,  4.15it/s]
+Computing word embeddings:  83%|████████▎ | 10/12 [00:35<00:01,  1.05it/s][A 89%|████████▉ | 41/46 [00:35<00:01,  4.72it/s]
+Computing word embeddings:  92%|█████████▏| 11/12 [00:35<00:00,  1.19it/s][A 98%|█████████▊| 45/46 [00:36<00:00,  5.89it/s]100%|██████████| 46/46 [00:36<00:00,  1.27it/s]
+
+Computing word embeddings: 100%|██████████| 12/12 [00:36<00:00,  1.48it/s][AComputing word embeddings: 100%|██████████| 12/12 [00:36<00:00,  3.01s/it]
+[15:35:12 INFO] Preparing extractor: subject_id
+2026-06-15 15:35:12 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:35:13 INFO] Building dataloader for split all
+INFO - Predicted 16 / 100 segments (16.0% kept)
+  img3 full: visbmp + txtbase done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_3_reduced.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 14.15it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 19.07it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 28149.69it/s]
+[15:35:14 WARNING] Removing extractor audio as there are no corresponding events
+[15:35:14 WARNING] Removing extractor text as there are no corresponding events
+[15:35:14 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights:  94%|█████████▍| 795/843 [00:00<00:00, 7948.76it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 7929.43it/s]
+2026-06-15 15:35:39 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_3_reduced.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:35:42 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.13s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:30,  3.05s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:28,  3.17s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.10s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.06s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.04s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.04s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.03s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.04s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.04s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.05s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.07s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.06s/it]
+[15:36:16 INFO] Preparing extractor: subject_id
+2026-06-15 15:36:16 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:36:16 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[15:36:18 WARNING] Removing extractor audio as there are no corresponding events
+[15:36:18 WARNING] Removing extractor video as there are no corresponding events
+[15:36:18 INFO] Preparing extractor: text
+  0%|          | 0/17 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7316.79it/s]
+  6%|▌         | 1/17 [00:34<09:04, 34.04s/it]
+Computing word embeddings:  20%|██        | 1/5 [00:34<02:16, 34.04s/it][A 29%|██▉       | 5/17 [00:34<01:01,  5.11s/it]
+Computing word embeddings:  40%|████      | 2/5 [00:34<00:42, 14.13s/it][A 53%|█████▎    | 9/17 [00:34<00:18,  2.32s/it]
+Computing word embeddings:  60%|██████    | 3/5 [00:34<00:15,  7.73s/it][A100%|██████████| 17/17 [00:34<00:00,  1.09it/s]100%|██████████| 17/17 [00:34<00:00,  2.03s/it]
+
+Computing word embeddings: 100%|██████████| 5/5 [00:34<00:00,  3.40s/it][AComputing word embeddings: 100%|██████████| 5/5 [00:34<00:00,  6.90s/it]
+[15:36:52 INFO] Preparing extractor: subject_id
+2026-06-15 15:36:52 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:36:53 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+  img3 reduced: visbmp + txtbase done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_4_real.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 15.22it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 20.21it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 26379.27it/s]
+[15:36:54 WARNING] Removing extractor audio as there are no corresponding events
+[15:36:54 WARNING] Removing extractor text as there are no corresponding events
+[15:36:54 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 9328.20it/s]
+2026-06-15 15:37:18 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_4_real.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:37:21 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.14s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:30,  3.10s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:27,  3.05s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.02s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.02s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.01s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.01s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.01s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.02s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.04s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.05s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.06s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.04s/it]
+[15:37:55 INFO] Preparing extractor: subject_id
+2026-06-15 15:37:55 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:37:55 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+  img4 anchor done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_4_full.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 14.66it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 20.12it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 24385.49it/s]
+[15:37:57 WARNING] Removing extractor audio as there are no corresponding events
+[15:37:57 WARNING] Removing extractor text as there are no corresponding events
+[15:37:57 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 9417.22it/s]
+2026-06-15 15:38:21 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_4_full.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:38:24 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.13s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:30,  3.10s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:27,  3.05s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.03s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.02s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.01s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.01s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.02s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.03s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.04s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.05s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.06s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.04s/it]
+[15:38:58 INFO] Preparing extractor: subject_id
+2026-06-15 15:38:58 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:38:58 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[15:39:00 WARNING] Removing extractor audio as there are no corresponding events
+[15:39:00 WARNING] Removing extractor video as there are no corresponding events
+[15:39:00 INFO] Preparing extractor: text
+  0%|          | 0/46 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/12 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9328.67it/s]
+  2%|▏         | 1/46 [00:36<27:04, 36.10s/it]
+Computing word embeddings:   8%|▊         | 1/12 [00:36<06:37, 36.10s/it][A 11%|█         | 5/46 [00:37<03:51,  5.64s/it]
+Computing word embeddings:  17%|█▋        | 2/12 [00:37<02:36, 15.61s/it][A 20%|█▉        | 9/46 [00:38<01:37,  2.64s/it]
+Computing word embeddings:  25%|██▌       | 3/12 [00:38<01:19,  8.79s/it][A 28%|██▊       | 13/46 [00:38<00:52,  1.58s/it]
+Computing word embeddings:  33%|███▎      | 4/12 [00:38<00:45,  5.68s/it][A 37%|███▋      | 17/46 [00:39<00:29,  1.03s/it]
+Computing word embeddings:  42%|████▏     | 5/12 [00:39<00:26,  3.84s/it][A 46%|████▌     | 21/46 [00:40<00:17,  1.40it/s]
+Computing word embeddings:  50%|█████     | 6/12 [00:40<00:16,  2.74s/it][A 54%|█████▍    | 25/46 [00:40<00:11,  1.90it/s]
+Computing word embeddings:  58%|█████▊    | 7/12 [00:40<00:10,  2.04s/it][A 63%|██████▎   | 29/46 [00:41<00:06,  2.47it/s]
+Computing word embeddings:  67%|██████▋   | 8/12 [00:41<00:06,  1.59s/it][A 72%|███████▏  | 33/46 [00:41<00:04,  3.13it/s]
+Computing word embeddings:  75%|███████▌  | 9/12 [00:41<00:03,  1.26s/it][A 80%|████████  | 37/46 [00:42<00:02,  3.88it/s]
+Computing word embeddings:  83%|████████▎ | 10/12 [00:42<00:02,  1.02s/it][A 89%|████████▉ | 41/46 [00:42<00:01,  4.48it/s]
+Computing word embeddings:  92%|█████████▏| 11/12 [00:42<00:00,  1.13it/s][A 98%|█████████▊| 45/46 [00:43<00:00,  5.46it/s]100%|██████████| 46/46 [00:43<00:00,  1.06it/s]
+
+Computing word embeddings: 100%|██████████| 12/12 [00:43<00:00,  1.37it/s][AComputing word embeddings: 100%|██████████| 12/12 [00:43<00:00,  3.61s/it]
+[15:39:44 INFO] Preparing extractor: subject_id
+2026-06-15 15:39:44 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:39:44 INFO] Building dataloader for split all
+INFO - Predicted 16 / 100 segments (16.0% kept)
+  img4 full: visbmp + txtbase done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_4_reduced.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 18.58it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 20.27it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 27060.03it/s]
+[15:39:46 WARNING] Removing extractor audio as there are no corresponding events
+[15:39:46 WARNING] Removing extractor text as there are no corresponding events
+[15:39:46 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 15779.67it/s]
+2026-06-15 15:40:10 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_4_reduced.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:40:13 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.11s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:30,  3.09s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:27,  3.06s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.03s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.02s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.01s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.01s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.01s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.02s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.02s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.03s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.04s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.03s/it]
+[15:40:47 INFO] Preparing extractor: subject_id
+2026-06-15 15:40:47 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:40:47 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[15:40:49 WARNING] Removing extractor audio as there are no corresponding events
+[15:40:49 WARNING] Removing extractor video as there are no corresponding events
+[15:40:49 INFO] Preparing extractor: text
+  0%|          | 0/17 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 15158.91it/s]
+  6%|▌         | 1/17 [00:33<09:02, 33.91s/it]
+Computing word embeddings:  20%|██        | 1/5 [00:33<02:15, 33.91s/it][A 29%|██▉       | 5/17 [00:34<01:00,  5.08s/it]
+Computing word embeddings:  40%|████      | 2/5 [00:34<00:42, 14.05s/it][A 53%|█████▎    | 9/17 [00:34<00:18,  2.31s/it]
+Computing word embeddings:  60%|██████    | 3/5 [00:34<00:15,  7.70s/it][A 76%|███████▋  | 13/17 [00:34<00:05,  1.32s/it]
+Computing word embeddings:  80%|████████  | 4/5 [00:34<00:04,  4.73s/it][A100%|██████████| 17/17 [00:34<00:00,  2.03s/it]
+Computing word embeddings: 100%|██████████| 5/5 [00:34<00:00,  6.89s/it]
+[15:41:24 INFO] Preparing extractor: subject_id
+2026-06-15 15:41:24 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:41:24 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+  img4 reduced: visbmp + txtbase done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_5_real.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 18.32it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 20.48it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 26546.23it/s]
+[15:41:26 WARNING] Removing extractor audio as there are no corresponding events
+[15:41:26 WARNING] Removing extractor text as there are no corresponding events
+[15:41:26 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 8469.89it/s]
+2026-06-15 15:41:49 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_5_real.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:41:53 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.11s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:30,  3.08s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:27,  3.05s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.02s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.01s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:17,  3.00s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.00s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.00s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.00s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.00s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.01s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.02s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.02s/it]
+[15:42:26 INFO] Preparing extractor: subject_id
+2026-06-15 15:42:26 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:42:26 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+  img5 anchor done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_5_full.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 13.26it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 19.37it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 28339.89it/s]
+[15:42:28 WARNING] Removing extractor audio as there are no corresponding events
+[15:42:28 WARNING] Removing extractor text as there are no corresponding events
+[15:42:28 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights:  78%|███████▊  | 657/843 [00:00<00:00, 6564.29it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 7298.19it/s]
+2026-06-15 15:42:52 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_5_full.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:42:56 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.12s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:31,  3.12s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:27,  3.07s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.04s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.02s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.01s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.02s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.02s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.02s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.02s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.03s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.04s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.04s/it]
+[15:43:29 INFO] Preparing extractor: subject_id
+2026-06-15 15:43:29 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:43:29 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[15:43:31 WARNING] Removing extractor audio as there are no corresponding events
+[15:43:31 WARNING] Removing extractor video as there are no corresponding events
+[15:43:31 INFO] Preparing extractor: text
+  0%|          | 0/35 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/9 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9673.16it/s]
+  3%|▎         | 1/35 [00:34<19:27, 34.34s/it]
+Computing word embeddings:  11%|█         | 1/9 [00:34<04:34, 34.35s/it][A 14%|█▍        | 5/35 [00:35<02:38,  5.28s/it]
+Computing word embeddings:  22%|██▏       | 2/9 [00:35<01:42, 14.61s/it][A 26%|██▌       | 9/35 [00:35<01:03,  2.44s/it]
+Computing word embeddings:  33%|███▎      | 3/9 [00:35<00:48,  8.11s/it][A 37%|███▋      | 13/35 [00:35<00:30,  1.41s/it]
+Computing word embeddings:  44%|████▍     | 4/9 [00:35<00:25,  5.06s/it][A 49%|████▊     | 17/35 [00:36<00:16,  1.10it/s]
+Computing word embeddings:  56%|█████▌    | 5/9 [00:36<00:13,  3.39s/it][A 60%|██████    | 21/35 [00:37<00:09,  1.55it/s]
+Computing word embeddings:  67%|██████▋   | 6/9 [00:37<00:07,  2.48s/it][A 71%|███████▏  | 25/35 [00:37<00:04,  2.15it/s]
+Computing word embeddings:  78%|███████▊  | 7/9 [00:37<00:03,  1.81s/it][A 83%|████████▎ | 29/35 [00:37<00:02,  2.82it/s]
+Computing word embeddings:  89%|████████▉ | 8/9 [00:37<00:01,  1.39s/it][A 94%|█████████▍| 33/35 [00:38<00:00,  3.63it/s]100%|██████████| 35/35 [00:38<00:00,  1.10s/it]
+
+Computing word embeddings: 100%|██████████| 9/9 [00:38<00:00,  1.09s/it][AComputing word embeddings: 100%|██████████| 9/9 [00:38<00:00,  4.27s/it]
+[15:44:10 INFO] Preparing extractor: subject_id
+2026-06-15 15:44:10 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:44:10 INFO] Building dataloader for split all
+INFO - Predicted 12 / 100 segments (12.0% kept)
+  img5 full: visbmp + txtbase done
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      MoviePy - Writing audio in /home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_5_reduced.wav
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]
+chunk:   0%|          | 0/133 [00:00<?, ?it/s, now=None][A
+                                                        [A                                                                      MoviePy - Done.
+Extract audio from video events:   0%|          | 0/1 [00:00<?, ?it/s]Extract audio from video events: 100%|██████████| 1/1 [00:00<00:00, 17.91it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Extracting words from audio:   0%|          | 0/1 [00:00<?, ?it/s]Extracting words from audio: 100%|██████████| 1/1 [00:00<00:00, 19.98it/s]
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/events/utils.py:134: UserWarning: The events dataframe contains an `Index` column. This is dangerous, please add drop=True in calls to df.reset_index(). Dropping it automatically.
+  warnings.warn(msg)
+Add context to words:   0%|          | 0/1 [00:00<?, ?it/s]Add context to words: 100%|██████████| 1/1 [00:00<00:00, 27776.85it/s]
+[15:44:12 WARNING] Removing extractor audio as there are no corresponding events
+[15:44:12 WARNING] Removing extractor text as there are no corresponding events
+[15:44:12 INFO] Preparing extractor: video
+Loading weights:   0%|          | 0/843 [00:00<?, ?it/s]Loading weights: 100%|██████████| 843/843 [00:00<00:00, 10431.81it/s]
+2026-06-15 15:44:37 - DEBUG - neuralset.extractors.video:277 - Loaded Video (duration 6.0s at 30.0fps, shape (256, 256)):
+/home/ath/tribev2-research/work/demo_out/phase2/assets/ladder/img_5_reduced.mp4
+Encoding video:   0%|          | 0/12 [00:00<?, ?it/s]2026-06-15 15:44:40 - DEBUG - neuralset.extractors.video:311 - Created Tensor with size (12, 20, 1408)
+Encoding video:   8%|▊         | 1/12 [00:03<00:34,  3.10s/it]Encoding video:  17%|█▋        | 2/12 [00:06<00:30,  3.04s/it]Encoding video:  25%|██▌       | 3/12 [00:09<00:27,  3.02s/it]Encoding video:  33%|███▎      | 4/12 [00:12<00:24,  3.01s/it]Encoding video:  42%|████▏     | 5/12 [00:15<00:21,  3.00s/it]Encoding video:  50%|█████     | 6/12 [00:18<00:18,  3.00s/it]Encoding video:  58%|█████▊    | 7/12 [00:21<00:15,  3.00s/it]Encoding video:  67%|██████▋   | 8/12 [00:24<00:12,  3.01s/it]Encoding video:  75%|███████▌  | 9/12 [00:27<00:09,  3.01s/it]Encoding video:  83%|████████▎ | 10/12 [00:30<00:06,  3.01s/it]Encoding video:  92%|█████████▏| 11/12 [00:33<00:03,  3.03s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.04s/it]Encoding video: 100%|██████████| 12/12 [00:36<00:00,  3.02s/it]
+[15:45:13 INFO] Preparing extractor: subject_id
+2026-06-15 15:45:13 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:45:13 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[15:45:15 WARNING] Removing extractor audio as there are no corresponding events
+[15:45:15 WARNING] Removing extractor video as there are no corresponding events
+[15:45:15 INFO] Preparing extractor: text
+  0%|          | 0/13 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7787.95it/s]
+  8%|▊         | 1/13 [00:33<06:45, 33.75s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:33<01:41, 33.75s/it][A 38%|███▊      | 5/13 [00:33<00:40,  5.07s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:33<00:28, 14.02s/it][A 69%|██████▉   | 9/13 [00:34<00:09,  2.31s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:34<00:07,  7.68s/it][A100%|██████████| 13/13 [00:34<00:00,  2.63s/it]
+Computing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  8.54s/it]
+[15:45:50 INFO] Preparing extractor: subject_id
+2026-06-15 15:45:50 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:45:50 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+  img5 reduced: visbmp + txtbase done
+
+== Phase 2: finetuned model (ascii-as-text, ft) ==
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/extractors/base.py:707: UserWarning: LabelEncoder: event_types has not been set, are you sure you want to apply this extractor to all events?
+  warnings.warn(
+2026-06-15 15:45:52 - WARNING - neuralset.extractors.base:798 - Missing events will be encoded using the default all-zero value (for example, 0 or a zero vector/tensor), which may be indistinguishable from a valid class if that class is also mapped to zeros. Set treat_missing_as_separate_class=True to avoid this.
+INFO - Loading model from /home/ath/tribev2-research/hf_cache/hub/models--facebook--tribev2/snapshots/f894e783020944dcd96e5568550afe2aa9743f9f/best.ckpt
+[15:45:56 WARNING] Removing extractor audio as there are no corresponding events
+[15:45:56 WARNING] Removing extractor video as there are no corresponding events
+[15:45:56 INFO] Preparing extractor: text
+  0%|          | 0/34 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/9 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 14297.36it/s]
+  3%|▎         | 1/34 [00:33<18:41, 33.99s/it]
+Computing word embeddings:  11%|█         | 1/9 [00:33<04:31, 34.00s/it][A 15%|█▍        | 5/34 [00:34<02:29,  5.17s/it]
+Computing word embeddings:  22%|██▏       | 2/9 [00:34<01:40, 14.29s/it][A 26%|██▋       | 9/34 [00:34<01:00,  2.40s/it]
+Computing word embeddings:  33%|███▎      | 3/9 [00:34<00:47,  8.00s/it][A 38%|███▊      | 13/34 [00:35<00:28,  1.38s/it]
+Computing word embeddings:  44%|████▍     | 4/9 [00:35<00:24,  4.94s/it][A 50%|█████     | 17/34 [00:35<00:15,  1.13it/s]
+Computing word embeddings:  56%|█████▌    | 5/9 [00:35<00:13,  3.32s/it][A 62%|██████▏   | 21/34 [00:36<00:08,  1.61it/s]
+Computing word embeddings:  67%|██████▋   | 6/9 [00:36<00:07,  2.38s/it][A 74%|███████▎  | 25/34 [00:36<00:04,  2.19it/s]
+Computing word embeddings:  78%|███████▊  | 7/9 [00:36<00:03,  1.77s/it][A 85%|████████▌ | 29/34 [00:37<00:01,  2.90it/s]
+Computing word embeddings:  89%|████████▉ | 8/9 [00:37<00:01,  1.35s/it][A 97%|█████████▋| 33/34 [00:37<00:00,  3.89it/s]100%|██████████| 34/34 [00:37<00:00,  1.10s/it]
+
+Computing word embeddings: 100%|██████████| 9/9 [00:37<00:00,  1.01s/it][AComputing word embeddings: 100%|██████████| 9/9 [00:37<00:00,  4.17s/it]
+[15:46:34 INFO] Preparing extractor: subject_id
+2026-06-15 15:46:34 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:46:34 INFO] Building dataloader for split all
+INFO - Predicted 11 / 100 segments (11.0% kept)
+  img0 full: txtft done
+[15:46:36 WARNING] Removing extractor audio as there are no corresponding events
+[15:46:36 WARNING] Removing extractor video as there are no corresponding events
+[15:46:36 INFO] Preparing extractor: text
+  0%|          | 0/12 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7878.55it/s]
+  8%|▊         | 1/12 [00:33<06:06, 33.34s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:06, 33.35s/it][A 75%|███████▌  | 9/12 [00:33<00:08,  2.70s/it]100%|██████████| 12/12 [00:33<00:00,  2.79s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  8.70s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.17s/it]
+[15:47:10 INFO] Preparing extractor: subject_id
+2026-06-15 15:47:10 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:47:10 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+  img0 reduced: txtft done
+[15:47:12 WARNING] Removing extractor audio as there are no corresponding events
+[15:47:12 WARNING] Removing extractor video as there are no corresponding events
+[15:47:12 INFO] Preparing extractor: text
+  0%|          | 0/39 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 15008.57it/s]
+  3%|▎         | 1/39 [00:35<22:28, 35.48s/it]
+Computing word embeddings:  10%|█         | 1/10 [00:35<05:19, 35.49s/it][A 13%|█▎        | 5/39 [00:35<03:02,  5.37s/it]
+Computing word embeddings:  20%|██        | 2/10 [00:35<01:58, 14.86s/it][A 23%|██▎       | 9/39 [00:36<01:14,  2.47s/it]
+Computing word embeddings:  30%|███       | 3/10 [00:36<00:57,  8.23s/it][A 33%|███▎      | 13/39 [00:36<00:37,  1.43s/it]
+Computing word embeddings:  40%|████      | 4/10 [00:36<00:30,  5.15s/it][A 44%|████▎     | 17/39 [00:37<00:20,  1.09it/s]
+Computing word embeddings:  50%|█████     | 5/10 [00:37<00:17,  3.43s/it][A 54%|█████▍    | 21/39 [00:37<00:11,  1.55it/s]
+Computing word embeddings:  60%|██████    | 6/10 [00:37<00:09,  2.47s/it][A 64%|██████▍   | 25/39 [00:38<00:06,  2.17it/s]
+Computing word embeddings:  70%|███████   | 7/10 [00:38<00:05,  1.79s/it][A 74%|███████▍  | 29/39 [00:38<00:03,  3.01it/s]
+Computing word embeddings:  80%|████████  | 8/10 [00:38<00:02,  1.30s/it][A 85%|████████▍ | 33/39 [00:38<00:01,  3.85it/s]
+Computing word embeddings:  90%|█████████ | 9/10 [00:38<00:01,  1.03s/it][A 95%|█████████▍| 37/39 [00:39<00:00,  4.98it/s]100%|██████████| 39/39 [00:39<00:00,  1.00s/it]
+
+Computing word embeddings: 100%|██████████| 10/10 [00:39<00:00,  1.26it/s][AComputing word embeddings: 100%|██████████| 10/10 [00:39<00:00,  3.90s/it]
+[15:47:51 INFO] Preparing extractor: subject_id
+2026-06-15 15:47:51 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:47:52 INFO] Building dataloader for split all
+INFO - Predicted 13 / 100 segments (13.0% kept)
+  img1 full: txtft done
+[15:47:53 WARNING] Removing extractor audio as there are no corresponding events
+[15:47:53 WARNING] Removing extractor video as there are no corresponding events
+[15:47:53 INFO] Preparing extractor: text
+  0%|          | 0/14 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12588.51it/s]
+  7%|▋         | 1/14 [00:29<06:26, 29.70s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:29<01:29, 29.70s/it][A 64%|██████▍   | 9/14 [00:29<00:12,  2.41s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:29<00:07,  7.78s/it][A100%|██████████| 14/14 [00:29<00:00,  2.14s/it]
+Computing word embeddings: 100%|██████████| 4/4 [00:29<00:00,  7.49s/it]
+[15:48:24 INFO] Preparing extractor: subject_id
+2026-06-15 15:48:24 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:48:24 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+  img1 reduced: txtft done
+[15:48:26 WARNING] Removing extractor audio as there are no corresponding events
+[15:48:26 WARNING] Removing extractor video as there are no corresponding events
+[15:48:26 INFO] Preparing extractor: text
+  0%|          | 0/26 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/7 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7711.12it/s]
+  4%|▍         | 1/26 [00:33<13:59, 33.57s/it]
+Computing word embeddings:  14%|█▍        | 1/7 [00:33<03:21, 33.58s/it][A 19%|█▉        | 5/26 [00:33<01:45,  5.04s/it]
+Computing word embeddings:  29%|██▊       | 2/7 [00:33<01:09, 13.95s/it][A 35%|███▍      | 9/26 [00:34<00:39,  2.34s/it]
+Computing word embeddings:  43%|████▎     | 3/7 [00:34<00:31,  7.79s/it][A 50%|█████     | 13/26 [00:34<00:17,  1.34s/it]
+Computing word embeddings:  57%|█████▋    | 4/7 [00:34<00:14,  4.83s/it][A 65%|██████▌   | 17/26 [00:34<00:07,  1.17it/s]
+Computing word embeddings:  71%|███████▏  | 5/7 [00:34<00:06,  3.20s/it][A 81%|████████  | 21/26 [00:35<00:02,  1.76it/s]
+Computing word embeddings:  86%|████████▌ | 6/7 [00:35<00:02,  2.18s/it][A 96%|█████████▌| 25/26 [00:35<00:00,  2.52it/s]100%|██████████| 26/26 [00:35<00:00,  1.36s/it]
+
+Computing word embeddings: 100%|██████████| 7/7 [00:35<00:00,  1.54s/it][AComputing word embeddings: 100%|██████████| 7/7 [00:35<00:00,  5.04s/it]
+[15:49:02 INFO] Preparing extractor: subject_id
+2026-06-15 15:49:02 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:49:02 INFO] Building dataloader for split all
+INFO - Predicted 8 / 100 segments (8.0% kept)
+  img2 full: txtft done
+[15:49:03 WARNING] Removing extractor audio as there are no corresponding events
+[15:49:03 WARNING] Removing extractor video as there are no corresponding events
+[15:49:03 INFO] Preparing extractor: text
+  0%|          | 0/9 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7435.67it/s]
+ 11%|█         | 1/9 [00:33<04:24, 33.12s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:06, 33.13s/it][A100%|██████████| 9/9 [00:33<00:00,  2.68s/it]100%|██████████| 9/9 [00:33<00:00,  3.69s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  8.63s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.08s/it]
+[15:49:37 INFO] Preparing extractor: subject_id
+2026-06-15 15:49:37 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:49:37 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+  img2 reduced: txtft done
+[15:49:39 WARNING] Removing extractor audio as there are no corresponding events
+[15:49:39 WARNING] Removing extractor video as there are no corresponding events
+[15:49:39 INFO] Preparing extractor: text
+  0%|          | 0/46 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/12 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 13033.28it/s]
+  2%|▏         | 1/46 [00:34<26:09, 34.88s/it]
+Computing word embeddings:   8%|▊         | 1/12 [00:34<06:23, 34.89s/it][A 11%|█         | 5/46 [00:35<03:40,  5.37s/it]
+Computing word embeddings:  17%|█▋        | 2/12 [00:35<02:28, 14.85s/it][A 20%|█▉        | 9/46 [00:36<01:33,  2.53s/it]
+Computing word embeddings:  25%|██▌       | 3/12 [00:36<01:15,  8.41s/it][A 28%|██▊       | 13/46 [00:37<00:49,  1.48s/it]
+Computing word embeddings:  33%|███▎      | 4/12 [00:37<00:42,  5.34s/it][A 37%|███▋      | 17/46 [00:37<00:28,  1.04it/s]
+Computing word embeddings:  42%|████▏     | 5/12 [00:37<00:25,  3.61s/it][A 46%|████▌     | 21/46 [00:38<00:16,  1.48it/s]
+Computing word embeddings:  50%|█████     | 6/12 [00:38<00:15,  2.59s/it][A 54%|█████▍    | 25/46 [00:38<00:10,  2.03it/s]
+Computing word embeddings:  58%|█████▊    | 7/12 [00:38<00:09,  1.92s/it][A 63%|██████▎   | 29/46 [00:39<00:06,  2.68it/s]
+Computing word embeddings:  67%|██████▋   | 8/12 [00:39<00:05,  1.47s/it][A 72%|███████▏  | 33/46 [00:39<00:03,  3.31it/s]
+Computing word embeddings:  75%|███████▌  | 9/12 [00:39<00:03,  1.19s/it][A 80%|████████  | 37/46 [00:40<00:02,  4.04it/s]
+Computing word embeddings:  83%|████████▎ | 10/12 [00:40<00:01,  1.02it/s][A 89%|████████▉ | 41/46 [00:40<00:01,  4.79it/s]
+Computing word embeddings:  92%|█████████▏| 11/12 [00:40<00:00,  1.21it/s][A 98%|█████████▊| 45/46 [00:41<00:00,  5.99it/s]100%|██████████| 46/46 [00:41<00:00,  1.12it/s]
+
+Computing word embeddings: 100%|██████████| 12/12 [00:41<00:00,  1.51it/s][AComputing word embeddings: 100%|██████████| 12/12 [00:41<00:00,  3.43s/it]
+[15:50:21 INFO] Preparing extractor: subject_id
+2026-06-15 15:50:21 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:50:21 INFO] Building dataloader for split all
+INFO - Predicted 16 / 100 segments (16.0% kept)
+  img3 full: txtft done
+[15:50:23 WARNING] Removing extractor audio as there are no corresponding events
+[15:50:23 WARNING] Removing extractor video as there are no corresponding events
+[15:50:23 INFO] Preparing extractor: text
+  0%|          | 0/17 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11960.32it/s]
+  6%|▌         | 1/17 [00:34<09:06, 34.17s/it]
+Computing word embeddings:  20%|██        | 1/5 [00:34<02:16, 34.17s/it][A 29%|██▉       | 5/17 [00:34<01:01,  5.14s/it]
+Computing word embeddings:  40%|████      | 2/5 [00:34<00:42, 14.21s/it][A 53%|█████▎    | 9/17 [00:34<00:18,  2.34s/it]
+Computing word embeddings:  60%|██████    | 3/5 [00:34<00:15,  7.78s/it][A100%|██████████| 17/17 [00:34<00:00,  1.09it/s]100%|██████████| 17/17 [00:34<00:00,  2.04s/it]
+
+Computing word embeddings: 100%|██████████| 5/5 [00:34<00:00,  3.42s/it][AComputing word embeddings: 100%|██████████| 5/5 [00:34<00:00,  6.94s/it]
+[15:50:58 INFO] Preparing extractor: subject_id
+2026-06-15 15:50:58 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:50:58 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+  img3 reduced: txtft done
+[15:51:00 WARNING] Removing extractor audio as there are no corresponding events
+[15:51:00 WARNING] Removing extractor video as there are no corresponding events
+[15:51:00 INFO] Preparing extractor: text
+  0%|          | 0/46 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/12 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 13350.96it/s]
+  2%|▏         | 1/46 [00:35<26:55, 35.90s/it]
+Computing word embeddings:   8%|▊         | 1/12 [00:35<06:34, 35.90s/it][A 11%|█         | 5/46 [00:36<03:43,  5.46s/it]
+Computing word embeddings:  17%|█▋        | 2/12 [00:36<02:30, 15.10s/it][A 20%|█▉        | 9/46 [00:36<01:33,  2.54s/it]
+Computing word embeddings:  25%|██▌       | 3/12 [00:36<01:16,  8.44s/it][A 28%|██▊       | 13/46 [00:37<00:49,  1.49s/it]
+Computing word embeddings:  33%|███▎      | 4/12 [00:37<00:42,  5.36s/it][A 37%|███▋      | 17/46 [00:38<00:28,  1.03it/s]
+Computing word embeddings:  42%|████▏     | 5/12 [00:38<00:25,  3.63s/it][A 46%|████▌     | 21/46 [00:38<00:17,  1.46it/s]
+Computing word embeddings:  50%|█████     | 6/12 [00:38<00:15,  2.62s/it][A 54%|█████▍    | 25/46 [00:39<00:10,  1.98it/s]
+Computing word embeddings:  58%|█████▊    | 7/12 [00:39<00:09,  1.96s/it][A 63%|██████▎   | 29/46 [00:39<00:06,  2.60it/s]
+Computing word embeddings:  67%|██████▋   | 8/12 [00:39<00:06,  1.51s/it][A 72%|███████▏  | 33/46 [00:40<00:03,  3.32it/s]
+Computing word embeddings:  75%|███████▌  | 9/12 [00:40<00:03,  1.19s/it][A 80%|████████  | 37/46 [00:41<00:02,  3.90it/s]
+Computing word embeddings:  83%|████████▎ | 10/12 [00:41<00:02,  1.02s/it][A 89%|████████▉ | 41/46 [00:41<00:01,  4.62it/s]
+Computing word embeddings:  92%|█████████▏| 11/12 [00:41<00:00,  1.16it/s][A 98%|█████████▊| 45/46 [00:41<00:00,  5.63it/s]100%|██████████| 46/46 [00:41<00:00,  1.10it/s]
+
+Computing word embeddings: 100%|██████████| 12/12 [00:41<00:00,  1.42it/s][AComputing word embeddings: 100%|██████████| 12/12 [00:41<00:00,  3.49s/it]
+[15:51:42 INFO] Preparing extractor: subject_id
+2026-06-15 15:51:42 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:51:43 INFO] Building dataloader for split all
+INFO - Predicted 16 / 100 segments (16.0% kept)
+  img4 full: txtft done
+[15:51:44 WARNING] Removing extractor audio as there are no corresponding events
+[15:51:44 WARNING] Removing extractor video as there are no corresponding events
+[15:51:44 INFO] Preparing extractor: text
+  0%|          | 0/17 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12882.77it/s]
+  6%|▌         | 1/17 [00:34<09:11, 34.44s/it]
+Computing word embeddings:  20%|██        | 1/5 [00:34<02:17, 34.45s/it][A 53%|█████▎    | 9/17 [00:34<00:22,  2.80s/it]
+Computing word embeddings:  60%|██████    | 3/5 [00:34<00:18,  9.02s/it][A 76%|███████▋  | 13/17 [00:34<00:06,  1.71s/it]
+Computing word embeddings:  80%|████████  | 4/5 [00:34<00:05,  5.96s/it][A100%|██████████| 17/17 [00:34<00:00,  2.06s/it]
+Computing word embeddings: 100%|██████████| 5/5 [00:34<00:00,  6.99s/it]
+[15:52:20 INFO] Preparing extractor: subject_id
+2026-06-15 15:52:20 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:52:20 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+  img4 reduced: txtft done
+[15:52:22 WARNING] Removing extractor audio as there are no corresponding events
+[15:52:22 WARNING] Removing extractor video as there are no corresponding events
+[15:52:22 INFO] Preparing extractor: text
+  0%|          | 0/35 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/9 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 13865.11it/s]
+  3%|▎         | 1/35 [00:34<19:35, 34.57s/it]
+Computing word embeddings:  11%|█         | 1/9 [00:34<04:36, 34.57s/it][A 14%|█▍        | 5/35 [00:35<02:40,  5.36s/it]
+Computing word embeddings:  22%|██▏       | 2/9 [00:35<01:43, 14.83s/it][A 26%|██▌       | 9/35 [00:35<01:04,  2.47s/it]
+Computing word embeddings:  33%|███▎      | 3/9 [00:35<00:49,  8.24s/it][A 37%|███▋      | 13/35 [00:36<00:31,  1.43s/it]
+Computing word embeddings:  44%|████▍     | 4/9 [00:36<00:25,  5.14s/it][A 49%|████▊     | 17/35 [00:36<00:16,  1.10it/s]
+Computing word embeddings:  56%|█████▌    | 5/9 [00:36<00:13,  3.42s/it][A 60%|██████    | 21/35 [00:37<00:08,  1.59it/s]
+Computing word embeddings:  67%|██████▋   | 6/9 [00:37<00:07,  2.41s/it][A 71%|███████▏  | 25/35 [00:37<00:04,  2.14it/s]
+Computing word embeddings:  78%|███████▊  | 7/9 [00:37<00:03,  1.82s/it][A 83%|████████▎ | 29/35 [00:38<00:02,  2.86it/s]
+Computing word embeddings:  89%|████████▉ | 8/9 [00:38<00:01,  1.37s/it][A 94%|█████████▍| 33/35 [00:38<00:00,  3.78it/s]100%|██████████| 35/35 [00:38<00:00,  1.10s/it]
+
+Computing word embeddings: 100%|██████████| 9/9 [00:38<00:00,  1.04s/it][AComputing word embeddings: 100%|██████████| 9/9 [00:38<00:00,  4.28s/it]
+[15:53:01 INFO] Preparing extractor: subject_id
+2026-06-15 15:53:01 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:53:01 INFO] Building dataloader for split all
+INFO - Predicted 12 / 100 segments (12.0% kept)
+  img5 full: txtft done
+[15:53:03 WARNING] Removing extractor audio as there are no corresponding events
+[15:53:03 WARNING] Removing extractor video as there are no corresponding events
+[15:53:03 INFO] Preparing extractor: text
+  0%|          | 0/13 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11813.11it/s]
+  8%|▊         | 1/13 [00:32<06:32, 32.70s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:32<01:38, 32.71s/it][A 38%|███▊      | 5/13 [00:32<00:39,  4.90s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:32<00:27, 13.55s/it][A 69%|██████▉   | 9/13 [00:32<00:08,  2.23s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:32<00:07,  7.41s/it][A100%|██████████| 13/13 [00:33<00:00,  2.54s/it]
+Computing word embeddings: 100%|██████████| 4/4 [00:33<00:00,  8.25s/it]
+[15:53:36 INFO] Preparing extractor: subject_id
+2026-06-15 15:53:36 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[15:53:36 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+  img5 reduced: txtft done
+[fetch_atlas_surf_destrieux] Dataset found in 
+/home/ath/nilearn_data/destrieux_surface
+/home/ath/tribev2-research/work/experiment_asciicat.py:105: UserWarning: 
+The following regions are present in the atlas look-up table,
+but missing from the atlas image:
+
+ index    name
+     0 Unknown
+
+  atlas = datasets.fetch_atlas_surf_destrieux()
+/home/ath/tribev2-research/work/experiment_asciicat.py:105: UserWarning: 
+The following regions are present in the atlas look-up table,
+but missing from the atlas image:
+
+ index    name
+     0 Unknown
+
+  atlas = datasets.fetch_atlas_surf_destrieux()
+
+================ RESULTS ================
+
+--- full resolution (n=6) ---
+  cos(anchor, ascii-BITMAP)   = 0.548 ± 0.190
+  cos(anchor, ascii-TEXT base)= 0.131 ± 0.101
+  cos(anchor, ascii-TEXT ft)  = 0.126 ± 0.128
+  >> finetune convergence gain = -0.0055 ± 0.0395  (3/6 images positive)
+  txt finetune rel.change      = 15.6%
+  visual enrichment: anchor 6.05x | bitmap 3.98x | txt-base 0.59x | txt-ft 0.69x
+
+--- reduced resolution (n=6) ---
+  cos(anchor, ascii-BITMAP)   = 0.427 ± 0.199
+  cos(anchor, ascii-TEXT base)= 0.084 ± 0.168
+  cos(anchor, ascii-TEXT ft)  = 0.004 ± 0.218
+  >> finetune convergence gain = -0.0799 ± 0.0577  (1/6 images positive)
+  txt finetune rel.change      = 23.4%
+  visual enrichment: anchor 6.05x | bitmap 2.53x | txt-base 0.20x | txt-ft 0.67x
+
+Done. Summary -> demo_out/phase2/scaled_summary.json
