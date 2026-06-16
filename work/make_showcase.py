@@ -84,6 +84,10 @@ def main():
     conv_full = S["full"]["finetune_convergence_gain"]
     conv_red = S["reduced"]["finetune_convergence_gain"]
 
+    # ---- substantiality test (n line-art cats/dogs/horses) ----
+    subst = json.loads((OUT / "subst_summary.json").read_text())
+    spec = subst["cat_specificity"]
+
     ascii_art = (A / "ascii_cat.txt").read_text()
 
     def ve(name): return f"{R[name]['visual']:.2f}×"
@@ -128,19 +132,20 @@ def main():
 <p class="sub">TRIBE v2 cross-modal probes — does a cat-art LoRA pull ASCII toward visual cortex? · GB10 / Blackwell · 2026-06-15</p>
 
 <div class="verdict">
-<b>Two findings — one confirmed, one refuted.</b>
-<b>(1) Confirmed:</b> TRIBE v2's <b>video</b> branch (V-JEPA 2) reads a real cat photo
-straight into <b>visual cortex</b> ({ve('real_cat')} enrichment), and the more faithful
-an <i>img2ascii</i> rendering is, the more cat-like its brain map becomes
-(full-res cos {sm('full','cos_anchor_visbmp'):.2f} &gt; reduced-res {sm('reduced','cos_anchor_visbmp'):.2f}).
-<b>(2) Refuted at scale:</b> a single hand-made iconic ASCII cat hinted that the cat-art
-finetune pulls ASCII-<i>text</i> toward visual cortex
-({R['text_base']['visual']:.2f}× → {R['text_ft']['visual']:.2f}×) — but across
-<b>{N} real cats</b> this <b>did not replicate</b>: ASCII-as-text stays near-orthogonal to
-the image (cos&nbsp;≈&nbsp;{sm('full','cos_anchor_txtbase'):.2f}) and the finetune's
-convergence gain is <b>{conv_full['mean']:+.3f}</b> ({conv_full['n_positive']}/{conv_full['n']} images).
-<span class="hl">The hint was an artifact of feeding the LoRA exactly the iconic style it
-was trained on</span> — the effect is stylistic, not a genuine text↔image cat-semantics bridge.
+<b>The finetune is a line-art-ASCII <i>style</i> detector — not a cat detector.</b>
+TRIBE v2's <b>video</b> branch (V-JEPA 2) reads a real cat photo straight into
+<b>visual cortex</b> ({ve('real_cat')} enrichment), and more-faithful <i>img2ascii</i>
+renderings read as more cat-like (full-res cos {sm('full','cos_anchor_visbmp'):.2f} &gt;
+reduced {sm('reduced','cos_anchor_visbmp'):.2f}). On the <b>text</b> side, feeding the
+LoRA real hand-drawn line-art ASCII pushes the predicted map <b>toward visual cortex</b>
+— across <b>{subst['cat']['n']} cats</b>, visual enrichment
+{subst['cat']['ve_base_mean']:.2f}× → <b>{subst['cat']['ve_ft_mean']:.2f}×</b>,
+<span class="hl">{subst['cat']['frac_positive']*100:.0f}% of cats positive</span>. But
+<b>dogs move identically</b> ({subst['dog']['shift_mean']:+.2f} vs cats
+{subst['cat']['shift_mean']:+.2f}; cat-specificity p&nbsp;=&nbsp;{spec['test'].split('=')[-1].strip()}),
+so the effect is about the <b>ASCII-art format</b>, not cats. It fires only on the iconic
+style the LoRA trained on — absent in speech (phase&nbsp;1) and in brightness-ramp
+img2ascii — which is why it looked like "convergence" in one probe and "nothing" at scale.
 </div>
 
 <h2>Setup: three encoders, two branches in play</h2>
@@ -183,8 +188,8 @@ isolation (video-only vs word-only events) and compare maps in the same brain sp
 <p class="sub">Feeding the model the kind of input its LoRA was trained on (a clean
 <b>iconic</b> ASCII cat), the finetune moves the representation ~4× harder than for speech
 and the shift is <b>toward</b> visual cortex. <span class="hl">This was the exciting
-hint — but it is a single, in-distribution stimulus. Result 3 tests whether it survives
-real img2ascii at scale (it does not).</span></p>
+hint — but it is a single, in-distribution stimulus. Result 4 scales it properly (it is
+real — but generic to ASCII style, not cat-specific).</span></p>
 
 <h2>Result 3 — the scaled test: {N} real cats × a resolution ladder <span class="tag ok">visual ladder ✓</span> <span class="tag hot">convergence ✗</span></h2>
 <p class="sub">Each cat photo → real image (anchor) + full-res img2ascii + reduced-res
@@ -229,21 +234,64 @@ anchor (cos&nbsp;≈&nbsp;0.1) and the finetune does <b>not</b> close the gap �
 hint was specific to a clean iconic cat (in-distribution for the LoRA), and evaporates on
 realistic img2ascii.</p>
 
+<h2>Result 4 — Substantiality: {subst['cat']['n']} line-art cats vs dogs vs horses <span class="tag ok">substantial</span> <span class="tag hot">not cat-specific</span></h2>
+<p class="sub">The right test for Result 2: scale <i>within its own regime</i> — many
+hand-drawn line-art ASCII pieces (<code>apehex/ascii-art</code>) injected as text, base vs
+finetune — with dogs/horses as a built-in control. (Result 3 instead changed the stimulus
+<i>distribution</i> to img2ascii, so it couldn't adjudicate the probe.)</p>
+<table>
+<tr><th>line-art ASCII</th><th>n</th><th>visual: base → ft</th><th>shift (ft−base)</th><th>% positive</th><th>rel-change</th></tr>
+<tr><td><b>cats</b></td><td class="num">{subst['cat']['n']}</td>
+  <td class="num">{subst['cat']['ve_base_mean']:.2f} → <b>{subst['cat']['ve_ft_mean']:.2f}×</b></td>
+  <td class="num">{subst['cat']['shift_mean']:+.2f} ± {subst['cat']['shift_sd']:.2f}</td>
+  <td class="num">{subst['cat']['frac_positive']*100:.0f}%</td>
+  <td class="num">{subst['cat']['relchange_mean']:.0%}</td></tr>
+<tr><td>dogs (control)</td><td class="num">{subst['dog']['n']}</td>
+  <td class="num">{subst['dog']['ve_base_mean']:.2f} → {subst['dog']['ve_ft_mean']:.2f}×</td>
+  <td class="num">{subst['dog']['shift_mean']:+.2f} ± {subst['dog']['shift_sd']:.2f}</td>
+  <td class="num">{subst['dog']['frac_positive']*100:.0f}%</td>
+  <td class="num">{subst['dog']['relchange_mean']:.0%}</td></tr>
+<tr><td>horses (control)</td><td class="num">{subst['horse']['n']}</td>
+  <td class="num">{subst['horse']['ve_base_mean']:.2f} → {subst['horse']['ve_ft_mean']:.2f}×</td>
+  <td class="num">{subst['horse']['shift_mean']:+.2f} ± {subst['horse']['shift_sd']:.2f}</td>
+  <td class="num">{subst['horse']['frac_positive']*100:.0f}%</td>
+  <td class="num">{subst['horse']['relchange_mean']:.0%}</td></tr>
+</table>
+<p class="sub"><b>Substantial:</b> across {subst['cat']['n']} distinct iconic cats the
+finetune pushes the map toward visual cortex <b>{subst['cat']['frac_positive']*100:.0f}% of
+the time</b> ({subst['cat']['ve_base_mean']:.2f}× → {subst['cat']['ve_ft_mean']:.2f}×) — the
+Result-2 probe was <i>not</i> noise. <b>But not cat-specific:</b> dogs shift
+{subst['dog']['shift_mean']:+.2f}, indistinguishable from cats
+({subst['cat']['shift_mean']:+.2f}); cat-vs-control contrast {spec['contrast']:+.2f},
+{spec['test']}. The finetune routes <i>any</i> line-art ASCII toward visual cortex.</p>
+
+<h2>What the LoRA actually learned</h2>
+<table>
+<tr><th>condition</th><th>ASCII-art style present?</th><th>finetune effect on the brain map</th></tr>
+<tr><td>Phase 1 — TTS speech</td><td>no</td><td>~8%, stays in <b>language</b>, avoids visual</td></tr>
+<tr><td>Result 3 — img2ascii gradients</td><td>no (OOD format)</td><td>null convergence</td></tr>
+<tr><td>Results 2 &amp; 4 — hand-drawn line-art</td><td><b>yes</b></td><td>big, ~100%-consistent push to <b>visual</b> (cat = dog)</td></tr>
+</table>
+<p class="sub">The finetune didn't learn "cat" — it learned "<b>this glyph-block is a
+picture</b>," and that picture-ness surfaces as visual cortex whenever the input is in the
+iconic line-art format it trained on. Pure <b>style / distribution</b> sensitivity, not
+semantics — the phase-1 headline, now shown representationally.</p>
+
 <h2>The iconic ASCII cat (Result 2 stimulus)</h2>
 <pre>{ascii_art}</pre>
 
 <h2>Synthesis &amp; honesty</h2>
 <ul>
 <li><b>Solid:</b> the visual realism ladder — img2ascii fidelity ↔ V-JEPA visual response —
-replicates across {N} cats. You <i>can</i> make ASCII a brain-model reads as more cat-like
-by improving the rendering.</li>
-<li><b>Refuted:</b> the cross-modal convergence hint (finetune makes ASCII-text more
-image-like). It held only for a single iconic ASCII cat — the exact style the LoRA was
-trained on — and did not survive realistic img2ascii (gain {conv_full['mean']:+.3f}).
-The finetune's effect is <b>stylistic/distributional, not cat-semantic</b> — consistent
-with phase 1 (TRIBE is sensitive to the extractor's distribution, not its semantics).</li>
-<li><b>Methodological takeaway:</b> a single in-distribution probe can badly over-promise.
-The honest signal only appeared after scaling with out-of-distribution inputs.</li>
+replicates across {N} cats; and the text-side finetune→visual push is substantial
+(~100% of {subst['cat']['n']} cats).</li>
+<li><b>Corrected:</b> I first called the convergence "refuted" from Result 3 — too strong.
+Result 3 only changed the stimulus distribution (img2ascii ≠ line-art); scaling
+<i>in-regime</i> (Result 4) shows the effect is real but <b>generic to ASCII style, not
+cat-specific</b> (cat {subst['cat']['shift_mean']:+.2f} ≈ dog {subst['dog']['shift_mean']:+.2f}).</li>
+<li><b>Methodological takeaway:</b> a single in-distribution probe over-promised, and a
+distribution-shifted scale-up under-claimed. Only scaling in-regime <i>with a control</i>
+gave the honest answer: real effect, wrong reason.</li>
 </ul>
 
 <h2>Replicate</h2>

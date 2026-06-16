@@ -1,0 +1,35 @@
+{
+  "cat": {
+    "n": 40,
+    "ve_base_mean": 0.9196699903160852,
+    "ve_ft_mean": 2.1482249225273615,
+    "shift_mean": 1.2285549322112765,
+    "shift_sd": 0.9751803146531774,
+    "frac_positive": 1.0,
+    "relchange_mean": 0.3678006656467915
+  },
+  "dog": {
+    "n": 30,
+    "ve_base_mean": 1.224674468117116,
+    "ve_ft_mean": 2.4661642806422615,
+    "shift_mean": 1.2414898125251452,
+    "shift_sd": 1.0512195295651945,
+    "frac_positive": 1.0,
+    "relchange_mean": 0.271199785421292
+  },
+  "horse": {
+    "n": 16,
+    "ve_base_mean": 0.8895963935863397,
+    "ve_ft_mean": 1.5662523200056113,
+    "shift_mean": 0.6766559264192715,
+    "shift_sd": 0.7008467234037317,
+    "frac_positive": 0.8125,
+    "relchange_mean": 0.36002746131271124
+  },
+  "cat_specificity": {
+    "cat_shift_mean": 1.2285549322112765,
+    "control_shift_mean": 1.0450258521404936,
+    "contrast": 0.18352908007078295,
+    "test": "Mann-Whitney U one-sided p = 0.3002"
+  }
+}

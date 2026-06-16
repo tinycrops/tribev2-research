@@ -37,19 +37,20 @@
 <p class="sub">TRIBE v2 cross-modal probes — does a cat-art LoRA pull ASCII toward visual cortex? · GB10 / Blackwell · 2026-06-15</p>
 
 <div class="verdict">
-<b>Two findings — one confirmed, one refuted.</b>
-<b>(1) Confirmed:</b> TRIBE v2's <b>video</b> branch (V-JEPA 2) reads a real cat photo
-straight into <b>visual cortex</b> (5.48× enrichment), and the more faithful
-an <i>img2ascii</i> rendering is, the more cat-like its brain map becomes
-(full-res cos 0.55 &gt; reduced-res 0.43).
-<b>(2) Refuted at scale:</b> a single hand-made iconic ASCII cat hinted that the cat-art
-finetune pulls ASCII-<i>text</i> toward visual cortex
-(0.85× → 2.05×) — but across
-<b>6 real cats</b> this <b>did not replicate</b>: ASCII-as-text stays near-orthogonal to
-the image (cos&nbsp;≈&nbsp;0.13) and the finetune's
-convergence gain is <b>-0.006</b> (3/6 images).
-<span class="hl">The hint was an artifact of feeding the LoRA exactly the iconic style it
-was trained on</span> — the effect is stylistic, not a genuine text↔image cat-semantics bridge.
+<b>The finetune is a line-art-ASCII <i>style</i> detector — not a cat detector.</b>
+TRIBE v2's <b>video</b> branch (V-JEPA 2) reads a real cat photo straight into
+<b>visual cortex</b> (5.48× enrichment), and more-faithful <i>img2ascii</i>
+renderings read as more cat-like (full-res cos 0.55 &gt;
+reduced 0.43). On the <b>text</b> side, feeding the
+LoRA real hand-drawn line-art ASCII pushes the predicted map <b>toward visual cortex</b>
+— across <b>40 cats</b>, visual enrichment
+0.92× → <b>2.15×</b>,
+<span class="hl">100% of cats positive</span>. But
+<b>dogs move identically</b> (+1.24 vs cats
++1.23; cat-specificity p&nbsp;=&nbsp;0.3002),
+so the effect is about the <b>ASCII-art format</b>, not cats. It fires only on the iconic
+style the LoRA trained on — absent in speech (phase&nbsp;1) and in brightness-ramp
+img2ascii — which is why it looked like "convergence" in one probe and "nothing" at scale.
 </div>
 
 <h2>Setup: three encoders, two branches in play</h2>
@@ -92,8 +93,8 @@ isolation (video-only vs word-only events) and compare maps in the same brain sp
 <p class="sub">Feeding the model the kind of input its LoRA was trained on (a clean
 <b>iconic</b> ASCII cat), the finetune moves the representation ~4× harder than for speech
 and the shift is <b>toward</b> visual cortex. <span class="hl">This was the exciting
-hint — but it is a single, in-distribution stimulus. Result 3 tests whether it survives
-real img2ascii at scale (it does not).</span></p>
+hint — but it is a single, in-distribution stimulus. Result 4 scales it properly (it is
+real — but generic to ASCII style, not cat-specific).</span></p>
 
 <h2>Result 3 — the scaled test: 6 real cats × a resolution ladder <span class="tag ok">visual ladder ✓</span> <span class="tag hot">convergence ✗</span></h2>
 <p class="sub">Each cat photo → real image (anchor) + full-res img2ascii + reduced-res
@@ -138,6 +139,49 @@ anchor (cos&nbsp;≈&nbsp;0.1) and the finetune does <b>not</b> close the gap �
 hint was specific to a clean iconic cat (in-distribution for the LoRA), and evaporates on
 realistic img2ascii.</p>
 
+<h2>Result 4 — Substantiality: 40 line-art cats vs dogs vs horses <span class="tag ok">substantial</span> <span class="tag hot">not cat-specific</span></h2>
+<p class="sub">The right test for Result 2: scale <i>within its own regime</i> — many
+hand-drawn line-art ASCII pieces (<code>apehex/ascii-art</code>) injected as text, base vs
+finetune — with dogs/horses as a built-in control. (Result 3 instead changed the stimulus
+<i>distribution</i> to img2ascii, so it couldn't adjudicate the probe.)</p>
+<table>
+<tr><th>line-art ASCII</th><th>n</th><th>visual: base → ft</th><th>shift (ft−base)</th><th>% positive</th><th>rel-change</th></tr>
+<tr><td><b>cats</b></td><td class="num">40</td>
+  <td class="num">0.92 → <b>2.15×</b></td>
+  <td class="num">+1.23 ± 0.98</td>
+  <td class="num">100%</td>
+  <td class="num">37%</td></tr>
+<tr><td>dogs (control)</td><td class="num">30</td>
+  <td class="num">1.22 → 2.47×</td>
+  <td class="num">+1.24 ± 1.05</td>
+  <td class="num">100%</td>
+  <td class="num">27%</td></tr>
+<tr><td>horses (control)</td><td class="num">16</td>
+  <td class="num">0.89 → 1.57×</td>
+  <td class="num">+0.68 ± 0.70</td>
+  <td class="num">81%</td>
+  <td class="num">36%</td></tr>
+</table>
+<p class="sub"><b>Substantial:</b> across 40 distinct iconic cats the
+finetune pushes the map toward visual cortex <b>100% of
+the time</b> (0.92× → 2.15×) — the
+Result-2 probe was <i>not</i> noise. <b>But not cat-specific:</b> dogs shift
++1.24, indistinguishable from cats
+(+1.23); cat-vs-control contrast +0.18,
+Mann-Whitney U one-sided p = 0.3002. The finetune routes <i>any</i> line-art ASCII toward visual cortex.</p>
+
+<h2>What the LoRA actually learned</h2>
+<table>
+<tr><th>condition</th><th>ASCII-art style present?</th><th>finetune effect on the brain map</th></tr>
+<tr><td>Phase 1 — TTS speech</td><td>no</td><td>~8%, stays in <b>language</b>, avoids visual</td></tr>
+<tr><td>Result 3 — img2ascii gradients</td><td>no (OOD format)</td><td>null convergence</td></tr>
+<tr><td>Results 2 &amp; 4 — hand-drawn line-art</td><td><b>yes</b></td><td>big, ~100%-consistent push to <b>visual</b> (cat = dog)</td></tr>
+</table>
+<p class="sub">The finetune didn't learn "cat" — it learned "<b>this glyph-block is a
+picture</b>," and that picture-ness surfaces as visual cortex whenever the input is in the
+iconic line-art format it trained on. Pure <b>style / distribution</b> sensitivity, not
+semantics — the phase-1 headline, now shown representationally.</p>
+
 <h2>The iconic ASCII cat (Result 2 stimulus)</h2>
 <pre>  /\ ___ /\
  (  -   -  )
@@ -151,15 +195,15 @@ realistic img2ascii.</p>
 <h2>Synthesis &amp; honesty</h2>
 <ul>
 <li><b>Solid:</b> the visual realism ladder — img2ascii fidelity ↔ V-JEPA visual response —
-replicates across 6 cats. You <i>can</i> make ASCII a brain-model reads as more cat-like
-by improving the rendering.</li>
-<li><b>Refuted:</b> the cross-modal convergence hint (finetune makes ASCII-text more
-image-like). It held only for a single iconic ASCII cat — the exact style the LoRA was
-trained on — and did not survive realistic img2ascii (gain -0.006).
-The finetune's effect is <b>stylistic/distributional, not cat-semantic</b> — consistent
-with phase 1 (TRIBE is sensitive to the extractor's distribution, not its semantics).</li>
-<li><b>Methodological takeaway:</b> a single in-distribution probe can badly over-promise.
-The honest signal only appeared after scaling with out-of-distribution inputs.</li>
+replicates across 6 cats; and the text-side finetune→visual push is substantial
+(~100% of 40 cats).</li>
+<li><b>Corrected:</b> I first called the convergence "refuted" from Result 3 — too strong.
+Result 3 only changed the stimulus distribution (img2ascii ≠ line-art); scaling
+<i>in-regime</i> (Result 4) shows the effect is real but <b>generic to ASCII style, not
+cat-specific</b> (cat +1.23 ≈ dog +1.24).</li>
+<li><b>Methodological takeaway:</b> a single in-distribution probe over-promised, and a
+distribution-shifted scale-up under-claimed. Only scaling in-regime <i>with a control</i>
+gave the honest answer: real effect, wrong reason.</li>
 </ul>
 
 <h2>Replicate</h2>

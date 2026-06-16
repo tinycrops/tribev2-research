@@ -139,3 +139,2536 @@ INFO - Predicted 6 / 100 segments (6.0% kept)
 Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
 
 Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 8244.43it/s]
+ 10%|█         | 1/10 [00:32<04:51, 32.38s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:32<01:04, 32.39s/it][A 50%|█████     | 5/10 [00:32<00:24,  4.86s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:32<00:13, 13.43s/it][A100%|██████████| 10/10 [00:32<00:00,  3.26s/it]
+Computing word embeddings: 100%|██████████| 3/3 [00:32<00:00, 10.87s/it]
+[16:12:46 INFO] Preparing extractor: subject_id
+2026-06-15 16:12:46 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:12:47 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[16:12:48 WARNING] Removing extractor audio as there are no corresponding events
+[16:12:48 WARNING] Removing extractor video as there are no corresponding events
+[16:12:48 INFO] Preparing extractor: text
+  0%|          | 0/28 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/7 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10348.96it/s]
+  4%|▎         | 1/28 [00:31<14:16, 31.72s/it]
+Computing word embeddings:  14%|█▍        | 1/7 [00:31<03:10, 31.72s/it][A 18%|█▊        | 5/28 [00:31<01:49,  4.78s/it]
+Computing word embeddings:  29%|██▊       | 2/7 [00:31<01:06, 13.21s/it][A 32%|███▏      | 9/28 [00:32<00:42,  2.22s/it]
+Computing word embeddings:  43%|████▎     | 3/7 [00:32<00:29,  7.40s/it][A 46%|████▋     | 13/28 [00:32<00:19,  1.27s/it]
+Computing word embeddings:  57%|█████▋    | 4/7 [00:32<00:13,  4.58s/it][A 61%|██████    | 17/28 [00:33<00:08,  1.23it/s]
+Computing word embeddings:  71%|███████▏  | 5/7 [00:33<00:06,  3.04s/it][A 75%|███████▌  | 21/28 [00:33<00:03,  1.81it/s]
+Computing word embeddings:  86%|████████▌ | 6/7 [00:33<00:02,  2.12s/it][A 89%|████████▉ | 25/28 [00:33<00:01,  2.47it/s]100%|██████████| 28/28 [00:33<00:00,  1.21s/it]
+
+Computing word embeddings: 100%|██████████| 7/7 [00:33<00:00,  1.57s/it][AComputing word embeddings: 100%|██████████| 7/7 [00:33<00:00,  4.83s/it]
+[16:13:22 INFO] Preparing extractor: subject_id
+2026-06-15 16:13:22 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:13:22 INFO] Building dataloader for split all
+INFO - Predicted 9 / 100 segments (9.0% kept)
+  base: 10/86
+[16:13:23 WARNING] Removing extractor audio as there are no corresponding events
+[16:13:23 WARNING] Removing extractor video as there are no corresponding events
+[16:13:23 INFO] Preparing extractor: text
+  0%|          | 0/15 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12891.50it/s]
+  7%|▋         | 1/15 [00:30<07:08, 30.59s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:30<01:31, 30.60s/it][A 33%|███▎      | 5/15 [00:30<00:45,  4.58s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:30<00:25, 12.68s/it][A 60%|██████    | 9/15 [00:30<00:12,  2.09s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:30<00:06,  6.98s/it][A 87%|████████▋ | 13/15 [00:31<00:02,  1.19s/it]100%|██████████| 15/15 [00:31<00:00,  2.07s/it]
+
+Computing word embeddings: 100%|██████████| 4/4 [00:31<00:00,  4.27s/it][AComputing word embeddings: 100%|██████████| 4/4 [00:31<00:00,  7.76s/it]
+[16:13:55 INFO] Preparing extractor: subject_id
+2026-06-15 16:13:55 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:13:55 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[16:13:56 WARNING] Removing extractor audio as there are no corresponding events
+[16:13:56 WARNING] Removing extractor video as there are no corresponding events
+[16:13:56 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7759.20it/s]
+ 12%|█▎        | 1/8 [00:30<03:31, 30.23s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:30<00:30, 30.23s/it][A 62%|██████▎   | 5/8 [00:30<00:13,  4.54s/it]100%|██████████| 8/8 [00:30<00:00,  3.80s/it]
+
+Computing word embeddings: 100%|██████████| 2/2 [00:30<00:00, 12.55s/it][AComputing word embeddings: 100%|██████████| 2/2 [00:30<00:00, 15.20s/it]
+[16:14:27 INFO] Preparing extractor: subject_id
+2026-06-15 16:14:27 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:14:27 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:14:28 WARNING] Removing extractor audio as there are no corresponding events
+[16:14:28 WARNING] Removing extractor video as there are no corresponding events
+[16:14:28 INFO] Preparing extractor: text
+  0%|          | 0/10 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12229.70it/s]
+ 10%|█         | 1/10 [00:32<04:53, 32.57s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:32<01:05, 32.57s/it][A 90%|█████████ | 9/10 [00:32<00:02,  2.64s/it]100%|██████████| 10/10 [00:32<00:00,  3.27s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:32<00:00,  8.49s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:32<00:00, 10.90s/it]
+[16:15:02 INFO] Preparing extractor: subject_id
+2026-06-15 16:15:02 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:15:02 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[16:15:03 WARNING] Removing extractor audio as there are no corresponding events
+[16:15:03 WARNING] Removing extractor video as there are no corresponding events
+[16:15:03 INFO] Preparing extractor: text
+  0%|          | 0/12 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 6491.54it/s]
+  8%|▊         | 1/12 [00:32<06:02, 32.96s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:32<01:05, 32.97s/it][A 42%|████▏     | 5/12 [00:33<00:34,  4.93s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:33<00:13, 13.64s/it][A 75%|███████▌  | 9/12 [00:33<00:06,  2.24s/it]100%|██████████| 12/12 [00:33<00:00,  2.77s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  7.47s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.07s/it]
+[16:15:37 INFO] Preparing extractor: subject_id
+2026-06-15 16:15:37 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:15:37 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[16:15:38 WARNING] Removing extractor audio as there are no corresponding events
+[16:15:38 WARNING] Removing extractor video as there are no corresponding events
+[16:15:38 INFO] Preparing extractor: text
+  0%|          | 0/10 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7621.26it/s]
+ 10%|█         | 1/10 [00:33<05:02, 33.61s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:07, 33.62s/it][A 50%|█████     | 5/10 [00:33<00:25,  5.04s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:33<00:13, 13.94s/it][A100%|██████████| 10/10 [00:33<00:00,  3.38s/it]
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.28s/it]
+[16:16:12 INFO] Preparing extractor: subject_id
+2026-06-15 16:16:12 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:16:12 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[16:16:14 WARNING] Removing extractor audio as there are no corresponding events
+[16:16:14 WARNING] Removing extractor video as there are no corresponding events
+[16:16:14 INFO] Preparing extractor: text
+  0%|          | 0/15 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10326.69it/s]
+  7%|▋         | 1/15 [00:33<07:45, 33.26s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:33<01:39, 33.26s/it][A 33%|███▎      | 5/15 [00:33<00:49,  4.99s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:33<00:27, 13.81s/it][A 60%|██████    | 9/15 [00:33<00:13,  2.27s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:33<00:07,  7.57s/it][A 87%|████████▋ | 13/15 [00:33<00:02,  1.29s/it]100%|██████████| 15/15 [00:33<00:00,  2.25s/it]
+
+Computing word embeddings: 100%|██████████| 4/4 [00:33<00:00,  4.62s/it][AComputing word embeddings: 100%|██████████| 4/4 [00:33<00:00,  8.43s/it]
+[16:16:48 INFO] Preparing extractor: subject_id
+2026-06-15 16:16:48 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:16:48 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[16:16:49 WARNING] Removing extractor audio as there are no corresponding events
+[16:16:49 WARNING] Removing extractor video as there are no corresponding events
+[16:16:49 INFO] Preparing extractor: text
+  0%|          | 0/28 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/7 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7159.87it/s]
+  4%|▎         | 1/28 [00:33<14:55, 33.17s/it]
+Computing word embeddings:  14%|█▍        | 1/7 [00:33<03:19, 33.18s/it][A 18%|█▊        | 5/28 [00:33<01:54,  4.97s/it]
+Computing word embeddings:  29%|██▊       | 2/7 [00:33<01:08, 13.73s/it][A 32%|███▏      | 9/28 [00:33<00:42,  2.26s/it]
+Computing word embeddings:  43%|████▎     | 3/7 [00:33<00:30,  7.52s/it][A 46%|████▋     | 13/28 [00:33<00:19,  1.28s/it]
+Computing word embeddings:  57%|█████▋    | 4/7 [00:33<00:13,  4.62s/it][A 61%|██████    | 17/28 [00:33<00:08,  1.24it/s]
+Computing word embeddings:  71%|███████▏  | 5/7 [00:33<00:06,  3.01s/it][A 75%|███████▌  | 21/28 [00:33<00:03,  1.88it/s]
+Computing word embeddings:  86%|████████▌ | 6/7 [00:33<00:02,  2.04s/it][A 89%|████████▉ | 25/28 [00:34<00:01,  2.73it/s]100%|██████████| 28/28 [00:34<00:00,  1.22s/it]
+
+Computing word embeddings: 100%|██████████| 7/7 [00:34<00:00,  1.42s/it][AComputing word embeddings: 100%|██████████| 7/7 [00:34<00:00,  4.87s/it]
+[16:17:24 INFO] Preparing extractor: subject_id
+2026-06-15 16:17:24 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:17:24 INFO] Building dataloader for split all
+INFO - Predicted 9 / 100 segments (9.0% kept)
+[16:17:25 WARNING] Removing extractor audio as there are no corresponding events
+[16:17:25 WARNING] Removing extractor video as there are no corresponding events
+[16:17:25 INFO] Preparing extractor: text
+  0%|          | 0/21 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/6 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11827.66it/s]
+  5%|▍         | 1/21 [00:28<09:32, 28.61s/it]
+Computing word embeddings:  17%|█▋        | 1/6 [00:28<02:23, 28.62s/it][A 24%|██▍       | 5/21 [00:28<01:08,  4.31s/it]
+Computing word embeddings:  33%|███▎      | 2/6 [00:28<00:47, 11.91s/it][A 43%|████▎     | 9/21 [00:28<00:23,  1.97s/it]
+Computing word embeddings:  50%|█████     | 3/6 [00:28<00:19,  6.54s/it][A 71%|███████▏  | 15/21 [00:29<00:05,  1.10it/s] 90%|█████████ | 19/21 [00:29<00:01,  1.62it/s]
+Computing word embeddings:  83%|████████▎ | 5/6 [00:29<00:02,  2.91s/it][A100%|██████████| 21/21 [00:29<00:00,  1.40s/it]
+Computing word embeddings: 100%|██████████| 6/6 [00:29<00:00,  4.89s/it]
+[16:17:55 INFO] Preparing extractor: subject_id
+2026-06-15 16:17:55 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:17:55 INFO] Building dataloader for split all
+INFO - Predicted 7 / 100 segments (7.0% kept)
+[16:17:56 WARNING] Removing extractor audio as there are no corresponding events
+[16:17:56 WARNING] Removing extractor video as there are no corresponding events
+[16:17:56 INFO] Preparing extractor: text
+  0%|          | 0/12 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9457.87it/s]
+  8%|▊         | 1/12 [00:33<06:03, 33.05s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:06, 33.05s/it][A 42%|████▏     | 5/12 [00:33<00:34,  4.95s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:33<00:13, 13.68s/it][A 75%|███████▌  | 9/12 [00:33<00:06,  2.25s/it]100%|██████████| 12/12 [00:33<00:00,  2.77s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  7.48s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.09s/it]
+[16:18:30 INFO] Preparing extractor: subject_id
+2026-06-15 16:18:30 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:18:30 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[16:18:32 WARNING] Removing extractor audio as there are no corresponding events
+[16:18:32 WARNING] Removing extractor video as there are no corresponding events
+[16:18:32 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11090.96it/s]
+ 20%|██        | 1/5 [00:32<02:09, 32.50s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:32<00:32, 32.50s/it][A100%|██████████| 5/5 [00:32<00:00,  4.87s/it]100%|██████████| 5/5 [00:32<00:00,  6.52s/it]
+
+Computing word embeddings: 100%|██████████| 2/2 [00:32<00:00, 13.45s/it][AComputing word embeddings: 100%|██████████| 2/2 [00:32<00:00, 16.31s/it]
+[16:19:04 INFO] Preparing extractor: subject_id
+2026-06-15 16:19:04 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:19:05 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+  base: 20/86
+[16:19:06 WARNING] Removing extractor audio as there are no corresponding events
+[16:19:06 WARNING] Removing extractor video as there are no corresponding events
+[16:19:06 INFO] Preparing extractor: text
+  0%|          | 0/25 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/7 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 13589.56it/s]
+  4%|▍         | 1/25 [00:33<13:21, 33.38s/it]
+Computing word embeddings:  14%|█▍        | 1/7 [00:33<03:20, 33.39s/it][A 36%|███▌      | 9/25 [00:33<00:43,  2.72s/it]
+Computing word embeddings:  43%|████▎     | 3/7 [00:33<00:35,  8.76s/it][A 52%|█████▏    | 13/25 [00:34<00:20,  1.68s/it]
+Computing word embeddings:  57%|█████▋    | 4/7 [00:34<00:17,  5.86s/it][A 68%|██████▊   | 17/25 [00:34<00:08,  1.09s/it]
+Computing word embeddings:  71%|███████▏  | 5/7 [00:34<00:07,  3.99s/it][A 84%|████████▍ | 21/25 [00:34<00:02,  1.36it/s]
+Computing word embeddings:  86%|████████▌ | 6/7 [00:34<00:02,  2.78s/it][A100%|██████████| 25/25 [00:34<00:00,  1.38s/it]
+Computing word embeddings: 100%|██████████| 7/7 [00:34<00:00,  4.93s/it]
+[16:19:41 INFO] Preparing extractor: subject_id
+2026-06-15 16:19:41 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:19:41 INFO] Building dataloader for split all
+INFO - Predicted 8 / 100 segments (8.0% kept)
+[16:19:42 WARNING] Removing extractor audio as there are no corresponding events
+[16:19:42 WARNING] Removing extractor video as there are no corresponding events
+[16:19:42 INFO] Preparing extractor: text
+  0%|          | 0/13 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 6531.18it/s]
+  8%|▊         | 1/13 [00:33<06:45, 33.79s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:33<01:41, 33.79s/it][A 38%|███▊      | 5/13 [00:33<00:40,  5.06s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:33<00:27, 13.98s/it][A 69%|██████▉   | 9/13 [00:34<00:09,  2.30s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:34<00:07,  7.65s/it][A100%|██████████| 13/13 [00:34<00:00,  1.30s/it]100%|██████████| 13/13 [00:34<00:00,  2.63s/it]
+
+Computing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  4.67s/it][AComputing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  8.53s/it]
+[16:20:17 INFO] Preparing extractor: subject_id
+2026-06-15 16:20:17 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:20:17 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[16:20:19 WARNING] Removing extractor audio as there are no corresponding events
+[16:20:19 WARNING] Removing extractor video as there are no corresponding events
+[16:20:19 INFO] Preparing extractor: text
+  0%|          | 0/4 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10387.81it/s]
+ 25%|██▌       | 1/4 [00:33<01:41, 33.79s/it]100%|██████████| 4/4 [00:33<00:00,  8.45s/it]
+[16:20:53 INFO] Preparing extractor: subject_id
+2026-06-15 16:20:53 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:20:53 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:20:54 WARNING] Removing extractor audio as there are no corresponding events
+[16:20:54 WARNING] Removing extractor video as there are no corresponding events
+[16:20:54 INFO] Preparing extractor: text
+  0%|          | 0/11 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11316.69it/s]
+  9%|▉         | 1/11 [00:34<05:42, 34.24s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:34<01:08, 34.24s/it][A 45%|████▌     | 5/11 [00:34<00:30,  5.14s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:34<00:14, 14.20s/it][A 82%|████████▏ | 9/11 [00:34<00:04,  2.34s/it]100%|██████████| 11/11 [00:34<00:00,  3.14s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:34<00:00,  7.78s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:34<00:00, 11.52s/it]
+[16:21:29 INFO] Preparing extractor: subject_id
+2026-06-15 16:21:29 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:21:29 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[16:21:31 WARNING] Removing extractor audio as there are no corresponding events
+[16:21:31 WARNING] Removing extractor video as there are no corresponding events
+[16:21:31 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9992.81it/s]
+ 17%|█▋        | 1/6 [00:32<02:44, 32.98s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:32<00:32, 32.98s/it][A100%|██████████| 6/6 [00:33<00:00,  5.51s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.52s/it]
+[16:22:04 INFO] Preparing extractor: subject_id
+2026-06-15 16:22:04 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:22:04 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:22:05 WARNING] Removing extractor audio as there are no corresponding events
+[16:22:05 WARNING] Removing extractor video as there are no corresponding events
+[16:22:05 INFO] Preparing extractor: text
+  0%|          | 0/4 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 8600.09it/s]
+ 25%|██▌       | 1/4 [00:33<01:40, 33.40s/it]100%|██████████| 4/4 [00:33<00:00,  8.35s/it]
+[16:22:39 INFO] Preparing extractor: subject_id
+2026-06-15 16:22:39 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:22:39 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:22:41 WARNING] Removing extractor audio as there are no corresponding events
+[16:22:41 WARNING] Removing extractor video as there are no corresponding events
+[16:22:41 INFO] Preparing extractor: text
+  0%|          | 0/15 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7272.48it/s]
+  7%|▋         | 1/15 [00:33<07:53, 33.84s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:33<01:41, 33.85s/it][A 33%|███▎      | 5/15 [00:33<00:50,  5.07s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:34<00:28, 14.03s/it][A 60%|██████    | 9/15 [00:34<00:13,  2.32s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:34<00:07,  7.72s/it][A 87%|████████▋ | 13/15 [00:34<00:02,  1.32s/it]100%|██████████| 15/15 [00:34<00:00,  2.29s/it]
+
+Computing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  4.74s/it][AComputing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  8.59s/it]
+[16:23:15 INFO] Preparing extractor: subject_id
+2026-06-15 16:23:15 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:23:16 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[16:23:17 WARNING] Removing extractor audio as there are no corresponding events
+[16:23:17 WARNING] Removing extractor video as there are no corresponding events
+[16:23:17 INFO] Preparing extractor: text
+  0%|          | 0/9 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9645.31it/s]
+ 11%|█         | 1/9 [00:33<04:25, 33.17s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:06, 33.18s/it][A 56%|█████▌    | 5/9 [00:33<00:19,  5.00s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:33<00:13, 13.82s/it][A100%|██████████| 9/9 [00:33<00:00,  2.27s/it]100%|██████████| 9/9 [00:33<00:00,  3.73s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  7.57s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.19s/it]
+[16:23:51 INFO] Preparing extractor: subject_id
+2026-06-15 16:23:51 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:23:51 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[16:23:52 WARNING] Removing extractor audio as there are no corresponding events
+[16:23:52 WARNING] Removing extractor video as there are no corresponding events
+[16:23:52 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 13340.26it/s]
+ 20%|██        | 1/5 [00:34<02:16, 34.16s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:34<00:34, 34.16s/it][A100%|██████████| 5/5 [00:34<00:00,  6.84s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.11s/it]
+[16:24:27 INFO] Preparing extractor: subject_id
+2026-06-15 16:24:27 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:24:27 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:24:28 WARNING] Removing extractor audio as there are no corresponding events
+[16:24:28 WARNING] Removing extractor video as there are no corresponding events
+[16:24:28 INFO] Preparing extractor: text
+  0%|          | 0/12 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7381.47it/s]
+  8%|▊         | 1/12 [00:34<06:19, 34.51s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:34<01:09, 34.52s/it][A 42%|████▏     | 5/12 [00:34<00:36,  5.17s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:34<00:14, 14.29s/it][A100%|██████████| 12/12 [00:34<00:00,  2.90s/it]
+Computing word embeddings: 100%|██████████| 3/3 [00:34<00:00, 11.58s/it]
+[16:25:04 INFO] Preparing extractor: subject_id
+2026-06-15 16:25:04 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:25:04 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+  base: 30/86
+[16:25:05 WARNING] Removing extractor audio as there are no corresponding events
+[16:25:05 WARNING] Removing extractor video as there are no corresponding events
+[16:25:05 INFO] Preparing extractor: text
+  0%|          | 0/14 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11422.25it/s]
+  7%|▋         | 1/14 [00:33<07:14, 33.41s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:33<01:40, 33.41s/it][A 64%|██████▍   | 9/14 [00:33<00:13,  2.71s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:33<00:08,  8.72s/it][A100%|██████████| 14/14 [00:33<00:00,  2.40s/it]
+Computing word embeddings: 100%|██████████| 4/4 [00:33<00:00,  8.40s/it]
+[16:25:39 INFO] Preparing extractor: subject_id
+2026-06-15 16:25:39 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:25:39 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[16:25:40 WARNING] Removing extractor audio as there are no corresponding events
+[16:25:40 WARNING] Removing extractor video as there are no corresponding events
+[16:25:40 INFO] Preparing extractor: text
+  0%|          | 0/15 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 8267.27it/s]
+  7%|▋         | 1/15 [00:32<07:39, 32.84s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:32<01:38, 32.84s/it][A 33%|███▎      | 5/15 [00:33<00:49,  4.94s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:33<00:27, 13.65s/it][A 60%|██████    | 9/15 [00:33<00:13,  2.24s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:33<00:07,  7.47s/it][A 87%|████████▋ | 13/15 [00:33<00:02,  1.27s/it]100%|██████████| 15/15 [00:33<00:00,  2.22s/it]
+
+Computing word embeddings: 100%|██████████| 4/4 [00:33<00:00,  4.57s/it][AComputing word embeddings: 100%|██████████| 4/4 [00:33<00:00,  8.32s/it]
+[16:26:14 INFO] Preparing extractor: subject_id
+2026-06-15 16:26:14 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:26:14 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[16:26:16 WARNING] Removing extractor audio as there are no corresponding events
+[16:26:16 WARNING] Removing extractor video as there are no corresponding events
+[16:26:16 INFO] Preparing extractor: text
+  0%|          | 0/15 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9523.48it/s]
+  7%|▋         | 1/15 [00:32<07:38, 32.73s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:32<01:38, 32.73s/it][A 33%|███▎      | 5/15 [00:32<00:48,  4.90s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:32<00:27, 13.54s/it][A 60%|██████    | 9/15 [00:33<00:13,  2.23s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:33<00:07,  7.43s/it][A100%|██████████| 15/15 [00:33<00:00,  2.21s/it]
+Computing word embeddings: 100%|██████████| 4/4 [00:33<00:00,  8.27s/it]
+[16:26:49 INFO] Preparing extractor: subject_id
+2026-06-15 16:26:49 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:26:49 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[16:26:51 WARNING] Removing extractor audio as there are no corresponding events
+[16:26:51 WARNING] Removing extractor video as there are no corresponding events
+[16:26:51 INFO] Preparing extractor: text
+  0%|          | 0/10 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 6275.05it/s]
+ 10%|█         | 1/10 [00:33<04:59, 33.28s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:06, 33.28s/it][A 50%|█████     | 5/10 [00:33<00:24,  4.98s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:33<00:13, 13.78s/it][A 90%|█████████ | 9/10 [00:33<00:02,  2.28s/it]100%|██████████| 10/10 [00:33<00:00,  3.37s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  7.60s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.22s/it]
+[16:27:25 INFO] Preparing extractor: subject_id
+2026-06-15 16:27:25 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:27:25 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[16:27:26 WARNING] Removing extractor audio as there are no corresponding events
+[16:27:26 WARNING] Removing extractor video as there are no corresponding events
+[16:27:26 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9595.96it/s]
+ 17%|█▋        | 1/6 [00:32<02:43, 32.79s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:32<00:32, 32.79s/it][A100%|██████████| 6/6 [00:32<00:00,  5.48s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:32<00:00, 16.43s/it]
+[16:28:00 INFO] Preparing extractor: subject_id
+2026-06-15 16:28:00 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:28:00 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:28:01 WARNING] Removing extractor audio as there are no corresponding events
+[16:28:01 WARNING] Removing extractor video as there are no corresponding events
+[16:28:01 INFO] Preparing extractor: text
+  0%|          | 0/28 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/7 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 14941.84it/s]
+  4%|▎         | 1/28 [00:33<15:03, 33.46s/it]
+Computing word embeddings:  14%|█▍        | 1/7 [00:33<03:20, 33.47s/it][A 18%|█▊        | 5/28 [00:33<01:55,  5.02s/it]
+Computing word embeddings:  29%|██▊       | 2/7 [00:33<01:09, 13.87s/it][A 32%|███▏      | 9/28 [00:33<00:43,  2.29s/it]
+Computing word embeddings:  43%|████▎     | 3/7 [00:33<00:30,  7.61s/it][A 46%|████▋     | 13/28 [00:33<00:19,  1.30s/it]
+Computing word embeddings:  57%|█████▋    | 4/7 [00:33<00:13,  4.66s/it][A 61%|██████    | 17/28 [00:34<00:08,  1.23it/s]
+Computing word embeddings:  71%|███████▏  | 5/7 [00:34<00:06,  3.03s/it][A 75%|███████▌  | 21/28 [00:34<00:03,  1.86it/s]
+Computing word embeddings:  86%|████████▌ | 6/7 [00:34<00:02,  2.06s/it][A 89%|████████▉ | 25/28 [00:34<00:01,  2.66it/s]100%|██████████| 28/28 [00:34<00:00,  1.23s/it]
+
+Computing word embeddings: 100%|██████████| 7/7 [00:34<00:00,  1.46s/it][AComputing word embeddings: 100%|██████████| 7/7 [00:34<00:00,  4.92s/it]
+[16:28:36 INFO] Preparing extractor: subject_id
+2026-06-15 16:28:36 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:28:36 INFO] Building dataloader for split all
+INFO - Predicted 9 / 100 segments (9.0% kept)
+[16:28:38 WARNING] Removing extractor audio as there are no corresponding events
+[16:28:38 WARNING] Removing extractor video as there are no corresponding events
+[16:28:38 INFO] Preparing extractor: text
+  0%|          | 0/7 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 6722.28it/s]
+ 14%|█▍        | 1/7 [00:32<03:15, 32.52s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:32<00:32, 32.52s/it][A100%|██████████| 7/7 [00:32<00:00,  4.65s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:32<00:00, 16.29s/it]
+[16:29:10 INFO] Preparing extractor: subject_id
+2026-06-15 16:29:10 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:29:11 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:29:12 WARNING] Removing extractor audio as there are no corresponding events
+[16:29:12 WARNING] Removing extractor video as there are no corresponding events
+[16:29:12 INFO] Preparing extractor: text
+  0%|          | 0/9 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10760.93it/s]
+ 11%|█         | 1/9 [00:33<04:25, 33.24s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:06, 33.25s/it][A 56%|█████▌    | 5/9 [00:33<00:19,  4.98s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:33<00:13, 13.76s/it][A100%|██████████| 9/9 [00:33<00:00,  3.71s/it]
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.14s/it]
+[16:29:46 INFO] Preparing extractor: subject_id
+2026-06-15 16:29:46 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:29:46 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:29:47 WARNING] Removing extractor audio as there are no corresponding events
+[16:29:47 WARNING] Removing extractor video as there are no corresponding events
+[16:29:47 INFO] Preparing extractor: text
+  0%|          | 0/14 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12732.19it/s]
+  7%|▋         | 1/14 [00:34<07:24, 34.17s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:34<01:42, 34.17s/it][A 36%|███▌      | 5/14 [00:34<00:46,  5.12s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:34<00:28, 14.15s/it][A 93%|█████████▎| 13/14 [00:34<00:01,  1.51s/it]100%|██████████| 14/14 [00:34<00:00,  2.46s/it]
+
+Computing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  5.33s/it][AComputing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  8.62s/it]
+[16:30:22 INFO] Preparing extractor: subject_id
+2026-06-15 16:30:22 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:30:22 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[16:30:23 WARNING] Removing extractor audio as there are no corresponding events
+[16:30:23 WARNING] Removing extractor video as there are no corresponding events
+[16:30:23 INFO] Preparing extractor: text
+  0%|          | 0/10 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9335.95it/s]
+ 10%|█         | 1/10 [00:32<04:52, 32.52s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:32<01:05, 32.52s/it][A 90%|█████████ | 9/10 [00:32<00:02,  2.63s/it]100%|██████████| 10/10 [00:32<00:00,  3.26s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:32<00:00,  8.47s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:32<00:00, 10.88s/it]
+[16:30:56 INFO] Preparing extractor: subject_id
+2026-06-15 16:30:56 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:30:57 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+  base: 40/86
+[16:30:58 WARNING] Removing extractor audio as there are no corresponding events
+[16:30:58 WARNING] Removing extractor video as there are no corresponding events
+[16:30:58 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7080.31it/s]
+ 12%|█▎        | 1/8 [00:33<03:56, 33.80s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.80s/it][A100%|██████████| 8/8 [00:33<00:00,  4.24s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.95s/it]
+[16:31:32 INFO] Preparing extractor: subject_id
+2026-06-15 16:31:32 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:31:32 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:31:34 WARNING] Removing extractor audio as there are no corresponding events
+[16:31:34 WARNING] Removing extractor video as there are no corresponding events
+[16:31:34 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 6635.32it/s]
+ 20%|██        | 1/5 [00:33<02:14, 33.62s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.62s/it][A100%|██████████| 5/5 [00:33<00:00,  6.73s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.83s/it]
+[16:32:08 INFO] Preparing extractor: subject_id
+2026-06-15 16:32:08 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:32:08 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:32:09 WARNING] Removing extractor audio as there are no corresponding events
+[16:32:09 WARNING] Removing extractor video as there are no corresponding events
+[16:32:09 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11121.53it/s]
+ 12%|█▎        | 1/8 [00:29<03:23, 29.04s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:29<00:29, 29.04s/it][A100%|██████████| 8/8 [00:29<00:00,  3.64s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:29<00:00, 14.55s/it]
+[16:32:39 INFO] Preparing extractor: subject_id
+2026-06-15 16:32:39 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:32:39 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:32:40 WARNING] Removing extractor audio as there are no corresponding events
+[16:32:40 WARNING] Removing extractor video as there are no corresponding events
+[16:32:40 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7522.83it/s]
+ 12%|█▎        | 1/8 [00:33<03:51, 33.12s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.13s/it][A 62%|██████▎   | 5/8 [00:33<00:14,  4.97s/it]100%|██████████| 8/8 [00:33<00:00,  4.16s/it]
+
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 13.74s/it][AComputing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.65s/it]
+[16:33:14 INFO] Preparing extractor: subject_id
+2026-06-15 16:33:14 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:33:14 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:33:15 WARNING] Removing extractor audio as there are no corresponding events
+[16:33:15 WARNING] Removing extractor video as there are no corresponding events
+[16:33:15 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9440.35it/s]
+ 12%|█▎        | 1/8 [00:32<03:50, 32.92s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:32<00:32, 32.92s/it][A100%|██████████| 8/8 [00:33<00:00,  4.13s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.51s/it]
+[16:33:49 INFO] Preparing extractor: subject_id
+2026-06-15 16:33:49 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:33:49 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:33:50 WARNING] Removing extractor audio as there are no corresponding events
+[16:33:50 WARNING] Removing extractor video as there are no corresponding events
+[16:33:50 INFO] Preparing extractor: text
+  0%|          | 0/10 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9784.39it/s]
+ 10%|█         | 1/10 [00:33<05:03, 33.73s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:07, 33.74s/it][A 90%|█████████ | 9/10 [00:33<00:02,  2.73s/it]100%|██████████| 10/10 [00:33<00:00,  3.38s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  8.79s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.28s/it]
+[16:34:24 INFO] Preparing extractor: subject_id
+2026-06-15 16:34:24 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:34:25 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[16:34:26 WARNING] Removing extractor audio as there are no corresponding events
+[16:34:26 WARNING] Removing extractor video as there are no corresponding events
+[16:34:26 INFO] Preparing extractor: text
+  0%|          | 0/9 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 5627.71it/s]
+ 11%|█         | 1/9 [00:34<04:32, 34.11s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:34<01:08, 34.12s/it][A100%|██████████| 9/9 [00:34<00:00,  2.76s/it]100%|██████████| 9/9 [00:34<00:00,  3.81s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:34<00:00,  8.90s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:34<00:00, 11.42s/it]
+[16:35:00 INFO] Preparing extractor: subject_id
+2026-06-15 16:35:00 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:35:01 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:35:02 WARNING] Removing extractor audio as there are no corresponding events
+[16:35:02 WARNING] Removing extractor video as there are no corresponding events
+[16:35:02 INFO] Preparing extractor: text
+  0%|          | 0/10 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11687.40it/s]
+ 10%|█         | 1/10 [00:33<05:00, 33.43s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:06, 33.44s/it][A 50%|█████     | 5/10 [00:33<00:25,  5.01s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:33<00:13, 13.86s/it][A100%|██████████| 10/10 [00:33<00:00,  3.37s/it]
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.22s/it]
+[16:35:36 INFO] Preparing extractor: subject_id
+2026-06-15 16:35:36 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:35:36 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[16:35:37 WARNING] Removing extractor audio as there are no corresponding events
+[16:35:37 WARNING] Removing extractor video as there are no corresponding events
+[16:35:37 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10545.23it/s]
+ 20%|██        | 1/5 [00:33<02:14, 33.71s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.71s/it][A100%|██████████| 5/5 [00:33<00:00,  6.75s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.88s/it]
+[16:36:11 INFO] Preparing extractor: subject_id
+2026-06-15 16:36:11 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:36:12 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:36:13 WARNING] Removing extractor audio as there are no corresponding events
+[16:36:13 WARNING] Removing extractor video as there are no corresponding events
+[16:36:13 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7155.30it/s]
+ 20%|██        | 1/5 [00:33<02:15, 33.76s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.76s/it][A100%|██████████| 5/5 [00:33<00:00,  6.76s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.90s/it]
+[16:36:47 INFO] Preparing extractor: subject_id
+2026-06-15 16:36:47 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:36:47 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+  base: 50/86
+[16:36:49 WARNING] Removing extractor audio as there are no corresponding events
+[16:36:49 WARNING] Removing extractor video as there are no corresponding events
+[16:36:49 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7312.22it/s]
+ 20%|██        | 1/5 [00:34<02:16, 34.10s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:34<00:34, 34.10s/it][A100%|██████████| 5/5 [00:34<00:00,  6.83s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.08s/it]
+[16:37:23 INFO] Preparing extractor: subject_id
+2026-06-15 16:37:23 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:37:23 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:37:25 WARNING] Removing extractor audio as there are no corresponding events
+[16:37:25 WARNING] Removing extractor video as there are no corresponding events
+[16:37:25 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12821.37it/s]
+ 12%|█▎        | 1/8 [00:34<03:58, 34.11s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:34<00:34, 34.12s/it][A 62%|██████▎   | 5/8 [00:34<00:15,  5.12s/it]100%|██████████| 8/8 [00:34<00:00,  4.29s/it]
+
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 14.15s/it][AComputing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.15s/it]
+[16:37:59 INFO] Preparing extractor: subject_id
+2026-06-15 16:37:59 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:37:59 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:38:01 WARNING] Removing extractor audio as there are no corresponding events
+[16:38:01 WARNING] Removing extractor video as there are no corresponding events
+[16:38:01 INFO] Preparing extractor: text
+  0%|          | 0/9 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11025.88it/s]
+ 11%|█         | 1/9 [00:33<04:24, 33.00s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:06, 33.00s/it][A100%|██████████| 9/9 [00:33<00:00,  2.67s/it]100%|██████████| 9/9 [00:33<00:00,  3.68s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  8.60s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.04s/it]
+[16:38:34 INFO] Preparing extractor: subject_id
+2026-06-15 16:38:34 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:38:34 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:38:36 WARNING] Removing extractor audio as there are no corresponding events
+[16:38:36 WARNING] Removing extractor video as there are no corresponding events
+[16:38:36 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 8776.21it/s]
+ 12%|█▎        | 1/8 [00:34<03:58, 34.07s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:34<00:34, 34.07s/it][A100%|██████████| 8/8 [00:34<00:00,  4.27s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.07s/it]
+[16:39:10 INFO] Preparing extractor: subject_id
+2026-06-15 16:39:10 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:39:10 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:39:12 WARNING] Removing extractor audio as there are no corresponding events
+[16:39:12 WARNING] Removing extractor video as there are no corresponding events
+[16:39:12 INFO] Preparing extractor: text
+  0%|          | 0/28 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/7 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7532.40it/s]
+  4%|▎         | 1/28 [00:34<15:20, 34.09s/it]
+Computing word embeddings:  14%|█▍        | 1/7 [00:34<03:24, 34.10s/it][A 18%|█▊        | 5/28 [00:34<01:57,  5.13s/it]
+Computing word embeddings:  29%|██▊       | 2/7 [00:34<01:10, 14.18s/it][A 32%|███▏      | 9/28 [00:34<00:44,  2.34s/it]
+Computing word embeddings:  43%|████▎     | 3/7 [00:34<00:31,  7.79s/it][A 46%|████▋     | 13/28 [00:34<00:19,  1.33s/it]
+Computing word embeddings:  57%|█████▋    | 4/7 [00:34<00:14,  4.76s/it][A 61%|██████    | 17/28 [00:34<00:09,  1.21it/s]
+Computing word embeddings:  71%|███████▏  | 5/7 [00:34<00:06,  3.09s/it][A 75%|███████▌  | 21/28 [00:34<00:03,  1.84it/s]
+Computing word embeddings:  86%|████████▌ | 6/7 [00:34<00:02,  2.08s/it][A 89%|████████▉ | 25/28 [00:35<00:01,  2.69it/s]100%|██████████| 28/28 [00:35<00:00,  1.25s/it]
+
+Computing word embeddings: 100%|██████████| 7/7 [00:35<00:00,  1.45s/it][AComputing word embeddings: 100%|██████████| 7/7 [00:35<00:00,  5.00s/it]
+[16:39:47 INFO] Preparing extractor: subject_id
+2026-06-15 16:39:47 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:39:47 INFO] Building dataloader for split all
+INFO - Predicted 9 / 100 segments (9.0% kept)
+[16:39:48 WARNING] Removing extractor audio as there are no corresponding events
+[16:39:48 WARNING] Removing extractor video as there are no corresponding events
+[16:39:48 INFO] Preparing extractor: text
+  0%|          | 0/4 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 6482.54it/s]
+ 25%|██▌       | 1/4 [00:33<01:39, 33.23s/it]100%|██████████| 4/4 [00:33<00:00,  8.31s/it]
+[16:40:22 INFO] Preparing extractor: subject_id
+2026-06-15 16:40:22 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:40:22 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:40:23 WARNING] Removing extractor audio as there are no corresponding events
+[16:40:23 WARNING] Removing extractor video as there are no corresponding events
+[16:40:23 INFO] Preparing extractor: text
+  0%|          | 0/21 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/6 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 14526.42it/s]
+  5%|▍         | 1/21 [00:34<11:24, 34.21s/it]
+Computing word embeddings:  17%|█▋        | 1/6 [00:34<02:51, 34.22s/it][A 24%|██▍       | 5/21 [00:34<01:22,  5.16s/it]
+Computing word embeddings:  33%|███▎      | 2/6 [00:34<00:57, 14.26s/it][A 43%|████▎     | 9/21 [00:34<00:28,  2.35s/it]
+Computing word embeddings:  50%|█████     | 3/6 [00:34<00:23,  7.84s/it][A 62%|██████▏   | 13/21 [00:34<00:10,  1.35s/it]
+Computing word embeddings:  67%|██████▋   | 4/6 [00:34<00:09,  4.84s/it][A 81%|████████  | 17/21 [00:35<00:03,  1.18it/s]
+Computing word embeddings:  83%|████████▎ | 5/6 [00:35<00:03,  3.18s/it][A100%|██████████| 21/21 [00:35<00:00,  1.78it/s]100%|██████████| 21/21 [00:35<00:00,  1.68s/it]
+
+Computing word embeddings: 100%|██████████| 6/6 [00:35<00:00,  2.15s/it][AComputing word embeddings: 100%|██████████| 6/6 [00:35<00:00,  5.89s/it]
+[16:40:59 INFO] Preparing extractor: subject_id
+2026-06-15 16:40:59 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:40:59 INFO] Building dataloader for split all
+INFO - Predicted 7 / 100 segments (7.0% kept)
+[16:41:01 WARNING] Removing extractor audio as there are no corresponding events
+[16:41:01 WARNING] Removing extractor video as there are no corresponding events
+[16:41:01 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11060.56it/s]
+ 17%|█▋        | 1/6 [00:29<02:28, 29.61s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:29<00:29, 29.62s/it][A100%|██████████| 6/6 [00:29<00:00,  4.95s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:29<00:00, 14.84s/it]
+[16:41:31 INFO] Preparing extractor: subject_id
+2026-06-15 16:41:31 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:41:31 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:41:32 WARNING] Removing extractor audio as there are no corresponding events
+[16:41:32 WARNING] Removing extractor video as there are no corresponding events
+[16:41:32 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 6413.15it/s]
+ 17%|█▋        | 1/6 [00:33<02:49, 33.96s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.96s/it][A100%|██████████| 6/6 [00:34<00:00,  5.67s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.01s/it]
+[16:42:07 INFO] Preparing extractor: subject_id
+2026-06-15 16:42:07 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:42:07 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:42:08 WARNING] Removing extractor audio as there are no corresponding events
+[16:42:08 WARNING] Removing extractor video as there are no corresponding events
+[16:42:08 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9733.52it/s]
+ 12%|█▎        | 1/8 [00:33<03:56, 33.73s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.74s/it][A100%|██████████| 8/8 [00:33<00:00,  4.22s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.90s/it]
+[16:42:42 INFO] Preparing extractor: subject_id
+2026-06-15 16:42:42 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:42:42 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+  base: 60/86
+[16:42:44 WARNING] Removing extractor audio as there are no corresponding events
+[16:42:44 WARNING] Removing extractor video as there are no corresponding events
+[16:42:44 INFO] Preparing extractor: text
+  0%|          | 0/7 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7525.12it/s]
+ 14%|█▍        | 1/7 [00:34<03:25, 34.17s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:34<00:34, 34.17s/it][A100%|██████████| 7/7 [00:34<00:00,  4.89s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.12s/it]
+[16:43:18 INFO] Preparing extractor: subject_id
+2026-06-15 16:43:18 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:43:18 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:43:20 WARNING] Removing extractor audio as there are no corresponding events
+[16:43:20 WARNING] Removing extractor video as there are no corresponding events
+[16:43:20 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9111.97it/s]
+ 17%|█▋        | 1/6 [00:32<02:44, 32.80s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:32<00:32, 32.81s/it][A100%|██████████| 6/6 [00:32<00:00,  5.48s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:32<00:00, 16.44s/it]
+[16:43:53 INFO] Preparing extractor: subject_id
+2026-06-15 16:43:53 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:43:53 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:43:54 WARNING] Removing extractor audio as there are no corresponding events
+[16:43:54 WARNING] Removing extractor video as there are no corresponding events
+[16:43:54 INFO] Preparing extractor: text
+  0%|          | 0/11 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 14396.86it/s]
+  9%|▉         | 1/11 [00:34<05:40, 34.06s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:34<01:08, 34.06s/it][A 45%|████▌     | 5/11 [00:34<00:30,  5.11s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:34<00:14, 14.13s/it][A100%|██████████| 11/11 [00:34<00:00,  3.12s/it]
+Computing word embeddings: 100%|██████████| 3/3 [00:34<00:00, 11.44s/it]
+[16:44:29 INFO] Preparing extractor: subject_id
+2026-06-15 16:44:29 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:44:29 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[16:44:31 WARNING] Removing extractor audio as there are no corresponding events
+[16:44:31 WARNING] Removing extractor video as there are no corresponding events
+[16:44:31 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 8236.40it/s]
+ 17%|█▋        | 1/6 [00:33<02:46, 33.36s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.37s/it][A100%|██████████| 6/6 [00:33<00:00,  5.57s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.72s/it]
+[16:45:04 INFO] Preparing extractor: subject_id
+2026-06-15 16:45:04 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:45:05 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:45:06 WARNING] Removing extractor audio as there are no corresponding events
+[16:45:06 WARNING] Removing extractor video as there are no corresponding events
+[16:45:06 INFO] Preparing extractor: text
+  0%|          | 0/14 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10247.72it/s]
+  7%|▋         | 1/14 [00:32<07:05, 32.74s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:32<01:38, 32.74s/it][A 36%|███▌      | 5/14 [00:32<00:44,  4.90s/it] 64%|██████▍   | 9/14 [00:32<00:11,  2.23s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:32<00:08,  8.57s/it][A100%|██████████| 14/14 [00:33<00:00,  2.36s/it]
+Computing word embeddings: 100%|██████████| 4/4 [00:33<00:00,  8.26s/it]
+[16:45:39 INFO] Preparing extractor: subject_id
+2026-06-15 16:45:39 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:45:40 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[16:45:41 WARNING] Removing extractor audio as there are no corresponding events
+[16:45:41 WARNING] Removing extractor video as there are no corresponding events
+[16:45:41 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9563.83it/s]
+ 20%|██        | 1/5 [00:32<02:11, 32.94s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:32<00:32, 32.95s/it][A100%|██████████| 5/5 [00:32<00:00,  6.60s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:32<00:00, 16.50s/it]
+[16:46:14 INFO] Preparing extractor: subject_id
+2026-06-15 16:46:14 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:46:14 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:46:16 WARNING] Removing extractor audio as there are no corresponding events
+[16:46:16 WARNING] Removing extractor video as there are no corresponding events
+[16:46:16 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9647.67it/s]
+ 20%|██        | 1/5 [00:33<02:13, 33.34s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.34s/it][A100%|██████████| 5/5 [00:33<00:00,  6.67s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.69s/it]
+[16:46:49 INFO] Preparing extractor: subject_id
+2026-06-15 16:46:49 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:46:50 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:46:51 WARNING] Removing extractor audio as there are no corresponding events
+[16:46:51 WARNING] Removing extractor video as there are no corresponding events
+[16:46:51 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9247.38it/s]
+ 12%|█▎        | 1/8 [00:34<03:59, 34.16s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:34<00:34, 34.16s/it][A 62%|██████▎   | 5/8 [00:34<00:15,  5.11s/it]100%|██████████| 8/8 [00:34<00:00,  4.28s/it]
+
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 14.13s/it][AComputing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.13s/it]
+[16:47:25 INFO] Preparing extractor: subject_id
+2026-06-15 16:47:25 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:47:26 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:47:27 WARNING] Removing extractor audio as there are no corresponding events
+[16:47:27 WARNING] Removing extractor video as there are no corresponding events
+[16:47:27 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10204.53it/s]
+ 20%|██        | 1/5 [00:34<02:16, 34.14s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:34<00:34, 34.14s/it][A100%|██████████| 5/5 [00:34<00:00,  6.84s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.10s/it]
+[16:48:01 INFO] Preparing extractor: subject_id
+2026-06-15 16:48:01 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:48:02 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:48:03 WARNING] Removing extractor audio as there are no corresponding events
+[16:48:03 WARNING] Removing extractor video as there are no corresponding events
+[16:48:03 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7156.70it/s]
+ 17%|█▋        | 1/6 [00:28<02:22, 28.53s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:28<00:28, 28.54s/it][A100%|██████████| 6/6 [00:28<00:00,  4.76s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:28<00:00, 14.29s/it]
+[16:48:32 INFO] Preparing extractor: subject_id
+2026-06-15 16:48:32 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:48:32 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+  base: 70/86
+[16:48:33 WARNING] Removing extractor audio as there are no corresponding events
+[16:48:33 WARNING] Removing extractor video as there are no corresponding events
+[16:48:33 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7538.85it/s]
+ 20%|██        | 1/5 [00:33<02:14, 33.63s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.63s/it][A100%|██████████| 5/5 [00:33<00:00,  6.74s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.85s/it]
+[16:49:07 INFO] Preparing extractor: subject_id
+2026-06-15 16:49:07 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:49:08 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:49:09 WARNING] Removing extractor audio as there are no corresponding events
+[16:49:09 WARNING] Removing extractor video as there are no corresponding events
+[16:49:09 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 18258.29it/s]
+ 17%|█▋        | 1/6 [00:33<02:46, 33.29s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.30s/it][A100%|██████████| 6/6 [00:33<00:00,  5.56s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.69s/it]
+[16:49:43 INFO] Preparing extractor: subject_id
+2026-06-15 16:49:43 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:49:43 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:49:44 WARNING] Removing extractor audio as there are no corresponding events
+[16:49:44 WARNING] Removing extractor video as there are no corresponding events
+[16:49:44 INFO] Preparing extractor: text
+  0%|          | 0/10 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10285.81it/s]
+ 10%|█         | 1/10 [00:33<05:01, 33.47s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:06, 33.47s/it][A 90%|█████████ | 9/10 [00:33<00:02,  2.71s/it]100%|██████████| 10/10 [00:33<00:00,  3.36s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  8.73s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.20s/it]
+[16:50:18 INFO] Preparing extractor: subject_id
+2026-06-15 16:50:18 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:50:19 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[16:50:20 WARNING] Removing extractor audio as there are no corresponding events
+[16:50:20 WARNING] Removing extractor video as there are no corresponding events
+[16:50:20 INFO] Preparing extractor: text
+  0%|          | 0/12 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7670.15it/s]
+  8%|▊         | 1/12 [00:33<06:03, 33.04s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:06, 33.05s/it][A 75%|███████▌  | 9/12 [00:33<00:08,  2.69s/it]100%|██████████| 12/12 [00:33<00:00,  2.77s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  8.65s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.09s/it]
+[16:50:54 INFO] Preparing extractor: subject_id
+2026-06-15 16:50:54 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:50:54 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[16:50:55 WARNING] Removing extractor audio as there are no corresponding events
+[16:50:55 WARNING] Removing extractor video as there are no corresponding events
+[16:50:55 INFO] Preparing extractor: text
+  0%|          | 0/18 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 8980.02it/s]
+  6%|▌         | 1/18 [00:33<09:22, 33.07s/it]
+Computing word embeddings:  20%|██        | 1/5 [00:33<02:12, 33.07s/it][A 28%|██▊       | 5/18 [00:33<01:04,  4.96s/it]
+Computing word embeddings:  40%|████      | 2/5 [00:33<00:41, 13.72s/it][A 50%|█████     | 9/18 [00:33<00:20,  2.25s/it]
+Computing word embeddings:  60%|██████    | 3/5 [00:33<00:15,  7.50s/it][A 94%|█████████▍| 17/18 [00:33<00:00,  1.13it/s]100%|██████████| 18/18 [00:33<00:00,  1.86s/it]
+
+Computing word embeddings: 100%|██████████| 5/5 [00:33<00:00,  3.29s/it][AComputing word embeddings: 100%|██████████| 5/5 [00:33<00:00,  6.70s/it]
+[16:51:29 INFO] Preparing extractor: subject_id
+2026-06-15 16:51:29 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:51:29 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[16:51:30 WARNING] Removing extractor audio as there are no corresponding events
+[16:51:30 WARNING] Removing extractor video as there are no corresponding events
+[16:51:30 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9072.47it/s]
+ 17%|█▋        | 1/6 [00:33<02:47, 33.59s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.60s/it][A100%|██████████| 6/6 [00:33<00:00,  5.61s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.82s/it]
+[16:52:04 INFO] Preparing extractor: subject_id
+2026-06-15 16:52:04 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:52:05 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:52:06 WARNING] Removing extractor audio as there are no corresponding events
+[16:52:06 WARNING] Removing extractor video as there are no corresponding events
+[16:52:06 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11442.49it/s]
+ 17%|█▋        | 1/6 [00:33<02:49, 33.98s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.98s/it][A100%|██████████| 6/6 [00:34<00:00,  5.67s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.01s/it]
+[16:52:40 INFO] Preparing extractor: subject_id
+2026-06-15 16:52:40 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:52:40 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:52:42 WARNING] Removing extractor audio as there are no corresponding events
+[16:52:42 WARNING] Removing extractor video as there are no corresponding events
+[16:52:42 INFO] Preparing extractor: text
+  0%|          | 0/20 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12113.86it/s]
+  5%|▌         | 1/20 [00:34<10:56, 34.57s/it]
+Computing word embeddings:  20%|██        | 1/5 [00:34<02:18, 34.57s/it][A 25%|██▌       | 5/20 [00:34<01:17,  5.19s/it]
+Computing word embeddings:  40%|████      | 2/5 [00:34<00:43, 14.34s/it][A 45%|████▌     | 9/20 [00:34<00:26,  2.37s/it]
+Computing word embeddings:  60%|██████    | 3/5 [00:34<00:15,  7.88s/it][A 65%|██████▌   | 13/20 [00:35<00:09,  1.34s/it]
+Computing word embeddings:  80%|████████  | 4/5 [00:35<00:04,  4.82s/it][A 85%|████████▌ | 17/20 [00:35<00:02,  1.19it/s]100%|██████████| 20/20 [00:35<00:00,  1.76s/it]
+
+Computing word embeddings: 100%|██████████| 5/5 [00:35<00:00,  3.13s/it][AComputing word embeddings: 100%|██████████| 5/5 [00:35<00:00,  7.04s/it]
+[16:53:17 INFO] Preparing extractor: subject_id
+2026-06-15 16:53:17 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:53:17 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[16:53:19 WARNING] Removing extractor audio as there are no corresponding events
+[16:53:19 WARNING] Removing extractor video as there are no corresponding events
+[16:53:19 INFO] Preparing extractor: text
+  0%|          | 0/19 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11784.36it/s]
+  5%|▌         | 1/19 [00:33<10:02, 33.47s/it]
+Computing word embeddings:  20%|██        | 1/5 [00:33<02:13, 33.47s/it][A 26%|██▋       | 5/19 [00:33<01:10,  5.01s/it]
+Computing word embeddings:  40%|████      | 2/5 [00:33<00:41, 13.86s/it][A 47%|████▋     | 9/19 [00:33<00:22,  2.28s/it]
+Computing word embeddings:  60%|██████    | 3/5 [00:33<00:15,  7.58s/it][A 68%|██████▊   | 13/19 [00:33<00:07,  1.29s/it]
+Computing word embeddings:  80%|████████  | 4/5 [00:33<00:04,  4.65s/it][A 95%|█████████▍| 18/19 [00:33<00:00,  1.36it/s]100%|██████████| 19/19 [00:33<00:00,  1.79s/it]
+Computing word embeddings: 100%|██████████| 5/5 [00:33<00:00,  6.79s/it]
+[16:53:53 INFO] Preparing extractor: subject_id
+2026-06-15 16:53:53 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:53:53 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[16:53:55 WARNING] Removing extractor audio as there are no corresponding events
+[16:53:55 WARNING] Removing extractor video as there are no corresponding events
+[16:53:55 INFO] Preparing extractor: text
+  0%|          | 0/9 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 6930.79it/s]
+ 11%|█         | 1/9 [00:33<04:31, 33.98s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:07, 33.98s/it][A100%|██████████| 9/9 [00:34<00:00,  2.75s/it]100%|██████████| 9/9 [00:34<00:00,  3.79s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:34<00:00,  8.86s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:34<00:00, 11.37s/it]
+[16:54:29 INFO] Preparing extractor: subject_id
+2026-06-15 16:54:29 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:54:29 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+  base: 80/86
+[16:54:31 WARNING] Removing extractor audio as there are no corresponding events
+[16:54:31 WARNING] Removing extractor video as there are no corresponding events
+[16:54:31 INFO] Preparing extractor: text
+  0%|          | 0/23 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/6 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9669.21it/s]
+  4%|▍         | 1/23 [00:33<12:09, 33.16s/it]
+Computing word embeddings:  17%|█▋        | 1/6 [00:33<02:45, 33.17s/it][A 22%|██▏       | 5/23 [00:33<01:29,  4.97s/it]
+Computing word embeddings:  33%|███▎      | 2/6 [00:33<00:54, 13.73s/it][A 39%|███▉      | 9/23 [00:33<00:31,  2.26s/it]
+Computing word embeddings:  50%|█████     | 3/6 [00:33<00:22,  7.53s/it][A 57%|█████▋    | 13/23 [00:33<00:12,  1.29s/it]
+Computing word embeddings:  67%|██████▋   | 4/6 [00:33<00:09,  4.65s/it][A 74%|███████▍  | 17/23 [00:33<00:04,  1.22it/s]
+Computing word embeddings:  83%|████████▎ | 5/6 [00:33<00:03,  3.07s/it][A 91%|█████████▏| 21/23 [00:34<00:01,  1.84it/s]100%|██████████| 23/23 [00:34<00:00,  1.48s/it]
+
+Computing word embeddings: 100%|██████████| 6/6 [00:34<00:00,  2.09s/it][AComputing word embeddings: 100%|██████████| 6/6 [00:34<00:00,  5.69s/it]
+[16:55:05 INFO] Preparing extractor: subject_id
+2026-06-15 16:55:05 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:55:05 INFO] Building dataloader for split all
+INFO - Predicted 8 / 100 segments (8.0% kept)
+[16:55:07 WARNING] Removing extractor audio as there are no corresponding events
+[16:55:07 WARNING] Removing extractor video as there are no corresponding events
+[16:55:07 INFO] Preparing extractor: text
+  0%|          | 0/19 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10602.32it/s]
+  5%|▌         | 1/19 [00:34<10:19, 34.40s/it]
+Computing word embeddings:  20%|██        | 1/5 [00:34<02:17, 34.41s/it][A 32%|███▏      | 6/19 [00:34<00:55,  4.24s/it]
+Computing word embeddings:  60%|██████    | 3/5 [00:34<00:17,  8.99s/it][A 68%|██████▊   | 13/19 [00:34<00:09,  1.56s/it]100%|██████████| 19/19 [00:34<00:00,  1.83s/it]
+
+Computing word embeddings: 100%|██████████| 5/5 [00:34<00:00,  4.41s/it][AComputing word embeddings: 100%|██████████| 5/5 [00:34<00:00,  6.95s/it]
+[16:55:42 INFO] Preparing extractor: subject_id
+2026-06-15 16:55:42 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:55:42 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[16:55:43 WARNING] Removing extractor audio as there are no corresponding events
+[16:55:43 WARNING] Removing extractor video as there are no corresponding events
+[16:55:43 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 8675.02it/s]
+ 17%|█▋        | 1/6 [00:33<02:45, 33.03s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.03s/it][A100%|██████████| 6/6 [00:33<00:00,  5.52s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.55s/it]
+[16:56:17 INFO] Preparing extractor: subject_id
+2026-06-15 16:56:17 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:56:17 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:56:18 WARNING] Removing extractor audio as there are no corresponding events
+[16:56:18 WARNING] Removing extractor video as there are no corresponding events
+[16:56:18 INFO] Preparing extractor: text
+  0%|          | 0/4 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 8876.17it/s]
+ 25%|██▌       | 1/4 [00:33<01:41, 33.76s/it]100%|██████████| 4/4 [00:33<00:00,  8.44s/it]
+[16:56:52 INFO] Preparing extractor: subject_id
+2026-06-15 16:56:52 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:56:53 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[16:56:54 WARNING] Removing extractor audio as there are no corresponding events
+[16:56:54 WARNING] Removing extractor video as there are no corresponding events
+[16:56:54 INFO] Preparing extractor: text
+  0%|          | 0/9 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 8759.98it/s]
+ 11%|█         | 1/9 [00:33<04:24, 33.09s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:06, 33.10s/it][A100%|██████████| 9/9 [00:33<00:00,  2.68s/it]100%|██████████| 9/9 [00:33<00:00,  3.69s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  8.62s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.07s/it]
+[16:57:27 INFO] Preparing extractor: subject_id
+2026-06-15 16:57:27 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:57:28 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:57:29 WARNING] Removing extractor audio as there are no corresponding events
+[16:57:29 WARNING] Removing extractor video as there are no corresponding events
+[16:57:29 INFO] Preparing extractor: text
+  0%|          | 0/19 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9997.87it/s]
+  5%|▌         | 1/19 [00:33<10:01, 33.43s/it]
+Computing word embeddings:  20%|██        | 1/5 [00:33<02:13, 33.43s/it][A 32%|███▏      | 6/19 [00:33<00:53,  4.12s/it]
+Computing word embeddings:  60%|██████    | 3/5 [00:33<00:17,  8.73s/it][A 68%|██████▊   | 13/19 [00:33<00:09,  1.51s/it]100%|██████████| 19/19 [00:33<00:00,  1.78s/it]
+
+Computing word embeddings: 100%|██████████| 5/5 [00:33<00:00,  4.28s/it][AComputing word embeddings: 100%|██████████| 5/5 [00:33<00:00,  6.75s/it]
+[16:58:03 INFO] Preparing extractor: subject_id
+2026-06-15 16:58:03 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:58:03 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+
+== ascii-cat finetune ==
+/home/ath/tribev2-research/.venv/lib/python3.12/site-packages/neuralset/extractors/base.py:707: UserWarning: LabelEncoder: event_types has not been set, are you sure you want to apply this extractor to all events?
+  warnings.warn(
+2026-06-15 16:58:05 - WARNING - neuralset.extractors.base:798 - Missing events will be encoded using the default all-zero value (for example, 0 or a zero vector/tensor), which may be indistinguishable from a valid class if that class is also mapped to zeros. Set treat_missing_as_separate_class=True to avoid this.
+INFO - Loading model from /home/ath/tribev2-research/hf_cache/hub/models--facebook--tribev2/snapshots/f894e783020944dcd96e5568550afe2aa9743f9f/best.ckpt
+[16:58:09 WARNING] Removing extractor audio as there are no corresponding events
+[16:58:09 WARNING] Removing extractor video as there are no corresponding events
+[16:58:09 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9421.15it/s]
+ 12%|█▎        | 1/8 [00:32<03:45, 32.25s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:32<00:32, 32.25s/it][A100%|██████████| 8/8 [00:32<00:00,  4.04s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:32<00:00, 16.16s/it]
+[16:58:42 INFO] Preparing extractor: subject_id
+2026-06-15 16:58:42 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:58:42 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:58:43 WARNING] Removing extractor audio as there are no corresponding events
+[16:58:43 WARNING] Removing extractor video as there are no corresponding events
+[16:58:43 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10786.86it/s]
+ 12%|█▎        | 1/8 [00:33<03:52, 33.17s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.17s/it][A 62%|██████▎   | 5/8 [00:33<00:14,  4.96s/it]100%|██████████| 8/8 [00:33<00:00,  4.16s/it]
+
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 13.72s/it][AComputing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.64s/it]
+[16:59:17 INFO] Preparing extractor: subject_id
+2026-06-15 16:59:17 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:59:17 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[16:59:18 WARNING] Removing extractor audio as there are no corresponding events
+[16:59:18 WARNING] Removing extractor video as there are no corresponding events
+[16:59:18 INFO] Preparing extractor: text
+  0%|          | 0/12 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7375.19it/s]
+  8%|▊         | 1/12 [00:33<06:09, 33.56s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:07, 33.56s/it][A 42%|████▏     | 5/12 [00:33<00:35,  5.03s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:33<00:13, 13.90s/it][A100%|██████████| 12/12 [00:33<00:00,  2.82s/it]
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.27s/it]
+[16:59:53 INFO] Preparing extractor: subject_id
+2026-06-15 16:59:53 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[16:59:53 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[16:59:54 WARNING] Removing extractor audio as there are no corresponding events
+[16:59:54 WARNING] Removing extractor video as there are no corresponding events
+[16:59:54 INFO] Preparing extractor: text
+  0%|          | 0/7 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12775.70it/s]
+ 14%|█▍        | 1/7 [00:33<03:19, 33.33s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.34s/it][A100%|██████████| 7/7 [00:33<00:00,  4.77s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.71s/it]
+[17:00:28 INFO] Preparing extractor: subject_id
+2026-06-15 17:00:28 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:00:28 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:00:30 WARNING] Removing extractor audio as there are no corresponding events
+[17:00:30 WARNING] Removing extractor video as there are no corresponding events
+[17:00:30 INFO] Preparing extractor: text
+  0%|          | 0/9 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 14320.61it/s]
+ 11%|█         | 1/9 [00:33<04:28, 33.56s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:07, 33.57s/it][A100%|██████████| 9/9 [00:33<00:00,  2.72s/it]100%|██████████| 9/9 [00:33<00:00,  3.75s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  8.75s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.24s/it]
+[17:01:04 INFO] Preparing extractor: subject_id
+2026-06-15 17:01:04 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:01:04 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:01:05 WARNING] Removing extractor audio as there are no corresponding events
+[17:01:05 WARNING] Removing extractor video as there are no corresponding events
+[17:01:05 INFO] Preparing extractor: text
+  0%|          | 0/14 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11949.85it/s]
+  7%|▋         | 1/14 [00:33<07:18, 33.73s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:33<01:41, 33.74s/it][A 36%|███▌      | 5/14 [00:33<00:45,  5.06s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:33<00:28, 14.00s/it][A 64%|██████▍   | 9/14 [00:34<00:11,  2.30s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:34<00:07,  7.67s/it][A100%|██████████| 14/14 [00:34<00:00,  2.44s/it]
+Computing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  8.53s/it]
+[17:01:40 INFO] Preparing extractor: subject_id
+2026-06-15 17:01:40 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:01:40 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[17:01:42 WARNING] Removing extractor audio as there are no corresponding events
+[17:01:42 WARNING] Removing extractor video as there are no corresponding events
+[17:01:42 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 15140.82it/s]
+ 20%|██        | 1/5 [00:33<02:12, 33.13s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.13s/it][A100%|██████████| 5/5 [00:33<00:00,  6.64s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.59s/it]
+[17:02:15 INFO] Preparing extractor: subject_id
+2026-06-15 17:02:15 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:02:15 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:02:17 WARNING] Removing extractor audio as there are no corresponding events
+[17:02:17 WARNING] Removing extractor video as there are no corresponding events
+[17:02:17 INFO] Preparing extractor: text
+  0%|          | 0/19 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11957.23it/s]
+  5%|▌         | 1/19 [00:34<10:20, 34.44s/it]
+Computing word embeddings:  20%|██        | 1/5 [00:34<02:17, 34.45s/it][A 26%|██▋       | 5/19 [00:34<01:12,  5.17s/it]
+Computing word embeddings:  40%|████      | 2/5 [00:34<00:42, 14.29s/it][A 47%|████▋     | 9/19 [00:34<00:23,  2.35s/it]
+Computing word embeddings:  60%|██████    | 3/5 [00:34<00:15,  7.84s/it][A 68%|██████▊   | 13/19 [00:35<00:08,  1.34s/it]
+Computing word embeddings:  80%|████████  | 4/5 [00:35<00:04,  4.83s/it][A 89%|████████▉ | 17/19 [00:35<00:01,  1.19it/s]100%|██████████| 19/19 [00:35<00:00,  1.85s/it]
+
+Computing word embeddings: 100%|██████████| 5/5 [00:35<00:00,  3.15s/it][AComputing word embeddings: 100%|██████████| 5/5 [00:35<00:00,  7.04s/it]
+[17:02:52 INFO] Preparing extractor: subject_id
+2026-06-15 17:02:52 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:02:52 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[17:02:54 WARNING] Removing extractor audio as there are no corresponding events
+[17:02:54 WARNING] Removing extractor video as there are no corresponding events
+[17:02:54 INFO] Preparing extractor: text
+  0%|          | 0/10 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12970.76it/s]
+ 10%|█         | 1/10 [00:34<05:09, 34.44s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:34<01:08, 34.45s/it][A 50%|█████     | 5/10 [00:34<00:25,  5.17s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:34<00:14, 14.31s/it][A 90%|█████████ | 9/10 [00:34<00:02,  2.35s/it]100%|██████████| 10/10 [00:34<00:00,  3.48s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:34<00:00,  7.83s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:34<00:00, 11.59s/it]
+[17:03:29 INFO] Preparing extractor: subject_id
+2026-06-15 17:03:29 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:03:29 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[17:03:31 WARNING] Removing extractor audio as there are no corresponding events
+[17:03:31 WARNING] Removing extractor video as there are no corresponding events
+[17:03:31 INFO] Preparing extractor: text
+  0%|          | 0/28 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/7 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 8900.12it/s]
+  4%|▎         | 1/28 [00:34<15:19, 34.04s/it]
+Computing word embeddings:  14%|█▍        | 1/7 [00:34<03:24, 34.05s/it][A 18%|█▊        | 5/28 [00:34<01:57,  5.12s/it]
+Computing word embeddings:  29%|██▊       | 2/7 [00:34<01:10, 14.14s/it][A 32%|███▏      | 9/28 [00:34<00:44,  2.34s/it]
+Computing word embeddings:  43%|████▎     | 3/7 [00:34<00:31,  7.78s/it][A 46%|████▋     | 13/28 [00:34<00:20,  1.33s/it]
+Computing word embeddings:  57%|█████▋    | 4/7 [00:34<00:14,  4.80s/it][A 61%|██████    | 17/28 [00:34<00:09,  1.18it/s]
+Computing word embeddings:  71%|███████▏  | 5/7 [00:34<00:06,  3.17s/it][A 75%|███████▌  | 21/28 [00:35<00:03,  1.76it/s]
+Computing word embeddings:  86%|████████▌ | 6/7 [00:35<00:02,  2.18s/it][A 89%|████████▉ | 25/28 [00:35<00:01,  2.49it/s]100%|██████████| 28/28 [00:35<00:00,  1.27s/it]
+
+Computing word embeddings: 100%|██████████| 7/7 [00:35<00:00,  1.56s/it][AComputing word embeddings: 100%|██████████| 7/7 [00:35<00:00,  5.07s/it]
+[17:04:07 INFO] Preparing extractor: subject_id
+2026-06-15 17:04:07 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:04:07 INFO] Building dataloader for split all
+INFO - Predicted 9 / 100 segments (9.0% kept)
+  ft: 10/86
+[17:04:08 WARNING] Removing extractor audio as there are no corresponding events
+[17:04:08 WARNING] Removing extractor video as there are no corresponding events
+[17:04:08 INFO] Preparing extractor: text
+  0%|          | 0/15 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7404.35it/s]
+  7%|▋         | 1/15 [00:33<07:45, 33.27s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:33<01:39, 33.27s/it][A 33%|███▎      | 5/15 [00:33<00:49,  4.98s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:33<00:27, 13.78s/it][A 60%|██████    | 9/15 [00:33<00:13,  2.28s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:33<00:07,  7.58s/it][A 87%|████████▋ | 13/15 [00:33<00:02,  1.29s/it]100%|██████████| 15/15 [00:33<00:00,  2.25s/it]
+Computing word embeddings: 100%|██████████| 4/4 [00:33<00:00,  8.43s/it]
+[17:04:42 INFO] Preparing extractor: subject_id
+2026-06-15 17:04:42 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:04:43 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[17:04:44 WARNING] Removing extractor audio as there are no corresponding events
+[17:04:44 WARNING] Removing extractor video as there are no corresponding events
+[17:04:44 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9462.91it/s]
+ 12%|█▎        | 1/8 [00:33<03:55, 33.64s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.64s/it][A 62%|██████▎   | 5/8 [00:33<00:15,  5.04s/it]100%|██████████| 8/8 [00:33<00:00,  4.23s/it]
+
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 13.95s/it][AComputing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.90s/it]
+[17:05:18 INFO] Preparing extractor: subject_id
+2026-06-15 17:05:18 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:05:18 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:05:20 WARNING] Removing extractor audio as there are no corresponding events
+[17:05:20 WARNING] Removing extractor video as there are no corresponding events
+[17:05:20 INFO] Preparing extractor: text
+  0%|          | 0/10 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 16150.77it/s]
+ 10%|█         | 1/10 [00:33<05:02, 33.61s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:07, 33.62s/it][A 50%|█████     | 5/10 [00:33<00:25,  5.03s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:33<00:13, 13.92s/it][A100%|██████████| 10/10 [00:33<00:00,  3.38s/it]
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.27s/it]
+[17:05:54 INFO] Preparing extractor: subject_id
+2026-06-15 17:05:54 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:05:54 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[17:05:56 WARNING] Removing extractor audio as there are no corresponding events
+[17:05:56 WARNING] Removing extractor video as there are no corresponding events
+[17:05:56 INFO] Preparing extractor: text
+  0%|          | 0/12 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9994.50it/s]
+  8%|▊         | 1/12 [00:34<06:16, 34.25s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:34<01:08, 34.25s/it][A 75%|███████▌  | 9/12 [00:34<00:08,  2.78s/it]100%|██████████| 12/12 [00:34<00:00,  2.87s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:34<00:00,  8.95s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:34<00:00, 11.48s/it]
+[17:06:31 INFO] Preparing extractor: subject_id
+2026-06-15 17:06:31 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:06:31 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[17:06:32 WARNING] Removing extractor audio as there are no corresponding events
+[17:06:32 WARNING] Removing extractor video as there are no corresponding events
+[17:06:32 INFO] Preparing extractor: text
+  0%|          | 0/10 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12445.42it/s]
+ 10%|█         | 1/10 [00:33<05:03, 33.77s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:07, 33.77s/it][A 90%|█████████ | 9/10 [00:33<00:02,  2.73s/it]100%|██████████| 10/10 [00:33<00:00,  3.39s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  8.81s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.30s/it]
+[17:07:06 INFO] Preparing extractor: subject_id
+2026-06-15 17:07:06 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:07:07 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[17:07:08 WARNING] Removing extractor audio as there are no corresponding events
+[17:07:08 WARNING] Removing extractor video as there are no corresponding events
+[17:07:08 INFO] Preparing extractor: text
+  0%|          | 0/15 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 6809.50it/s]
+  7%|▋         | 1/15 [00:34<07:57, 34.12s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:34<01:42, 34.13s/it][A 33%|███▎      | 5/15 [00:34<00:51,  5.13s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:34<00:28, 14.19s/it][A 60%|██████    | 9/15 [00:34<00:13,  2.33s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:34<00:07,  7.76s/it][A100%|██████████| 15/15 [00:34<00:00,  2.30s/it]
+Computing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  8.64s/it]
+[17:07:43 INFO] Preparing extractor: subject_id
+2026-06-15 17:07:43 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:07:43 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[17:07:45 WARNING] Removing extractor audio as there are no corresponding events
+[17:07:45 WARNING] Removing extractor video as there are no corresponding events
+[17:07:45 INFO] Preparing extractor: text
+  0%|          | 0/28 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/7 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 13283.87it/s]
+  4%|▎         | 1/28 [00:33<15:10, 33.74s/it]
+Computing word embeddings:  14%|█▍        | 1/7 [00:33<03:22, 33.74s/it][A 18%|█▊        | 5/28 [00:33<01:56,  5.06s/it]
+Computing word embeddings:  29%|██▊       | 2/7 [00:33<01:09, 13.99s/it][A 32%|███▏      | 9/28 [00:34<00:43,  2.31s/it]
+Computing word embeddings:  43%|████▎     | 3/7 [00:34<00:30,  7.69s/it][A 46%|████▋     | 13/28 [00:34<00:19,  1.31s/it]
+Computing word embeddings:  57%|█████▋    | 4/7 [00:34<00:14,  4.72s/it][A 61%|██████    | 17/28 [00:34<00:09,  1.22it/s]
+Computing word embeddings:  71%|███████▏  | 5/7 [00:34<00:06,  3.07s/it][A 75%|███████▌  | 21/28 [00:34<00:03,  1.84it/s]
+Computing word embeddings:  86%|████████▌ | 6/7 [00:34<00:02,  2.08s/it][A 89%|████████▉ | 25/28 [00:34<00:01,  2.67it/s]100%|██████████| 28/28 [00:34<00:00,  1.24s/it]
+
+Computing word embeddings: 100%|██████████| 7/7 [00:34<00:00,  1.45s/it][AComputing word embeddings: 100%|██████████| 7/7 [00:34<00:00,  4.96s/it]
+[17:08:20 INFO] Preparing extractor: subject_id
+2026-06-15 17:08:20 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:08:20 INFO] Building dataloader for split all
+INFO - Predicted 9 / 100 segments (9.0% kept)
+[17:08:22 WARNING] Removing extractor audio as there are no corresponding events
+[17:08:22 WARNING] Removing extractor video as there are no corresponding events
+[17:08:22 INFO] Preparing extractor: text
+  0%|          | 0/21 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/6 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10111.27it/s]
+  5%|▍         | 1/21 [00:34<11:20, 34.04s/it]
+Computing word embeddings:  17%|█▋        | 1/6 [00:34<02:50, 34.05s/it][A 24%|██▍       | 5/21 [00:34<01:21,  5.12s/it]
+Computing word embeddings:  33%|███▎      | 2/6 [00:34<00:56, 14.17s/it][A 43%|████▎     | 9/21 [00:34<00:28,  2.34s/it]
+Computing word embeddings:  50%|█████     | 3/6 [00:34<00:23,  7.78s/it][A 62%|██████▏   | 13/21 [00:34<00:10,  1.33s/it]
+Computing word embeddings:  67%|██████▋   | 4/6 [00:34<00:09,  4.77s/it][A 81%|████████  | 17/21 [00:34<00:03,  1.21it/s]
+Computing word embeddings:  83%|████████▎ | 5/6 [00:34<00:03,  3.09s/it][A100%|██████████| 21/21 [00:34<00:00,  1.84it/s]100%|██████████| 21/21 [00:34<00:00,  1.66s/it]
+
+Computing word embeddings: 100%|██████████| 6/6 [00:34<00:00,  2.08s/it][AComputing word embeddings: 100%|██████████| 6/6 [00:34<00:00,  5.81s/it]
+[17:08:57 INFO] Preparing extractor: subject_id
+2026-06-15 17:08:57 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:08:57 INFO] Building dataloader for split all
+INFO - Predicted 7 / 100 segments (7.0% kept)
+[17:08:58 WARNING] Removing extractor audio as there are no corresponding events
+[17:08:58 WARNING] Removing extractor video as there are no corresponding events
+[17:08:58 INFO] Preparing extractor: text
+  0%|          | 0/12 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9561.00it/s]
+  8%|▊         | 1/12 [00:33<06:11, 33.77s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:07, 33.77s/it][A 42%|████▏     | 5/12 [00:33<00:35,  5.06s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:33<00:14, 14.00s/it][A 75%|███████▌  | 9/12 [00:34<00:06,  2.30s/it]100%|██████████| 12/12 [00:34<00:00,  2.84s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:34<00:00,  7.66s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:34<00:00, 11.35s/it]
+[17:09:33 INFO] Preparing extractor: subject_id
+2026-06-15 17:09:33 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:09:33 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[17:09:35 WARNING] Removing extractor audio as there are no corresponding events
+[17:09:35 WARNING] Removing extractor video as there are no corresponding events
+[17:09:35 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 6961.73it/s]
+ 20%|██        | 1/5 [00:33<02:12, 33.01s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.01s/it][A100%|██████████| 5/5 [00:33<00:00,  6.61s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.53s/it]
+[17:10:08 INFO] Preparing extractor: subject_id
+2026-06-15 17:10:08 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:10:08 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+  ft: 20/86
+[17:10:10 WARNING] Removing extractor audio as there are no corresponding events
+[17:10:10 WARNING] Removing extractor video as there are no corresponding events
+[17:10:10 INFO] Preparing extractor: text
+  0%|          | 0/25 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/7 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9717.80it/s]
+  4%|▍         | 1/25 [00:33<13:22, 33.43s/it]
+Computing word embeddings:  14%|█▍        | 1/7 [00:33<03:20, 33.43s/it][A 20%|██        | 5/25 [00:33<01:40,  5.00s/it]
+Computing word embeddings:  29%|██▊       | 2/7 [00:33<01:09, 13.84s/it][A 36%|███▌      | 9/25 [00:33<00:36,  2.29s/it]
+Computing word embeddings:  43%|████▎     | 3/7 [00:33<00:30,  7.61s/it][A 52%|█████▏    | 13/25 [00:33<00:15,  1.30s/it]
+Computing word embeddings:  57%|█████▋    | 4/7 [00:33<00:14,  4.67s/it][A 68%|██████▊   | 17/25 [00:34<00:06,  1.22it/s]
+Computing word embeddings:  71%|███████▏  | 5/7 [00:34<00:06,  3.06s/it][A 84%|████████▍ | 21/25 [00:34<00:02,  1.85it/s]
+Computing word embeddings:  86%|████████▌ | 6/7 [00:34<00:02,  2.07s/it][A100%|██████████| 25/25 [00:34<00:00,  1.37s/it]
+Computing word embeddings: 100%|██████████| 7/7 [00:34<00:00,  4.90s/it]
+[17:10:44 INFO] Preparing extractor: subject_id
+2026-06-15 17:10:44 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:10:45 INFO] Building dataloader for split all
+INFO - Predicted 8 / 100 segments (8.0% kept)
+[17:10:46 WARNING] Removing extractor audio as there are no corresponding events
+[17:10:46 WARNING] Removing extractor video as there are no corresponding events
+[17:10:46 INFO] Preparing extractor: text
+  0%|          | 0/13 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7175.40it/s]
+  8%|▊         | 1/13 [00:34<06:53, 34.46s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:34<01:43, 34.47s/it][A 38%|███▊      | 5/13 [00:34<00:41,  5.16s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:34<00:28, 14.26s/it][A 69%|██████▉   | 9/13 [00:34<00:09,  2.34s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:34<00:07,  7.80s/it][A100%|██████████| 13/13 [00:34<00:00,  2.67s/it]
+Computing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  8.69s/it]
+[17:11:21 INFO] Preparing extractor: subject_id
+2026-06-15 17:11:21 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:11:21 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[17:11:23 WARNING] Removing extractor audio as there are no corresponding events
+[17:11:23 WARNING] Removing extractor video as there are no corresponding events
+[17:11:23 INFO] Preparing extractor: text
+  0%|          | 0/4 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9480.59it/s]
+ 25%|██▌       | 1/4 [00:34<01:43, 34.39s/it]100%|██████████| 4/4 [00:34<00:00,  8.60s/it]
+[17:11:58 INFO] Preparing extractor: subject_id
+2026-06-15 17:11:58 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:11:58 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:11:59 WARNING] Removing extractor audio as there are no corresponding events
+[17:11:59 WARNING] Removing extractor video as there are no corresponding events
+[17:11:59 INFO] Preparing extractor: text
+  0%|          | 0/11 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10815.00it/s]
+  9%|▉         | 1/11 [00:33<05:33, 33.38s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:06, 33.38s/it][A 45%|████▌     | 5/11 [00:33<00:30,  5.01s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:33<00:13, 13.85s/it][A 82%|████████▏ | 9/11 [00:33<00:04,  2.28s/it]100%|██████████| 11/11 [00:33<00:00,  3.06s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  7.58s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.23s/it]
+[17:12:33 INFO] Preparing extractor: subject_id
+2026-06-15 17:12:33 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:12:34 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[17:12:35 WARNING] Removing extractor audio as there are no corresponding events
+[17:12:35 WARNING] Removing extractor video as there are no corresponding events
+[17:12:35 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7538.59it/s]
+ 17%|█▋        | 1/6 [00:32<02:43, 32.70s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:32<00:32, 32.71s/it][A100%|██████████| 6/6 [00:32<00:00,  5.46s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:32<00:00, 16.38s/it]
+[17:13:08 INFO] Preparing extractor: subject_id
+2026-06-15 17:13:08 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:13:08 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:13:10 WARNING] Removing extractor audio as there are no corresponding events
+[17:13:10 WARNING] Removing extractor video as there are no corresponding events
+[17:13:10 INFO] Preparing extractor: text
+  0%|          | 0/4 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 14628.75it/s]
+ 25%|██▌       | 1/4 [00:33<01:39, 33.21s/it]100%|██████████| 4/4 [00:33<00:00,  8.30s/it]
+[17:13:43 INFO] Preparing extractor: subject_id
+2026-06-15 17:13:43 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:13:44 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:13:45 WARNING] Removing extractor audio as there are no corresponding events
+[17:13:45 WARNING] Removing extractor video as there are no corresponding events
+[17:13:45 INFO] Preparing extractor: text
+  0%|          | 0/15 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12665.59it/s]
+  7%|▋         | 1/15 [00:34<08:08, 34.89s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:34<01:44, 34.90s/it][A 33%|███▎      | 5/15 [00:35<00:52,  5.23s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:35<00:28, 14.46s/it][A 60%|██████    | 9/15 [00:35<00:14,  2.38s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:35<00:07,  7.92s/it][A 93%|█████████▎| 14/15 [00:35<00:01,  1.21s/it]100%|██████████| 15/15 [00:35<00:00,  2.35s/it]
+Computing word embeddings: 100%|██████████| 4/4 [00:35<00:00,  8.82s/it]
+[17:14:21 INFO] Preparing extractor: subject_id
+2026-06-15 17:14:21 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:14:21 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[17:14:22 WARNING] Removing extractor audio as there are no corresponding events
+[17:14:22 WARNING] Removing extractor video as there are no corresponding events
+[17:14:22 INFO] Preparing extractor: text
+  0%|          | 0/9 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12645.14it/s]
+ 11%|█         | 1/9 [00:34<04:32, 34.11s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:34<01:08, 34.11s/it][A 56%|█████▌    | 5/9 [00:34<00:20,  5.12s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:34<00:14, 14.15s/it][A100%|██████████| 9/9 [00:34<00:00,  2.33s/it]100%|██████████| 9/9 [00:34<00:00,  3.82s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:34<00:00,  7.74s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:34<00:00, 11.47s/it]
+[17:14:57 INFO] Preparing extractor: subject_id
+2026-06-15 17:14:57 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:14:57 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[17:14:59 WARNING] Removing extractor audio as there are no corresponding events
+[17:14:59 WARNING] Removing extractor video as there are no corresponding events
+[17:14:59 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 13858.43it/s]
+ 20%|██        | 1/5 [00:33<02:13, 33.38s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.38s/it][A100%|██████████| 5/5 [00:33<00:00,  6.69s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.72s/it]
+[17:15:33 INFO] Preparing extractor: subject_id
+2026-06-15 17:15:33 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:15:33 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:15:34 WARNING] Removing extractor audio as there are no corresponding events
+[17:15:34 WARNING] Removing extractor video as there are no corresponding events
+[17:15:34 INFO] Preparing extractor: text
+  0%|          | 0/12 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7398.59it/s]
+  8%|▊         | 1/12 [00:32<06:02, 32.94s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:32<01:05, 32.94s/it][A 75%|███████▌  | 9/12 [00:33<00:08,  2.67s/it]100%|██████████| 12/12 [00:33<00:00,  2.76s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  8.60s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.03s/it]
+[17:16:08 INFO] Preparing extractor: subject_id
+2026-06-15 17:16:08 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:16:08 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+  ft: 30/86
+[17:16:09 WARNING] Removing extractor audio as there are no corresponding events
+[17:16:09 WARNING] Removing extractor video as there are no corresponding events
+[17:16:09 INFO] Preparing extractor: text
+  0%|          | 0/14 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7365.04it/s]
+  7%|▋         | 1/14 [00:34<07:25, 34.27s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:34<01:42, 34.28s/it][A 36%|███▌      | 5/14 [00:34<00:46,  5.13s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:34<00:28, 14.19s/it][A 93%|█████████▎| 13/14 [00:34<00:01,  1.51s/it]100%|██████████| 14/14 [00:34<00:00,  2.47s/it]
+
+Computing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  5.33s/it][AComputing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  8.63s/it]
+[17:16:44 INFO] Preparing extractor: subject_id
+2026-06-15 17:16:44 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:16:44 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[17:16:46 WARNING] Removing extractor audio as there are no corresponding events
+[17:16:46 WARNING] Removing extractor video as there are no corresponding events
+[17:16:46 INFO] Preparing extractor: text
+  0%|          | 0/15 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 14034.24it/s]
+  7%|▋         | 1/15 [00:33<07:48, 33.47s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:33<01:40, 33.47s/it][A 33%|███▎      | 5/15 [00:33<00:50,  5.03s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:33<00:27, 13.91s/it][A 73%|███████▎  | 11/15 [00:33<00:07,  1.79s/it]100%|██████████| 15/15 [00:33<00:00,  2.26s/it]
+
+Computing word embeddings: 100%|██████████| 4/4 [00:33<00:00,  5.26s/it][AComputing word embeddings: 100%|██████████| 4/4 [00:33<00:00,  8.48s/it]
+[17:17:20 INFO] Preparing extractor: subject_id
+2026-06-15 17:17:20 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:17:20 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[17:17:22 WARNING] Removing extractor audio as there are no corresponding events
+[17:17:22 WARNING] Removing extractor video as there are no corresponding events
+[17:17:22 INFO] Preparing extractor: text
+  0%|          | 0/15 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 8621.59it/s]
+  7%|▋         | 1/15 [00:35<08:12, 35.18s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:35<01:45, 35.18s/it][A 33%|███▎      | 5/15 [00:35<00:52,  5.27s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:35<00:29, 14.58s/it][A 87%|████████▋ | 13/15 [00:35<00:03,  1.55s/it]100%|██████████| 15/15 [00:35<00:00,  2.37s/it]
+
+Computing word embeddings: 100%|██████████| 4/4 [00:35<00:00,  5.49s/it][AComputing word embeddings: 100%|██████████| 4/4 [00:35<00:00,  8.87s/it]
+[17:17:58 INFO] Preparing extractor: subject_id
+2026-06-15 17:17:58 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:17:58 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[17:17:59 WARNING] Removing extractor audio as there are no corresponding events
+[17:17:59 WARNING] Removing extractor video as there are no corresponding events
+[17:17:59 INFO] Preparing extractor: text
+  0%|          | 0/10 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9760.27it/s]
+ 10%|█         | 1/10 [00:33<05:04, 33.88s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:07, 33.89s/it][A 50%|█████     | 5/10 [00:34<00:25,  5.07s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:34<00:14, 14.03s/it][A100%|██████████| 10/10 [00:34<00:00,  3.41s/it]
+Computing word embeddings: 100%|██████████| 3/3 [00:34<00:00, 11.36s/it]
+[17:18:34 INFO] Preparing extractor: subject_id
+2026-06-15 17:18:34 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:18:34 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[17:18:36 WARNING] Removing extractor audio as there are no corresponding events
+[17:18:36 WARNING] Removing extractor video as there are no corresponding events
+[17:18:36 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12730.67it/s]
+ 17%|█▋        | 1/6 [00:34<02:50, 34.08s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:34<00:34, 34.08s/it][A100%|██████████| 6/6 [00:34<00:00,  5.69s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.06s/it]
+[17:19:10 INFO] Preparing extractor: subject_id
+2026-06-15 17:19:10 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:19:10 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:19:12 WARNING] Removing extractor audio as there are no corresponding events
+[17:19:12 WARNING] Removing extractor video as there are no corresponding events
+[17:19:12 INFO] Preparing extractor: text
+  0%|          | 0/28 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/7 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7832.96it/s]
+  4%|▎         | 1/28 [00:33<15:04, 33.49s/it]
+Computing word embeddings:  14%|█▍        | 1/7 [00:33<03:20, 33.50s/it][A 18%|█▊        | 5/28 [00:33<01:55,  5.04s/it]
+Computing word embeddings:  29%|██▊       | 2/7 [00:33<01:09, 13.92s/it][A 32%|███▏      | 9/28 [00:33<00:43,  2.30s/it]
+Computing word embeddings:  43%|████▎     | 3/7 [00:33<00:30,  7.66s/it][A 46%|████▋     | 13/28 [00:34<00:19,  1.30s/it]
+Computing word embeddings:  57%|█████▋    | 4/7 [00:34<00:14,  4.69s/it][A 61%|██████    | 17/28 [00:34<00:09,  1.22it/s]
+Computing word embeddings:  71%|███████▏  | 5/7 [00:34<00:06,  3.07s/it][A 75%|███████▌  | 21/28 [00:34<00:03,  1.84it/s]
+Computing word embeddings:  86%|████████▌ | 6/7 [00:34<00:02,  2.08s/it][A 89%|████████▉ | 25/28 [00:34<00:01,  2.68it/s]100%|██████████| 28/28 [00:34<00:00,  1.23s/it]
+
+Computing word embeddings: 100%|██████████| 7/7 [00:34<00:00,  1.45s/it][AComputing word embeddings: 100%|██████████| 7/7 [00:34<00:00,  4.94s/it]
+[17:19:47 INFO] Preparing extractor: subject_id
+2026-06-15 17:19:47 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:19:47 INFO] Building dataloader for split all
+INFO - Predicted 9 / 100 segments (9.0% kept)
+[17:19:48 WARNING] Removing extractor audio as there are no corresponding events
+[17:19:48 WARNING] Removing extractor video as there are no corresponding events
+[17:19:48 INFO] Preparing extractor: text
+  0%|          | 0/7 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7946.60it/s]
+ 14%|█▍        | 1/7 [00:32<03:15, 32.58s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:32<00:32, 32.58s/it][A 71%|███████▏  | 5/7 [00:32<00:09,  4.87s/it]100%|██████████| 7/7 [00:32<00:00,  4.67s/it]
+
+Computing word embeddings: 100%|██████████| 2/2 [00:32<00:00, 13.48s/it][AComputing word embeddings: 100%|██████████| 2/2 [00:32<00:00, 16.34s/it]
+[17:20:21 INFO] Preparing extractor: subject_id
+2026-06-15 17:20:21 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:20:22 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:20:23 WARNING] Removing extractor audio as there are no corresponding events
+[17:20:23 WARNING] Removing extractor video as there are no corresponding events
+[17:20:23 INFO] Preparing extractor: text
+  0%|          | 0/9 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10062.37it/s]
+ 11%|█         | 1/9 [00:34<04:35, 34.40s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:34<01:08, 34.40s/it][A 56%|█████▌    | 5/9 [00:34<00:20,  5.15s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:34<00:14, 14.25s/it][A100%|██████████| 9/9 [00:34<00:00,  3.84s/it]
+Computing word embeddings: 100%|██████████| 3/3 [00:34<00:00, 11.53s/it]
+[17:20:58 INFO] Preparing extractor: subject_id
+2026-06-15 17:20:58 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:20:58 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:21:00 WARNING] Removing extractor audio as there are no corresponding events
+[17:21:00 WARNING] Removing extractor video as there are no corresponding events
+[17:21:00 INFO] Preparing extractor: text
+  0%|          | 0/14 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9940.59it/s]
+  7%|▋         | 1/14 [00:34<07:25, 34.26s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:34<01:42, 34.26s/it][A 36%|███▌      | 5/14 [00:34<00:46,  5.14s/it]
+Computing word embeddings:  50%|█████     | 2/4 [00:34<00:28, 14.21s/it][A 64%|██████▍   | 9/14 [00:34<00:11,  2.34s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:34<00:07,  7.79s/it][A 93%|█████████▎| 13/14 [00:34<00:01,  1.32s/it]100%|██████████| 14/14 [00:34<00:00,  2.48s/it]
+
+Computing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  4.76s/it][AComputing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  8.67s/it]
+[17:21:35 INFO] Preparing extractor: subject_id
+2026-06-15 17:21:35 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:21:35 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[17:21:37 WARNING] Removing extractor audio as there are no corresponding events
+[17:21:37 WARNING] Removing extractor video as there are no corresponding events
+[17:21:37 INFO] Preparing extractor: text
+  0%|          | 0/10 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7418.33it/s]
+ 10%|█         | 1/10 [00:33<05:02, 33.64s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:07, 33.64s/it][A 90%|█████████ | 9/10 [00:33<00:02,  2.72s/it]100%|██████████| 10/10 [00:33<00:00,  3.38s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  8.77s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.26s/it]
+[17:22:11 INFO] Preparing extractor: subject_id
+2026-06-15 17:22:11 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:22:11 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+  ft: 40/86
+[17:22:12 WARNING] Removing extractor audio as there are no corresponding events
+[17:22:12 WARNING] Removing extractor video as there are no corresponding events
+[17:22:12 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12203.08it/s]
+ 12%|█▎        | 1/8 [00:32<03:49, 32.83s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:32<00:32, 32.83s/it][A100%|██████████| 8/8 [00:32<00:00,  4.11s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:32<00:00, 16.46s/it]
+[17:22:46 INFO] Preparing extractor: subject_id
+2026-06-15 17:22:46 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:22:46 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:22:47 WARNING] Removing extractor audio as there are no corresponding events
+[17:22:47 WARNING] Removing extractor video as there are no corresponding events
+[17:22:47 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11436.96it/s]
+ 20%|██        | 1/5 [00:33<02:15, 33.95s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.96s/it][A100%|██████████| 5/5 [00:34<00:00,  6.80s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.00s/it]
+[17:23:22 INFO] Preparing extractor: subject_id
+2026-06-15 17:23:22 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:23:22 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:23:23 WARNING] Removing extractor audio as there are no corresponding events
+[17:23:23 WARNING] Removing extractor video as there are no corresponding events
+[17:23:23 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10568.04it/s]
+ 12%|█▎        | 1/8 [00:34<03:58, 34.09s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:34<00:34, 34.10s/it][A100%|██████████| 8/8 [00:34<00:00,  4.27s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.07s/it]
+[17:23:58 INFO] Preparing extractor: subject_id
+2026-06-15 17:23:58 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:23:58 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:23:59 WARNING] Removing extractor audio as there are no corresponding events
+[17:23:59 WARNING] Removing extractor video as there are no corresponding events
+[17:23:59 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12373.58it/s]
+ 12%|█▎        | 1/8 [00:33<03:52, 33.25s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.25s/it][A100%|██████████| 8/8 [00:33<00:00,  4.17s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.67s/it]
+[17:24:33 INFO] Preparing extractor: subject_id
+2026-06-15 17:24:33 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:24:33 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:24:35 WARNING] Removing extractor audio as there are no corresponding events
+[17:24:35 WARNING] Removing extractor video as there are no corresponding events
+[17:24:35 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7203.25it/s]
+ 12%|█▎        | 1/8 [00:33<03:54, 33.44s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.44s/it][A 62%|██████▎   | 5/8 [00:33<00:15,  5.01s/it]100%|██████████| 8/8 [00:33<00:00,  4.20s/it]
+
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 13.84s/it][AComputing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.78s/it]
+[17:25:09 INFO] Preparing extractor: subject_id
+2026-06-15 17:25:09 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:25:09 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:25:10 WARNING] Removing extractor audio as there are no corresponding events
+[17:25:10 WARNING] Removing extractor video as there are no corresponding events
+[17:25:10 INFO] Preparing extractor: text
+  0%|          | 0/10 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12361.67it/s]
+ 10%|█         | 1/10 [00:33<05:02, 33.56s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:07, 33.56s/it][A 50%|█████     | 5/10 [00:33<00:25,  5.03s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:33<00:13, 13.90s/it][A100%|██████████| 10/10 [00:33<00:00,  3.37s/it]
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.25s/it]
+[17:25:44 INFO] Preparing extractor: subject_id
+2026-06-15 17:25:44 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:25:45 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[17:25:46 WARNING] Removing extractor audio as there are no corresponding events
+[17:25:46 WARNING] Removing extractor video as there are no corresponding events
+[17:25:46 INFO] Preparing extractor: text
+  0%|          | 0/9 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7109.84it/s]
+ 11%|█         | 1/9 [00:33<04:30, 33.76s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:07, 33.77s/it][A100%|██████████| 9/9 [00:33<00:00,  2.73s/it]100%|██████████| 9/9 [00:33<00:00,  3.77s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  8.80s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.30s/it]
+[17:26:20 INFO] Preparing extractor: subject_id
+2026-06-15 17:26:20 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:26:20 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:26:22 WARNING] Removing extractor audio as there are no corresponding events
+[17:26:22 WARNING] Removing extractor video as there are no corresponding events
+[17:26:22 INFO] Preparing extractor: text
+  0%|          | 0/10 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9286.96it/s]
+ 10%|█         | 1/10 [00:33<04:57, 33.03s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:06, 33.04s/it][A 60%|██████    | 6/10 [00:33<00:16,  4.07s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:33<00:13, 13.66s/it][A100%|██████████| 10/10 [00:33<00:00,  3.32s/it]
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.07s/it]
+[17:26:55 INFO] Preparing extractor: subject_id
+2026-06-15 17:26:55 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:26:56 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[17:26:57 WARNING] Removing extractor audio as there are no corresponding events
+[17:26:57 WARNING] Removing extractor video as there are no corresponding events
+[17:26:57 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9076.57it/s]
+ 20%|██        | 1/5 [00:33<02:15, 33.84s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.84s/it][A100%|██████████| 5/5 [00:33<00:00,  6.78s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.94s/it]
+[17:27:31 INFO] Preparing extractor: subject_id
+2026-06-15 17:27:31 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:27:31 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:27:33 WARNING] Removing extractor audio as there are no corresponding events
+[17:27:33 WARNING] Removing extractor video as there are no corresponding events
+[17:27:33 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7332.60it/s]
+ 20%|██        | 1/5 [00:34<02:17, 34.37s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:34<00:34, 34.37s/it][A100%|██████████| 5/5 [00:34<00:00,  6.89s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.22s/it]
+[17:28:08 INFO] Preparing extractor: subject_id
+2026-06-15 17:28:08 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:28:08 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+  ft: 50/86
+[17:28:09 WARNING] Removing extractor audio as there are no corresponding events
+[17:28:09 WARNING] Removing extractor video as there are no corresponding events
+[17:28:09 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7062.57it/s]
+ 20%|██        | 1/5 [00:33<02:13, 33.49s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.49s/it][A100%|██████████| 5/5 [00:33<00:00,  6.71s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.77s/it]
+[17:28:43 INFO] Preparing extractor: subject_id
+2026-06-15 17:28:43 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:28:43 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:28:45 WARNING] Removing extractor audio as there are no corresponding events
+[17:28:45 WARNING] Removing extractor video as there are no corresponding events
+[17:28:45 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11900.60it/s]
+ 12%|█▎        | 1/8 [00:33<03:57, 33.95s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.95s/it][A 62%|██████▎   | 5/8 [00:34<00:15,  5.09s/it]100%|██████████| 8/8 [00:34<00:00,  4.26s/it]
+
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 14.07s/it][AComputing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.05s/it]
+[17:29:19 INFO] Preparing extractor: subject_id
+2026-06-15 17:29:19 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:29:20 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:29:21 WARNING] Removing extractor audio as there are no corresponding events
+[17:29:21 WARNING] Removing extractor video as there are no corresponding events
+[17:29:21 INFO] Preparing extractor: text
+  0%|          | 0/9 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7011.30it/s]
+ 11%|█         | 1/9 [00:33<04:30, 33.84s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:07, 33.85s/it][A100%|██████████| 9/9 [00:33<00:00,  2.74s/it]100%|██████████| 9/9 [00:33<00:00,  3.78s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00,  8.82s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.33s/it]
+[17:29:55 INFO] Preparing extractor: subject_id
+2026-06-15 17:29:55 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:29:56 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:29:57 WARNING] Removing extractor audio as there are no corresponding events
+[17:29:57 WARNING] Removing extractor video as there are no corresponding events
+[17:29:57 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7403.27it/s]
+ 12%|█▎        | 1/8 [00:33<03:56, 33.77s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.77s/it][A100%|██████████| 8/8 [00:33<00:00,  4.23s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.93s/it]
+[17:30:31 INFO] Preparing extractor: subject_id
+2026-06-15 17:30:31 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:30:31 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:30:33 WARNING] Removing extractor audio as there are no corresponding events
+[17:30:33 WARNING] Removing extractor video as there are no corresponding events
+[17:30:33 INFO] Preparing extractor: text
+  0%|          | 0/28 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/7 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 8292.69it/s]
+  4%|▎         | 1/28 [00:33<15:05, 33.52s/it]
+Computing word embeddings:  14%|█▍        | 1/7 [00:33<03:21, 33.52s/it][A 18%|█▊        | 5/28 [00:33<01:55,  5.04s/it]
+Computing word embeddings:  29%|██▊       | 2/7 [00:33<01:09, 13.93s/it][A 32%|███▏      | 9/28 [00:33<00:43,  2.29s/it]
+Computing word embeddings:  43%|████▎     | 3/7 [00:33<00:30,  7.63s/it][A 46%|████▋     | 13/28 [00:33<00:19,  1.30s/it]
+Computing word embeddings:  57%|█████▋    | 4/7 [00:33<00:13,  4.66s/it][A 61%|██████    | 17/28 [00:34<00:08,  1.23it/s]
+Computing word embeddings:  71%|███████▏  | 5/7 [00:34<00:06,  3.03s/it][A 75%|███████▌  | 21/28 [00:34<00:03,  1.87it/s]
+Computing word embeddings:  86%|████████▌ | 6/7 [00:34<00:02,  2.05s/it][A 89%|████████▉ | 25/28 [00:34<00:01,  2.72it/s]100%|██████████| 28/28 [00:34<00:00,  1.23s/it]
+
+Computing word embeddings: 100%|██████████| 7/7 [00:34<00:00,  1.43s/it][AComputing word embeddings: 100%|██████████| 7/7 [00:34<00:00,  4.92s/it]
+[17:31:08 INFO] Preparing extractor: subject_id
+2026-06-15 17:31:08 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:31:08 INFO] Building dataloader for split all
+INFO - Predicted 9 / 100 segments (9.0% kept)
+[17:31:10 WARNING] Removing extractor audio as there are no corresponding events
+[17:31:10 WARNING] Removing extractor video as there are no corresponding events
+[17:31:10 INFO] Preparing extractor: text
+  0%|          | 0/4 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7479.31it/s]
+ 25%|██▌       | 1/4 [00:33<01:41, 33.72s/it]100%|██████████| 4/4 [00:33<00:00,  8.43s/it]
+[17:31:44 INFO] Preparing extractor: subject_id
+2026-06-15 17:31:44 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:31:44 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:31:45 WARNING] Removing extractor audio as there are no corresponding events
+[17:31:45 WARNING] Removing extractor video as there are no corresponding events
+[17:31:45 INFO] Preparing extractor: text
+  0%|          | 0/21 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/6 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11037.53it/s]
+  5%|▍         | 1/21 [00:34<11:31, 34.58s/it]
+Computing word embeddings:  17%|█▋        | 1/6 [00:34<02:52, 34.58s/it][A 24%|██▍       | 5/21 [00:34<01:23,  5.20s/it]
+Computing word embeddings:  33%|███▎      | 2/6 [00:34<00:57, 14.38s/it][A 43%|████▎     | 9/21 [00:34<00:28,  2.37s/it]
+Computing word embeddings:  50%|█████     | 3/6 [00:34<00:23,  7.89s/it][A 62%|██████▏   | 13/21 [00:35<00:10,  1.34s/it]
+Computing word embeddings:  67%|██████▋   | 4/6 [00:35<00:09,  4.83s/it][A 81%|████████  | 17/21 [00:35<00:03,  1.18it/s]
+Computing word embeddings:  83%|████████▎ | 5/6 [00:35<00:03,  3.17s/it][A100%|██████████| 21/21 [00:35<00:00,  1.79it/s]100%|██████████| 21/21 [00:35<00:00,  1.69s/it]
+
+Computing word embeddings: 100%|██████████| 6/6 [00:35<00:00,  2.13s/it][AComputing word embeddings: 100%|██████████| 6/6 [00:35<00:00,  5.91s/it]
+[17:32:21 INFO] Preparing extractor: subject_id
+2026-06-15 17:32:21 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:32:22 INFO] Building dataloader for split all
+INFO - Predicted 7 / 100 segments (7.0% kept)
+[17:32:23 WARNING] Removing extractor audio as there are no corresponding events
+[17:32:23 WARNING] Removing extractor video as there are no corresponding events
+[17:32:23 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 13078.88it/s]
+ 17%|█▋        | 1/6 [00:33<02:45, 33.11s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.12s/it][A100%|██████████| 6/6 [00:33<00:00,  5.53s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.59s/it]
+[17:32:57 INFO] Preparing extractor: subject_id
+2026-06-15 17:32:57 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:32:57 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:32:58 WARNING] Removing extractor audio as there are no corresponding events
+[17:32:58 WARNING] Removing extractor video as there are no corresponding events
+[17:32:58 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12500.48it/s]
+ 17%|█▋        | 1/6 [00:33<02:45, 33.09s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.10s/it][A100%|██████████| 6/6 [00:33<00:00,  5.52s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.57s/it]
+[17:33:32 INFO] Preparing extractor: subject_id
+2026-06-15 17:33:32 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:33:32 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:33:34 WARNING] Removing extractor audio as there are no corresponding events
+[17:33:34 WARNING] Removing extractor video as there are no corresponding events
+[17:33:34 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10417.57it/s]
+ 12%|█▎        | 1/8 [00:34<04:01, 34.46s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:34<00:34, 34.46s/it][A 88%|████████▊ | 7/8 [00:34<00:03,  3.62s/it]100%|██████████| 8/8 [00:34<00:00,  4.32s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.28s/it]
+[17:34:08 INFO] Preparing extractor: subject_id
+2026-06-15 17:34:08 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:34:09 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+  ft: 60/86
+[17:34:10 WARNING] Removing extractor audio as there are no corresponding events
+[17:34:10 WARNING] Removing extractor video as there are no corresponding events
+[17:34:10 INFO] Preparing extractor: text
+  0%|          | 0/7 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12238.83it/s]
+ 14%|█▍        | 1/7 [00:33<03:22, 33.78s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.79s/it][A100%|██████████| 7/7 [00:33<00:00,  4.84s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.93s/it]
+[17:34:44 INFO] Preparing extractor: subject_id
+2026-06-15 17:34:44 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:34:44 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:34:46 WARNING] Removing extractor audio as there are no corresponding events
+[17:34:46 WARNING] Removing extractor video as there are no corresponding events
+[17:34:46 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12270.26it/s]
+ 17%|█▋        | 1/6 [00:33<02:48, 33.69s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.69s/it][A100%|██████████| 6/6 [00:33<00:00,  5.62s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.87s/it]
+[17:35:20 INFO] Preparing extractor: subject_id
+2026-06-15 17:35:20 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:35:20 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:35:22 WARNING] Removing extractor audio as there are no corresponding events
+[17:35:22 WARNING] Removing extractor video as there are no corresponding events
+[17:35:22 INFO] Preparing extractor: text
+  0%|          | 0/11 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 6738.48it/s]
+  9%|▉         | 1/11 [00:33<05:32, 33.20s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:06, 33.21s/it][A 45%|████▌     | 5/11 [00:33<00:29,  4.97s/it]
+Computing word embeddings:  67%|██████▋   | 2/3 [00:33<00:13, 13.75s/it][A 91%|█████████ | 10/11 [00:33<00:01,  1.99s/it]100%|██████████| 11/11 [00:33<00:00,  3.04s/it]
+Computing word embeddings: 100%|██████████| 3/3 [00:33<00:00, 11.14s/it]
+[17:35:55 INFO] Preparing extractor: subject_id
+2026-06-15 17:35:55 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:35:56 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[17:35:57 WARNING] Removing extractor audio as there are no corresponding events
+[17:35:57 WARNING] Removing extractor video as there are no corresponding events
+[17:35:57 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 8476.98it/s]
+ 17%|█▋        | 1/6 [00:33<02:49, 33.97s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.97s/it][A100%|██████████| 6/6 [00:34<00:00,  5.67s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.02s/it]
+[17:36:32 INFO] Preparing extractor: subject_id
+2026-06-15 17:36:32 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:36:32 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:36:33 WARNING] Removing extractor audio as there are no corresponding events
+[17:36:33 WARNING] Removing extractor video as there are no corresponding events
+[17:36:33 INFO] Preparing extractor: text
+  0%|          | 0/14 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7427.17it/s]
+  7%|▋         | 1/14 [00:34<07:24, 34.18s/it]
+Computing word embeddings:  25%|██▌       | 1/4 [00:34<01:42, 34.19s/it][A 64%|██████▍   | 9/14 [00:34<00:13,  2.77s/it]
+Computing word embeddings:  75%|███████▌  | 3/4 [00:34<00:08,  8.93s/it][A100%|██████████| 14/14 [00:34<00:00,  2.46s/it]
+Computing word embeddings: 100%|██████████| 4/4 [00:34<00:00,  8.60s/it]
+[17:37:08 INFO] Preparing extractor: subject_id
+2026-06-15 17:37:08 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:37:08 INFO] Building dataloader for split all
+INFO - Predicted 5 / 100 segments (5.0% kept)
+[17:37:10 WARNING] Removing extractor audio as there are no corresponding events
+[17:37:10 WARNING] Removing extractor video as there are no corresponding events
+[17:37:10 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 15638.21it/s]
+ 20%|██        | 1/5 [00:33<02:14, 33.66s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.67s/it][A100%|██████████| 5/5 [00:33<00:00,  6.74s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.86s/it]
+[17:37:44 INFO] Preparing extractor: subject_id
+2026-06-15 17:37:44 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:37:44 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:37:45 WARNING] Removing extractor audio as there are no corresponding events
+[17:37:45 WARNING] Removing extractor video as there are no corresponding events
+[17:37:45 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7623.17it/s]
+ 20%|██        | 1/5 [00:33<02:13, 33.49s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.49s/it][A100%|██████████| 5/5 [00:33<00:00,  6.71s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.76s/it]
+[17:38:19 INFO] Preparing extractor: subject_id
+2026-06-15 17:38:19 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:38:20 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:38:21 WARNING] Removing extractor audio as there are no corresponding events
+[17:38:21 WARNING] Removing extractor video as there are no corresponding events
+[17:38:21 INFO] Preparing extractor: text
+  0%|          | 0/8 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 13896.21it/s]
+ 12%|█▎        | 1/8 [00:33<03:56, 33.82s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.83s/it][A 62%|██████▎   | 5/8 [00:33<00:15,  5.06s/it]100%|██████████| 8/8 [00:33<00:00,  4.24s/it]
+
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 13.99s/it][AComputing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.97s/it]
+[17:38:55 INFO] Preparing extractor: subject_id
+2026-06-15 17:38:55 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:38:55 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:38:57 WARNING] Removing extractor audio as there are no corresponding events
+[17:38:57 WARNING] Removing extractor video as there are no corresponding events
+[17:38:57 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11128.85it/s]
+ 20%|██        | 1/5 [00:33<02:13, 33.37s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.37s/it][A100%|██████████| 5/5 [00:33<00:00,  6.68s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.70s/it]
+[17:39:31 INFO] Preparing extractor: subject_id
+2026-06-15 17:39:31 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:39:31 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:39:32 WARNING] Removing extractor audio as there are no corresponding events
+[17:39:32 WARNING] Removing extractor video as there are no corresponding events
+[17:39:32 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10085.32it/s]
+ 17%|█▋        | 1/6 [00:34<02:52, 34.59s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:34<00:34, 34.59s/it][A100%|██████████| 6/6 [00:34<00:00,  5.77s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.32s/it]
+[17:40:07 INFO] Preparing extractor: subject_id
+2026-06-15 17:40:07 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:40:07 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+  ft: 70/86
+[17:40:09 WARNING] Removing extractor audio as there are no corresponding events
+[17:40:09 WARNING] Removing extractor video as there are no corresponding events
+[17:40:09 INFO] Preparing extractor: text
+  0%|          | 0/5 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11531.67it/s]
+ 20%|██        | 1/5 [00:34<02:16, 34.16s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:34<00:34, 34.17s/it][A100%|██████████| 5/5 [00:34<00:00,  6.84s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:34<00:00, 17.11s/it]
+[17:40:44 INFO] Preparing extractor: subject_id
+2026-06-15 17:40:44 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:40:44 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:40:45 WARNING] Removing extractor audio as there are no corresponding events
+[17:40:45 WARNING] Removing extractor video as there are no corresponding events
+[17:40:45 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 17808.42it/s]
+ 17%|█▋        | 1/6 [00:33<02:45, 33.17s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.17s/it][A100%|██████████| 6/6 [00:33<00:00,  5.54s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.62s/it]
+[17:41:19 INFO] Preparing extractor: subject_id
+2026-06-15 17:41:19 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:41:19 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:41:21 WARNING] Removing extractor audio as there are no corresponding events
+[17:41:21 WARNING] Removing extractor video as there are no corresponding events
+[17:41:21 INFO] Preparing extractor: text
+  0%|          | 0/10 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12767.13it/s]
+ 10%|█         | 1/10 [00:34<05:06, 34.04s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:34<01:08, 34.04s/it][A 90%|█████████ | 9/10 [00:34<00:02,  2.75s/it]100%|██████████| 10/10 [00:34<00:00,  3.42s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:34<00:00,  8.87s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:34<00:00, 11.39s/it]
+[17:41:55 INFO] Preparing extractor: subject_id
+2026-06-15 17:41:55 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:41:55 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[17:41:57 WARNING] Removing extractor audio as there are no corresponding events
+[17:41:57 WARNING] Removing extractor video as there are no corresponding events
+[17:41:57 INFO] Preparing extractor: text
+  0%|          | 0/12 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 6773.95it/s]
+  8%|▊         | 1/12 [00:32<06:00, 32.73s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:32<01:05, 32.73s/it][A 75%|███████▌  | 9/12 [00:32<00:07,  2.66s/it]100%|██████████| 12/12 [00:32<00:00,  2.74s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:32<00:00,  8.56s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:32<00:00, 10.98s/it]
+[17:42:30 INFO] Preparing extractor: subject_id
+2026-06-15 17:42:30 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:42:30 INFO] Building dataloader for split all
+INFO - Predicted 4 / 100 segments (4.0% kept)
+[17:42:32 WARNING] Removing extractor audio as there are no corresponding events
+[17:42:32 WARNING] Removing extractor video as there are no corresponding events
+[17:42:32 INFO] Preparing extractor: text
+  0%|          | 0/18 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 6952.64it/s]
+  6%|▌         | 1/18 [00:31<09:03, 31.98s/it]
+Computing word embeddings:  20%|██        | 1/5 [00:31<02:07, 31.99s/it][A 28%|██▊       | 5/18 [00:32<01:02,  4.79s/it]
+Computing word embeddings:  40%|████      | 2/5 [00:32<00:39, 13.25s/it][A 72%|███████▏  | 13/18 [00:32<00:07,  1.41s/it]
+Computing word embeddings:  80%|████████  | 4/5 [00:32<00:04,  5.00s/it][A100%|██████████| 18/18 [00:32<00:00,  1.80s/it]
+Computing word embeddings: 100%|██████████| 5/5 [00:32<00:00,  6.47s/it]
+[17:43:05 INFO] Preparing extractor: subject_id
+2026-06-15 17:43:05 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:43:05 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[17:43:06 WARNING] Removing extractor audio as there are no corresponding events
+[17:43:06 WARNING] Removing extractor video as there are no corresponding events
+[17:43:06 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 13797.41it/s]
+ 17%|█▋        | 1/6 [00:33<02:45, 33.07s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.07s/it][A100%|██████████| 6/6 [00:33<00:00,  5.52s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.56s/it]
+[17:43:40 INFO] Preparing extractor: subject_id
+2026-06-15 17:43:40 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:43:40 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:43:42 WARNING] Removing extractor audio as there are no corresponding events
+[17:43:42 WARNING] Removing extractor video as there are no corresponding events
+[17:43:42 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9428.24it/s]
+ 17%|█▋        | 1/6 [00:33<02:48, 33.63s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.63s/it][A100%|██████████| 6/6 [00:33<00:00,  5.61s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.84s/it]
+[17:44:16 INFO] Preparing extractor: subject_id
+2026-06-15 17:44:16 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:44:16 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:44:17 WARNING] Removing extractor audio as there are no corresponding events
+[17:44:17 WARNING] Removing extractor video as there are no corresponding events
+[17:44:17 INFO] Preparing extractor: text
+  0%|          | 0/20 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 11065.85it/s]
+  5%|▌         | 1/20 [00:35<11:06, 35.06s/it]
+Computing word embeddings:  20%|██        | 1/5 [00:35<02:20, 35.06s/it][A 45%|████▌     | 9/20 [00:35<00:31,  2.84s/it]
+Computing word embeddings:  60%|██████    | 3/5 [00:35<00:18,  9.17s/it][A 65%|██████▌   | 13/20 [00:35<00:12,  1.73s/it]
+Computing word embeddings:  80%|████████  | 4/5 [00:35<00:06,  6.04s/it][A 85%|████████▌ | 17/20 [00:35<00:03,  1.12s/it]100%|██████████| 20/20 [00:35<00:00,  1.78s/it]
+
+Computing word embeddings: 100%|██████████| 5/5 [00:35<00:00,  4.08s/it][AComputing word embeddings: 100%|██████████| 5/5 [00:35<00:00,  7.10s/it]
+[17:44:53 INFO] Preparing extractor: subject_id
+2026-06-15 17:44:53 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:44:53 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[17:44:55 WARNING] Removing extractor audio as there are no corresponding events
+[17:44:55 WARNING] Removing extractor video as there are no corresponding events
+[17:44:55 INFO] Preparing extractor: text
+  0%|          | 0/19 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 15455.81it/s]
+  5%|▌         | 1/19 [00:34<10:20, 34.47s/it]
+Computing word embeddings:  20%|██        | 1/5 [00:34<02:17, 34.48s/it][A 26%|██▋       | 5/19 [00:34<01:12,  5.17s/it]
+Computing word embeddings:  40%|████      | 2/5 [00:34<00:42, 14.28s/it][A 47%|████▋     | 9/19 [00:34<00:23,  2.35s/it]
+Computing word embeddings:  60%|██████    | 3/5 [00:34<00:15,  7.82s/it][A 68%|██████▊   | 13/19 [00:34<00:07,  1.33s/it]
+Computing word embeddings:  80%|████████  | 4/5 [00:34<00:04,  4.77s/it][A100%|██████████| 19/19 [00:34<00:00,  1.84s/it]
+Computing word embeddings: 100%|██████████| 5/5 [00:34<00:00,  6.98s/it]
+[17:45:30 INFO] Preparing extractor: subject_id
+2026-06-15 17:45:30 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:45:30 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[17:45:32 WARNING] Removing extractor audio as there are no corresponding events
+[17:45:32 WARNING] Removing extractor video as there are no corresponding events
+[17:45:32 INFO] Preparing extractor: text
+  0%|          | 0/9 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12031.23it/s]
+ 11%|█         | 1/9 [00:33<04:31, 33.93s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:33<01:07, 33.93s/it][A100%|██████████| 9/9 [00:34<00:00,  2.74s/it]100%|██████████| 9/9 [00:34<00:00,  3.78s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:34<00:00,  8.84s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:34<00:00, 11.35s/it]
+[17:46:06 INFO] Preparing extractor: subject_id
+2026-06-15 17:46:06 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:46:07 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+  ft: 80/86
+[17:46:08 WARNING] Removing extractor audio as there are no corresponding events
+[17:46:08 WARNING] Removing extractor video as there are no corresponding events
+[17:46:08 INFO] Preparing extractor: text
+  0%|          | 0/23 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/6 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 9368.21it/s]
+  4%|▍         | 1/23 [00:33<12:25, 33.90s/it]
+Computing word embeddings:  17%|█▋        | 1/6 [00:33<02:49, 33.90s/it][A 22%|██▏       | 5/23 [00:34<01:32,  5.13s/it]
+Computing word embeddings:  33%|███▎      | 2/6 [00:34<00:56, 14.19s/it][A 39%|███▉      | 9/23 [00:34<00:32,  2.36s/it]
+Computing word embeddings:  50%|█████     | 3/6 [00:34<00:23,  7.84s/it][A 57%|█████▋    | 13/23 [00:34<00:13,  1.35s/it]
+Computing word embeddings:  67%|██████▋   | 4/6 [00:34<00:09,  4.87s/it][A 74%|███████▍  | 17/23 [00:35<00:05,  1.18it/s]
+Computing word embeddings:  83%|████████▎ | 5/6 [00:35<00:03,  3.18s/it][A 91%|█████████▏| 21/23 [00:35<00:01,  1.79it/s]100%|██████████| 23/23 [00:35<00:00,  1.53s/it]
+
+Computing word embeddings: 100%|██████████| 6/6 [00:35<00:00,  2.14s/it][AComputing word embeddings: 100%|██████████| 6/6 [00:35<00:00,  5.86s/it]
+[17:46:44 INFO] Preparing extractor: subject_id
+2026-06-15 17:46:44 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:46:44 INFO] Building dataloader for split all
+INFO - Predicted 8 / 100 segments (8.0% kept)
+[17:46:45 WARNING] Removing extractor audio as there are no corresponding events
+[17:46:45 WARNING] Removing extractor video as there are no corresponding events
+[17:46:45 INFO] Preparing extractor: text
+  0%|          | 0/19 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 12717.75it/s]
+  5%|▌         | 1/19 [00:33<10:04, 33.57s/it]
+Computing word embeddings:  20%|██        | 1/5 [00:33<02:14, 33.57s/it][A 26%|██▋       | 5/19 [00:33<01:10,  5.02s/it]
+Computing word embeddings:  40%|████      | 2/5 [00:33<00:41, 13.89s/it][A 47%|████▋     | 9/19 [00:33<00:22,  2.28s/it]
+Computing word embeddings:  60%|██████    | 3/5 [00:33<00:15,  7.60s/it][A 89%|████████▉ | 17/19 [00:33<00:01,  1.11it/s]100%|██████████| 19/19 [00:33<00:00,  1.79s/it]
+
+Computing word embeddings: 100%|██████████| 5/5 [00:33<00:00,  3.35s/it][AComputing word embeddings: 100%|██████████| 5/5 [00:33<00:00,  6.79s/it]
+[17:47:20 INFO] Preparing extractor: subject_id
+2026-06-15 17:47:20 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:47:20 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[17:47:22 WARNING] Removing extractor audio as there are no corresponding events
+[17:47:22 WARNING] Removing extractor video as there are no corresponding events
+[17:47:22 INFO] Preparing extractor: text
+  0%|          | 0/6 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 13568.79it/s]
+ 17%|█▋        | 1/6 [00:33<02:48, 33.60s/it]
+Computing word embeddings:  50%|█████     | 1/2 [00:33<00:33, 33.61s/it][A100%|██████████| 6/6 [00:33<00:00,  5.61s/it]
+Computing word embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.83s/it]
+[17:47:56 INFO] Preparing extractor: subject_id
+2026-06-15 17:47:56 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:47:56 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:47:57 WARNING] Removing extractor audio as there are no corresponding events
+[17:47:57 WARNING] Removing extractor video as there are no corresponding events
+[17:47:57 INFO] Preparing extractor: text
+  0%|          | 0/4 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 10784.46it/s]
+ 25%|██▌       | 1/4 [00:33<01:40, 33.35s/it]100%|██████████| 4/4 [00:33<00:00,  8.34s/it]
+[17:48:31 INFO] Preparing extractor: subject_id
+2026-06-15 17:48:31 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:48:31 INFO] Building dataloader for split all
+INFO - Predicted 2 / 100 segments (2.0% kept)
+[17:48:33 WARNING] Removing extractor audio as there are no corresponding events
+[17:48:33 WARNING] Removing extractor video as there are no corresponding events
+[17:48:33 INFO] Preparing extractor: text
+  0%|          | 0/9 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/3 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 7138.52it/s]
+ 11%|█         | 1/9 [00:34<04:34, 34.35s/it]
+Computing word embeddings:  33%|███▎      | 1/3 [00:34<01:08, 34.36s/it][A100%|██████████| 9/9 [00:34<00:00,  2.78s/it]100%|██████████| 9/9 [00:34<00:00,  3.83s/it]
+
+Computing word embeddings: 100%|██████████| 3/3 [00:34<00:00,  8.95s/it][AComputing word embeddings: 100%|██████████| 3/3 [00:34<00:00, 11.49s/it]
+[17:49:08 INFO] Preparing extractor: subject_id
+2026-06-15 17:49:08 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:49:08 INFO] Building dataloader for split all
+INFO - Predicted 3 / 100 segments (3.0% kept)
+[17:49:10 WARNING] Removing extractor audio as there are no corresponding events
+[17:49:10 WARNING] Removing extractor video as there are no corresponding events
+[17:49:10 INFO] Preparing extractor: text
+  0%|          | 0/19 [00:00<?, ?it/s]
+Computing word embeddings:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 254/254 [00:00<00:00, 6923.63it/s]
+  5%|▌         | 1/19 [00:34<10:16, 34.26s/it]
+Computing word embeddings:  20%|██        | 1/5 [00:34<02:17, 34.26s/it][A 26%|██▋       | 5/19 [00:34<01:11,  5.14s/it]
+Computing word embeddings:  40%|████      | 2/5 [00:34<00:42, 14.21s/it][A 47%|████▋     | 9/19 [00:34<00:23,  2.33s/it]
+Computing word embeddings:  60%|██████    | 3/5 [00:34<00:15,  7.77s/it][A 89%|████████▉ | 17/19 [00:34<00:01,  1.08it/s]100%|██████████| 19/19 [00:34<00:00,  1.83s/it]
+
+Computing word embeddings: 100%|██████████| 5/5 [00:34<00:00,  3.42s/it][AComputing word embeddings: 100%|██████████| 5/5 [00:34<00:00,  6.94s/it]
+[17:49:45 INFO] Preparing extractor: subject_id
+2026-06-15 17:49:45 - WARNING - neuralset.extractors.base:824 - LabelEncoder has only found one label: {'default'}. This was probably not intended.
+[17:49:45 INFO] Building dataloader for split all
+INFO - Predicted 6 / 100 segments (6.0% kept)
+[fetch_atlas_surf_destrieux] Dataset found in 
+/home/ath/nilearn_data/destrieux_surface
+/home/ath/tribev2-research/work/experiment_asciicat.py:105: UserWarning: 
+The following regions are present in the atlas look-up table,
+but missing from the atlas image:
+
+ index    name
+     0 Unknown
+
+  atlas = datasets.fetch_atlas_surf_destrieux()
+/home/ath/tribev2-research/work/experiment_asciicat.py:105: UserWarning: 
+The following regions are present in the atlas look-up table,
+but missing from the atlas image:
+
+ index    name
+     0 Unknown
+
+  atlas = datasets.fetch_atlas_surf_destrieux()
+
+================ SUBSTANTIALITY ================
+cat      n  ve_base    ve_ft   shift(ft-base)   %pos  relchg
+cat     40     0.92     2.15   +1.229 ± 0.975    100%  36.8%
+dog     30     1.22     2.47   +1.241 ± 1.051    100%  27.1%
+horse   16     0.89     1.57   +0.677 ± 0.701     81%  36.0%
+
+cat-specificity: cat shift +1.229 vs control +1.045  -> contrast +0.184
+  Mann-Whitney U one-sided p = 0.3002
+
+verdict guide:
+  cats shift>0 consistently AND contrast>0 sig -> substantial & cat-specific
+  cats & controls both shift>0 similarly         -> substantial but generic (style)
+  cats shift ~0 / frac_positive ~50% / high sd   -> n=1 probe was noise
+
+Done -> demo_out/phase2/subst_summary.json
