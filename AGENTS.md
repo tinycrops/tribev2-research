@@ -93,6 +93,11 @@ to a standalone HF dir → loads identically to stock. See `work/train_asciicat_
 - A single **in-distribution** stimulus can badly over-promise: the ascii-text→visual
   "convergence" hint from one iconic cat vanished when scaled with realistic img2ascii.
   Scale with OOD inputs before believing a cross-modal effect.
+- **Background-watcher self-match (cost me 3h).** A wait loop like
+  `until ! pgrep -f experiment_x.py; do sleep 30; done` never exits: `pgrep -f` matches the
+  **watcher's own command line**, which contains `experiment_x.py`. Wait on a **PID**
+  instead — capture `$!` at launch and `until ! kill -0 "$PID"; do sleep 20; done`. Never
+  `pgrep -f <name>` when `<name>` appears in the watcher command itself.
 
 ---
 Deeper context lives in agent memory: `tribev2-env`, `tribev2-asciicat-experiment`,

@@ -88,6 +88,10 @@ def main():
     subst = json.loads((OUT / "subst_summary.json").read_text())
     spec = subst["cat_specificity"]
 
+    # ---- fusion test (image+text through both branches) ----
+    comb = json.loads((OUT / "comb_summary.json").read_text())
+    cgain = comb["fusion_convergence_gain"]
+
     ascii_art = (A / "ascii_cat.txt").read_text()
 
     def ve(name): return f"{R[name]['visual']:.2f}×"
@@ -277,6 +281,36 @@ picture</b>," and that picture-ness surfaces as visual cortex whenever the input
 iconic line-art format it trained on. Pure <b>style / distribution</b> sensitivity, not
 semantics — the phase-1 headline, now shown representationally.</p>
 
+<h2>Result 5 — Fusion: the same ASCII through BOTH branches at once <span class="tag ok">additive, visual-dominant</span></h2>
+<p class="sub">Every test above isolated one branch. Here the same ASCII cat enters as a
+<b>bitmap</b> (V-JEPA) <i>and</i> as <b>text</b> (Llama) in one time-aligned events frame,
+so the brain model <b>fuses</b> them (n={comb['n']} cats, base vs finetune).</p>
+<table>
+<tr><th>quantity</th><th>value</th><th>reading</th></tr>
+<tr><td>finetune ‖Δ‖/‖base‖: text-only → fused</td>
+  <td class="num">{comb['rel_ft_textonly'][0]:.0%} → <b>{comb['rel_ft_combined'][0]:.0%}</b></td>
+  <td>visual context <b>halves</b> the finetune effect</td></tr>
+<tr><td>visual enrichment: text-only / fused / visual-only</td>
+  <td class="num">{comb['ve_textonly_base']:.2f}× / <b>{comb['ve_combined_base']:.2f}×</b> / {comb['ve_visualonly']:.2f}×</td>
+  <td>fused blends, leaning toward the image</td></tr>
+<tr><td>fused-base → fused-ft visual enrichment</td>
+  <td class="num">{comb['ve_combined_base']:.2f}× → {comb['ve_combined_ft']:.2f}×</td>
+  <td>finetune adds ~nothing visual atop the bitmap</td></tr>
+<tr><td>cos(fused → visual / text / sum)</td>
+  <td class="num">{comb['cos_comb_visual']:.2f} / {comb['cos_comb_text']:.2f} / <b>{comb['cos_comb_blend']:.2f}</b></td>
+  <td><b>≈ additive</b>, visual-dominant</td></tr>
+<tr><td>convergence gain (cos→visual: ft − base)</td>
+  <td class="num"><b>{cgain[0]:+.3f}</b> ({cgain[2]}/{cgain[3]})</td>
+  <td>finetune still nudges toward visual — small, every cat</td></tr>
+</table>
+<p class="sub">A fused ASCII stimulus is a weighted blend of its image and text maps (cos
+{comb['cos_comb_blend']:.2f} to the normalized sum), leaning visual ({comb['cos_comb_visual']:.2f}
+vs {comb['cos_comb_text']:.2f}). The <b>real bitmap dominates</b> the visual localization;
+the finetune's effect is diluted by it ({comb['rel_ft_textonly'][0]:.0%}→{comb['rel_ft_combined'][0]:.0%})
+and adds no extra visual-ness on top — yet its style→visual nudge survives in
+<b>all {cgain[3]}</b> cats. The most visual you make an ASCII cat is by showing the picture,
+not by the finetune.</p>
+
 <h2>The iconic ASCII cat (Result 2 stimulus)</h2>
 <pre>{ascii_art}</pre>
 
@@ -289,6 +323,10 @@ replicates across {N} cats; and the text-side finetune→visual push is substant
 Result 3 only changed the stimulus distribution (img2ascii ≠ line-art); scaling
 <i>in-regime</i> (Result 4) shows the effect is real but <b>generic to ASCII style, not
 cat-specific</b> (cat {subst['cat']['shift_mean']:+.2f} ≈ dog {subst['dog']['shift_mean']:+.2f}).</li>
+<li><b>Fusion:</b> presenting ASCII as image+text at once gives a roughly additive,
+visual-dominant blend — the real bitmap dominates visual cortex and dilutes the finetune
+({comb['rel_ft_textonly'][0]:.0%}→{comb['rel_ft_combined'][0]:.0%}), though the finetune's
+style→visual nudge survives in all {cgain[3]} cats. No strong cross-modal synergy.</li>
 <li><b>Methodological takeaway:</b> a single in-distribution probe over-promised, and a
 distribution-shifted scale-up under-claimed. Only scaling in-regime <i>with a control</i>
 gave the honest answer: real effect, wrong reason.</li>

@@ -182,6 +182,36 @@ picture</b>," and that picture-ness surfaces as visual cortex whenever the input
 iconic line-art format it trained on. Pure <b>style / distribution</b> sensitivity, not
 semantics — the phase-1 headline, now shown representationally.</p>
 
+<h2>Result 5 — Fusion: the same ASCII through BOTH branches at once <span class="tag ok">additive, visual-dominant</span></h2>
+<p class="sub">Every test above isolated one branch. Here the same ASCII cat enters as a
+<b>bitmap</b> (V-JEPA) <i>and</i> as <b>text</b> (Llama) in one time-aligned events frame,
+so the brain model <b>fuses</b> them (n=20 cats, base vs finetune).</p>
+<table>
+<tr><th>quantity</th><th>value</th><th>reading</th></tr>
+<tr><td>finetune ‖Δ‖/‖base‖: text-only → fused</td>
+  <td class="num">38% → <b>16%</b></td>
+  <td>visual context <b>halves</b> the finetune effect</td></tr>
+<tr><td>visual enrichment: text-only / fused / visual-only</td>
+  <td class="num">0.90× / <b>1.68×</b> / 2.96×</td>
+  <td>fused blends, leaning toward the image</td></tr>
+<tr><td>fused-base → fused-ft visual enrichment</td>
+  <td class="num">1.68× → 1.67×</td>
+  <td>finetune adds ~nothing visual atop the bitmap</td></tr>
+<tr><td>cos(fused → visual / text / sum)</td>
+  <td class="num">0.74 / 0.55 / <b>0.88</b></td>
+  <td><b>≈ additive</b>, visual-dominant</td></tr>
+<tr><td>convergence gain (cos→visual: ft − base)</td>
+  <td class="num"><b>+0.056</b> (20/20)</td>
+  <td>finetune still nudges toward visual — small, every cat</td></tr>
+</table>
+<p class="sub">A fused ASCII stimulus is a weighted blend of its image and text maps (cos
+0.88 to the normalized sum), leaning visual (0.74
+vs 0.55). The <b>real bitmap dominates</b> the visual localization;
+the finetune's effect is diluted by it (38%→16%)
+and adds no extra visual-ness on top — yet its style→visual nudge survives in
+<b>all 20</b> cats. The most visual you make an ASCII cat is by showing the picture,
+not by the finetune.</p>
+
 <h2>The iconic ASCII cat (Result 2 stimulus)</h2>
 <pre>  /\ ___ /\
  (  -   -  )
@@ -201,6 +231,10 @@ replicates across 6 cats; and the text-side finetune→visual push is substantia
 Result 3 only changed the stimulus distribution (img2ascii ≠ line-art); scaling
 <i>in-regime</i> (Result 4) shows the effect is real but <b>generic to ASCII style, not
 cat-specific</b> (cat +1.23 ≈ dog +1.24).</li>
+<li><b>Fusion:</b> presenting ASCII as image+text at once gives a roughly additive,
+visual-dominant blend — the real bitmap dominates visual cortex and dilutes the finetune
+(38%→16%), though the finetune's
+style→visual nudge survives in all 20 cats. No strong cross-modal synergy.</li>
 <li><b>Methodological takeaway:</b> a single in-distribution probe over-promised, and a
 distribution-shifted scale-up under-claimed. Only scaling in-regime <i>with a control</i>
 gave the honest answer: real effect, wrong reason.</li>

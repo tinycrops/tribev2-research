@@ -71,6 +71,28 @@ the map toward visual cortex **every single time** (100%), 0.92× → 2.15×, cr
 The cat-vs-control contrast is tiny and non-significant. The finetune pushes *any*
 line-drawn ASCII animal toward visual cortex.
 
+## Result 5 — Fusion: the same ASCII through BOTH branches at once (n=20 cats)
+`experiment_combined.py` · one events frame with the ASCII bitmap (V-JEPA) + the same
+ASCII as text (Llama), time-aligned so the brain model fuses them. Every prior test
+isolated a single branch; this is the first fused stimulus.
+
+| quantity | value | reading |
+|---|---|---|
+| finetune ‖Δ‖/‖base‖: text-only → fused | 38% → **16%** | visual context **dampens** the finetune effect (halved) |
+| visual enrichment: text-only / fused-base / visual-only | 0.90× / **1.68×** / 2.96× | fused sits between text & image — the bitmap pulls it visual |
+| visual enrichment: fused-base → fused-ft | 1.68× → 1.67× | finetune adds ~nothing visual on top of the bitmap |
+| cos(fused-base → visual / text / blend) | 0.74 / 0.55 / **0.88** | **fusion ≈ additive**, visual-dominant |
+| fusion convergence gain (cos→visual: ft − base) | **+0.056 ± 0.058, 20/20** | finetune still nudges fused map toward visual — small, but every cat |
+
+A fused ASCII stimulus reads as a weighted blend of its image and text maps (cos 0.88 to
+the normalized sum), leaning toward the image (cos 0.74 visual vs 0.55 text; enrichment
+1.68×). The real bitmap does the heavy lifting on visual localization. The text finetune's
+effect is **diluted** by the visual input (38%→16%) and adds essentially no extra
+visual-ness on top of the bitmap (1.68×≈1.67×) — yet it still nudges the fused map toward
+the visual rep in **every one of the 20 cats** (+0.056). The style-detector signal survives
+fusion, but the actual image dominates: the most visual you make an ASCII cat is by showing
+the picture, not by the finetune.
+
 ---
 
 ## Unifying interpretation: the LoRA is a line-art-ASCII **style** detector
@@ -94,11 +116,6 @@ A single in-distribution probe (Result 2) badly over-promised, and a distributio
 scale-up (Result 3) badly under-claimed. Only scaling *within the probe's own regime* with
 a matched control (Result 4) gave the honest answer: real effect, wrong reason. Always
 scale in-regime, with a control, before believing or dismissing a cross-modal effect.
-
-## In progress
-`experiment_combined.py` — the same ASCII cat through **both** branches at once
-(bitmap + text, time-aligned, fused), n=20, base vs ft. Tests whether the matching visual
-input amplifies/relocates the finetune's text-effect and whether fusion is additive.
 
 ## Artifacts
 `subst_summary.json` / `subst_rows.json` (Result 4), `scaled_summary.json` (Result 3),
